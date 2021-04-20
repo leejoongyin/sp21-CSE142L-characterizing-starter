@@ -16,7 +16,7 @@
 *.out
 *.pyc
 *.raw
-*.s
+
 *.symvers
 *.ur-safe
 *\#
