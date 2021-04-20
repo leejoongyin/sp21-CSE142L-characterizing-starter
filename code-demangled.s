@@ -1,11 +1,11 @@
 	.file	"code.cpp"
 	.text
-	.section	.text._ZNKSt5ctypeIcE8do_widenEc,"axG",@progbits,_ZNKSt5ctypeIcE8do_widenEc,comdat
+	.section	.text._ZNKSt5ctypeIcE8do_widenEc,"axG",@progbits,std::ctype<char>::do_widen(char) const,comdat
 	.align 2
 	.p2align 4
-	.weak	_ZNKSt5ctypeIcE8do_widenEc
-	.type	_ZNKSt5ctypeIcE8do_widenEc, @function
-_ZNKSt5ctypeIcE8do_widenEc:
+	.weak	std::ctype<char>::do_widen(char) const
+	.type	std::ctype<char>::do_widen(char) const, @function
+std::ctype<char>::do_widen(char) const:
 .LFB1295:
 	.cfi_startproc
 	pushq	%rbp
@@ -20,13 +20,13 @@ _ZNKSt5ctypeIcE8do_widenEc:
 	ret
 	.cfi_endproc
 .LFE1295:
-	.size	_ZNKSt5ctypeIcE8do_widenEc, .-_ZNKSt5ctypeIcE8do_widenEc
-	.section	.text._ZNK25AssertionFailureException4whatEv,"axG",@progbits,_ZNK25AssertionFailureException4whatEv,comdat
+	.size	std::ctype<char>::do_widen(char) const, .-std::ctype<char>::do_widen(char) const
+	.section	.text._ZNK25AssertionFailureException4whatEv,"axG",@progbits,AssertionFailureException::what() const,comdat
 	.align 2
 	.p2align 4
-	.weak	_ZNK25AssertionFailureException4whatEv
-	.type	_ZNK25AssertionFailureException4whatEv, @function
-_ZNK25AssertionFailureException4whatEv:
+	.weak	AssertionFailureException::what() const
+	.type	AssertionFailureException::what() const, @function
+AssertionFailureException::what() const:
 .LFB4835:
 	.cfi_startproc
 	pushq	%rbp
@@ -41,13 +41,13 @@ _ZNK25AssertionFailureException4whatEv:
 	ret
 	.cfi_endproc
 .LFE4835:
-	.size	_ZNK25AssertionFailureException4whatEv, .-_ZNK25AssertionFailureException4whatEv
-	.section	.text._ZNK7layer_t21get_total_memory_sizeEv,"axG",@progbits,_ZNK7layer_t21get_total_memory_sizeEv,comdat
+	.size	AssertionFailureException::what() const, .-AssertionFailureException::what() const
+	.section	.text._ZNK7layer_t21get_total_memory_sizeEv,"axG",@progbits,layer_t::get_total_memory_size() const,comdat
 	.align 2
 	.p2align 4
-	.weak	_ZNK7layer_t21get_total_memory_sizeEv
-	.type	_ZNK7layer_t21get_total_memory_sizeEv, @function
-_ZNK7layer_t21get_total_memory_sizeEv:
+	.weak	layer_t::get_total_memory_size() const
+	.type	layer_t::get_total_memory_size() const, @function
+layer_t::get_total_memory_size() const:
 .LFB5229:
 	.cfi_startproc
 	pushq	%rbp
@@ -79,13 +79,13 @@ _ZNK7layer_t21get_total_memory_sizeEv:
 	ret
 	.cfi_endproc
 .LFE5229:
-	.size	_ZNK7layer_t21get_total_memory_sizeEv, .-_ZNK7layer_t21get_total_memory_sizeEv
-	.section	.text._ZN10fc_layer_t11fix_weightsEv,"axG",@progbits,_ZN10fc_layer_t11fix_weightsEv,comdat
+	.size	layer_t::get_total_memory_size() const, .-layer_t::get_total_memory_size() const
+	.section	.text._ZN10fc_layer_t11fix_weightsEv,"axG",@progbits,fc_layer_t::fix_weights(),comdat
 	.align 2
 	.p2align 4
-	.weak	_ZN10fc_layer_t11fix_weightsEv
-	.type	_ZN10fc_layer_t11fix_weightsEv, @function
-_ZN10fc_layer_t11fix_weightsEv:
+	.weak	fc_layer_t::fix_weights()
+	.type	fc_layer_t::fix_weights(), @function
+fc_layer_t::fix_weights():
 .LFB5258:
 	.cfi_startproc
 	pushq	%rbp
@@ -354,13 +354,13 @@ _ZN10fc_layer_t11fix_weightsEv:
 	jmp	.L15
 	.cfi_endproc
 .LFE5258:
-	.size	_ZN10fc_layer_t11fix_weightsEv, .-_ZN10fc_layer_t11fix_weightsEv
-	.section	.text._ZN25AssertionFailureExceptionD2Ev,"axG",@progbits,_ZN25AssertionFailureExceptionD5Ev,comdat
+	.size	fc_layer_t::fix_weights(), .-fc_layer_t::fix_weights()
+	.section	.text._ZN25AssertionFailureExceptionD2Ev,"axG",@progbits,AssertionFailureException::~AssertionFailureException(),comdat
 	.align 2
 	.p2align 4
-	.weak	_ZN25AssertionFailureExceptionD2Ev
-	.type	_ZN25AssertionFailureExceptionD2Ev, @function
-_ZN25AssertionFailureExceptionD2Ev:
+	.weak	AssertionFailureException::~AssertionFailureException()
+	.type	AssertionFailureException::~AssertionFailureException(), @function
+AssertionFailureException::~AssertionFailureException():
 .LFB4841:
 	.cfi_startproc
 	pushq	%rbp
@@ -372,38 +372,38 @@ _ZN25AssertionFailureExceptionD2Ev:
 	subq	$8, %rsp
 	.cfi_offset 12, -24
 1:	call	*mcount@GOTPCREL(%rip)
-	leaq	16+_ZTV25AssertionFailureException(%rip), %rax
+	leaq	16+vtable for AssertionFailureException(%rip), %rax
 	movq	%rax, (%rdi)
 	movq	%rdi, %r12
 	movq	64(%rdi), %rdi
 	leaq	80(%r12), %rax
 	cmpq	%rax, %rdi
 	je	.L29
-	call	_ZdlPv@PLT
+	call	operator delete(void*)@PLT
 .L29:
 	movq	32(%r12), %rdi
 	leaq	48(%r12), %rax
 	cmpq	%rax, %rdi
 	je	.L30
-	call	_ZdlPv@PLT
+	call	operator delete(void*)@PLT
 .L30:
 	addq	$8, %rsp
 	movq	%r12, %rdi
 	popq	%r12
 	popq	%rbp
 	.cfi_def_cfa 7, 8
-	jmp	_ZNSt9exceptionD2Ev@PLT
+	jmp	std::exception::~exception()@PLT
 	.cfi_endproc
 .LFE4841:
-	.size	_ZN25AssertionFailureExceptionD2Ev, .-_ZN25AssertionFailureExceptionD2Ev
-	.weak	_ZN25AssertionFailureExceptionD1Ev
-	.set	_ZN25AssertionFailureExceptionD1Ev,_ZN25AssertionFailureExceptionD2Ev
-	.section	.text._ZN10fc_layer_t10calc_gradsERK8tensor_tIdE,"axG",@progbits,_ZN10fc_layer_t10calc_gradsERK8tensor_tIdE,comdat
+	.size	AssertionFailureException::~AssertionFailureException(), .-AssertionFailureException::~AssertionFailureException()
+	.weak	AssertionFailureException::~AssertionFailureException()
+	.set	AssertionFailureException::~AssertionFailureException(),AssertionFailureException::~AssertionFailureException()
+	.section	.text._ZN10fc_layer_t10calc_gradsERK8tensor_tIdE,"axG",@progbits,fc_layer_t::calc_grads(tensor_t<double> const&),comdat
 	.align 2
 	.p2align 4
-	.weak	_ZN10fc_layer_t10calc_gradsERK8tensor_tIdE
-	.type	_ZN10fc_layer_t10calc_gradsERK8tensor_tIdE, @function
-_ZN10fc_layer_t10calc_gradsERK8tensor_tIdE:
+	.weak	fc_layer_t::calc_grads(tensor_t<double> const&)
+	.type	fc_layer_t::calc_grads(tensor_t<double> const&), @function
+fc_layer_t::calc_grads(tensor_t<double> const&):
 .LFB5257:
 	.cfi_startproc
 	pushq	%rbp
@@ -576,13 +576,13 @@ _ZN10fc_layer_t10calc_gradsERK8tensor_tIdE:
 	ret
 	.cfi_endproc
 .LFE5257:
-	.size	_ZN10fc_layer_t10calc_gradsERK8tensor_tIdE, .-_ZN10fc_layer_t10calc_gradsERK8tensor_tIdE
-	.section	.text._ZN25AssertionFailureExceptionD0Ev,"axG",@progbits,_ZN25AssertionFailureExceptionD5Ev,comdat
+	.size	fc_layer_t::calc_grads(tensor_t<double> const&), .-fc_layer_t::calc_grads(tensor_t<double> const&)
+	.section	.text._ZN25AssertionFailureExceptionD0Ev,"axG",@progbits,AssertionFailureException::~AssertionFailureException(),comdat
 	.align 2
 	.p2align 4
-	.weak	_ZN25AssertionFailureExceptionD0Ev
-	.type	_ZN25AssertionFailureExceptionD0Ev, @function
-_ZN25AssertionFailureExceptionD0Ev:
+	.weak	AssertionFailureException::~AssertionFailureException()
+	.type	AssertionFailureException::~AssertionFailureException(), @function
+AssertionFailureException::~AssertionFailureException():
 .LFB4843:
 	.cfi_startproc
 	pushq	%rbp
@@ -594,38 +594,38 @@ _ZN25AssertionFailureExceptionD0Ev:
 	subq	$8, %rsp
 	.cfi_offset 12, -24
 1:	call	*mcount@GOTPCREL(%rip)
-	leaq	16+_ZTV25AssertionFailureException(%rip), %rax
+	leaq	16+vtable for AssertionFailureException(%rip), %rax
 	movq	%rax, (%rdi)
 	movq	%rdi, %r12
 	movq	64(%rdi), %rdi
 	leaq	80(%r12), %rax
 	cmpq	%rax, %rdi
 	je	.L51
-	call	_ZdlPv@PLT
+	call	operator delete(void*)@PLT
 .L51:
 	movq	32(%r12), %rdi
 	leaq	48(%r12), %rax
 	cmpq	%rax, %rdi
 	je	.L52
-	call	_ZdlPv@PLT
+	call	operator delete(void*)@PLT
 .L52:
 	movq	%r12, %rdi
-	call	_ZNSt9exceptionD2Ev@PLT
+	call	std::exception::~exception()@PLT
 	addq	$8, %rsp
 	movq	%r12, %rdi
 	popq	%r12
 	popq	%rbp
 	.cfi_def_cfa 7, 8
-	jmp	_ZdlPv@PLT
+	jmp	operator delete(void*)@PLT
 	.cfi_endproc
 .LFE4843:
-	.size	_ZN25AssertionFailureExceptionD0Ev, .-_ZN25AssertionFailureExceptionD0Ev
-	.section	.text._ZN7layer_t16test_fix_weightsEv,"axG",@progbits,_ZN7layer_t16test_fix_weightsEv,comdat
+	.size	AssertionFailureException::~AssertionFailureException(), .-AssertionFailureException::~AssertionFailureException()
+	.section	.text._ZN7layer_t16test_fix_weightsEv,"axG",@progbits,layer_t::test_fix_weights(),comdat
 	.align 2
 	.p2align 4
-	.weak	_ZN7layer_t16test_fix_weightsEv
-	.type	_ZN7layer_t16test_fix_weightsEv, @function
-_ZN7layer_t16test_fix_weightsEv:
+	.weak	layer_t::test_fix_weights()
+	.type	layer_t::test_fix_weights(), @function
+layer_t::test_fix_weights():
 .LFB5247:
 	.cfi_startproc
 	pushq	%rbp
@@ -728,13 +728,13 @@ _ZN7layer_t16test_fix_weightsEv:
 	jmp	*%rax
 	.cfi_endproc
 .LFE5247:
-	.size	_ZN7layer_t16test_fix_weightsEv, .-_ZN7layer_t16test_fix_weightsEv
-	.section	.text._ZNK10fc_layer_t21get_total_memory_sizeEv,"axG",@progbits,_ZNK10fc_layer_t21get_total_memory_sizeEv,comdat
+	.size	layer_t::test_fix_weights(), .-layer_t::test_fix_weights()
+	.section	.text._ZNK10fc_layer_t21get_total_memory_sizeEv,"axG",@progbits,fc_layer_t::get_total_memory_size() const,comdat
 	.align 2
 	.p2align 4
-	.weak	_ZNK10fc_layer_t21get_total_memory_sizeEv
-	.type	_ZNK10fc_layer_t21get_total_memory_sizeEv, @function
-_ZNK10fc_layer_t21get_total_memory_sizeEv:
+	.weak	fc_layer_t::get_total_memory_size() const
+	.type	fc_layer_t::get_total_memory_size() const, @function
+fc_layer_t::get_total_memory_size() const:
 .LFB5259:
 	.cfi_startproc
 	pushq	%rbp
@@ -790,13 +790,13 @@ _ZNK10fc_layer_t21get_total_memory_sizeEv:
 	ret
 	.cfi_endproc
 .LFE5259:
-	.size	_ZNK10fc_layer_t21get_total_memory_sizeEv, .-_ZNK10fc_layer_t21get_total_memory_sizeEv
-	.section	.text._ZN10fc_layer_tD0Ev,"axG",@progbits,_ZN10fc_layer_tD5Ev,comdat
+	.size	fc_layer_t::get_total_memory_size() const, .-fc_layer_t::get_total_memory_size() const
+	.section	.text._ZN10fc_layer_tD0Ev,"axG",@progbits,fc_layer_t::~fc_layer_t(),comdat
 	.align 2
 	.p2align 4
-	.weak	_ZN10fc_layer_tD0Ev
-	.type	_ZN10fc_layer_tD0Ev, @function
-_ZN10fc_layer_tD0Ev:
+	.weak	fc_layer_t::~fc_layer_t()
+	.type	fc_layer_t::~fc_layer_t(), @function
+fc_layer_t::~fc_layer_t():
 .LFB5267:
 	.cfi_startproc
 	pushq	%rbp
@@ -808,61 +808,61 @@ _ZN10fc_layer_tD0Ev:
 	subq	$8, %rsp
 	.cfi_offset 12, -24
 1:	call	*mcount@GOTPCREL(%rip)
-	leaq	16+_ZTV10fc_layer_t(%rip), %rax
+	leaq	16+vtable for fc_layer_t(%rip), %rax
 	movq	%rax, (%rdi)
 	movq	%rdi, %r12
 	movq	168(%rdi), %rdi
 	testq	%rdi, %rdi
 	je	.L68
-	call	_ZdaPv@PLT
+	call	operator delete[](void*)@PLT
 .L68:
 	movq	144(%r12), %rdi
 	testq	%rdi, %rdi
 	je	.L69
-	call	_ZdaPv@PLT
+	call	operator delete[](void*)@PLT
 .L69:
 	movq	120(%r12), %rdi
 	testq	%rdi, %rdi
 	je	.L70
-	call	_ZdaPv@PLT
+	call	operator delete[](void*)@PLT
 .L70:
 	movq	96(%r12), %rdi
 	testq	%rdi, %rdi
 	je	.L71
-	call	_ZdaPv@PLT
+	call	operator delete[](void*)@PLT
 .L71:
 	movq	72(%r12), %rdi
-	leaq	16+_ZTV7layer_t(%rip), %rax
+	leaq	16+vtable for layer_t(%rip), %rax
 	movq	%rax, (%r12)
 	testq	%rdi, %rdi
 	je	.L72
-	call	_ZdaPv@PLT
+	call	operator delete[](void*)@PLT
 .L72:
 	movq	48(%r12), %rdi
 	testq	%rdi, %rdi
 	je	.L73
-	call	_ZdaPv@PLT
+	call	operator delete[](void*)@PLT
 .L73:
 	movq	24(%r12), %rdi
 	testq	%rdi, %rdi
 	je	.L74
-	call	_ZdaPv@PLT
+	call	operator delete[](void*)@PLT
 .L74:
 	addq	$8, %rsp
 	movq	%r12, %rdi
 	popq	%r12
 	popq	%rbp
 	.cfi_def_cfa 7, 8
-	jmp	_ZdlPv@PLT
+	jmp	operator delete(void*)@PLT
 	.cfi_endproc
 .LFE5267:
-	.size	_ZN10fc_layer_tD0Ev, .-_ZN10fc_layer_tD0Ev
-	.section	.text._ZN10fc_layer_tD2Ev,"axG",@progbits,_ZN10fc_layer_tD5Ev,comdat
+	.size	fc_layer_t::~fc_layer_t(), .-fc_layer_t::~fc_layer_t()
+	.section	.text._ZN10fc_layer_tD2Ev,"axG",@progbits,fc_layer_t::~fc_layer_t(),comdat
 	.align 2
 	.p2align 4
-	.weak	_ZN10fc_layer_tD2Ev
-	.type	_ZN10fc_layer_tD2Ev, @function
-_ZN10fc_layer_tD2Ev:
+	.weak	fc_layer_t::~fc_layer_t()
+	.type	fc_layer_t::~fc_layer_t(), @function
+fc_layer_t::~fc_layer_t():
 .LFB5265:
 	.cfi_startproc
 	pushq	%rbp
@@ -874,40 +874,40 @@ _ZN10fc_layer_tD2Ev:
 	subq	$8, %rsp
 	.cfi_offset 3, -24
 1:	call	*mcount@GOTPCREL(%rip)
-	leaq	16+_ZTV10fc_layer_t(%rip), %rax
+	leaq	16+vtable for fc_layer_t(%rip), %rax
 	movq	%rax, (%rdi)
 	movq	%rdi, %rbx
 	movq	168(%rdi), %rdi
 	testq	%rdi, %rdi
 	je	.L97
-	call	_ZdaPv@PLT
+	call	operator delete[](void*)@PLT
 .L97:
 	movq	144(%rbx), %rdi
 	testq	%rdi, %rdi
 	je	.L98
-	call	_ZdaPv@PLT
+	call	operator delete[](void*)@PLT
 .L98:
 	movq	120(%rbx), %rdi
 	testq	%rdi, %rdi
 	je	.L99
-	call	_ZdaPv@PLT
+	call	operator delete[](void*)@PLT
 .L99:
 	movq	96(%rbx), %rdi
 	testq	%rdi, %rdi
 	je	.L100
-	call	_ZdaPv@PLT
+	call	operator delete[](void*)@PLT
 .L100:
 	movq	72(%rbx), %rdi
-	leaq	16+_ZTV7layer_t(%rip), %rax
+	leaq	16+vtable for layer_t(%rip), %rax
 	movq	%rax, (%rbx)
 	testq	%rdi, %rdi
 	je	.L101
-	call	_ZdaPv@PLT
+	call	operator delete[](void*)@PLT
 .L101:
 	movq	48(%rbx), %rdi
 	testq	%rdi, %rdi
 	je	.L102
-	call	_ZdaPv@PLT
+	call	operator delete[](void*)@PLT
 .L102:
 	movq	24(%rbx), %rdi
 	testq	%rdi, %rdi
@@ -917,7 +917,7 @@ _ZN10fc_layer_tD2Ev:
 	popq	%rbp
 	.cfi_remember_state
 	.cfi_def_cfa 7, 8
-	jmp	_ZdaPv@PLT
+	jmp	operator delete[](void*)@PLT
 	.p2align 4,,10
 	.p2align 3
 .L96:
@@ -929,9 +929,9 @@ _ZN10fc_layer_tD2Ev:
 	ret
 	.cfi_endproc
 .LFE5265:
-	.size	_ZN10fc_layer_tD2Ev, .-_ZN10fc_layer_tD2Ev
-	.weak	_ZN10fc_layer_tD1Ev
-	.set	_ZN10fc_layer_tD1Ev,_ZN10fc_layer_tD2Ev
+	.size	fc_layer_t::~fc_layer_t(), .-fc_layer_t::~fc_layer_t()
+	.weak	fc_layer_t::~fc_layer_t()
+	.set	fc_layer_t::~fc_layer_t(),fc_layer_t::~fc_layer_t()
 	.section	.rodata.str1.1,"aMS",@progbits,1
 .LC7:
 	.string	"b = "
@@ -945,8 +945,8 @@ _ZN10fc_layer_tD2Ev:
 	.string	"\n"
 	.text
 	.p2align 4
-	.type	_ZlsIdERSoS0_RK8tensor_tIT_E, @function
-_ZlsIdERSoS0_RK8tensor_tIT_E:
+	.type	std::basic_ostream<char, std::char_traits<char> >& operator<< <double>(std::basic_ostream<char, std::char_traits<char> >&, tensor_t<double> const&), @function
+std::basic_ostream<char, std::char_traits<char> >& operator<< <double>(std::basic_ostream<char, std::char_traits<char> >&, tensor_t<double> const&):
 .LFB6054:
 	.cfi_startproc
 	pushq	%rbp
@@ -977,14 +977,14 @@ _ZlsIdERSoS0_RK8tensor_tIT_E:
 	movl	$4, %edx
 	leaq	.LC7(%rip), %rsi
 	movq	%r13, %rdi
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movl	-56(%rbp), %esi
 	movq	%r13, %rdi
-	call	_ZNSolsEi@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >::operator<<(int)@PLT
 	movl	$3, %edx
 	leaq	.LC8(%rip), %rsi
 	movq	%rax, %rdi
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movl	8(%r15), %eax
 	movl	$0, -52(%rbp)
 	testl	%eax, %eax
@@ -996,14 +996,14 @@ _ZlsIdERSoS0_RK8tensor_tIT_E:
 	leaq	.LC9(%rip), %rsi
 	movq	%r13, %rdi
 	xorl	%ebx, %ebx
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movl	-52(%rbp), %esi
 	movq	%r13, %rdi
-	call	_ZNSolsEi@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >::operator<<(int)@PLT
 	movl	$3, %edx
 	leaq	.LC8(%rip), %rsi
 	movq	%rax, %rdi
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movl	4(%r15), %edx
 	testl	%edx, %edx
 	jle	.L130
@@ -1039,11 +1039,11 @@ _ZlsIdERSoS0_RK8tensor_tIT_E:
 	addl	$1, %r12d
 	cltq
 	movsd	(%rdx,%rax,8), %xmm0
-	call	_ZNSo9_M_insertIdEERSoT_@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::basic_ostream<char, std::char_traits<char> >::_M_insert<double>(double)@PLT
 	movl	$1, %edx
 	movq	%r14, %rsi
 	movq	%rax, %rdi
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movl	(%r15), %eax
 	cmpl	%r12d, %eax
 	jg	.L138
@@ -1052,7 +1052,7 @@ _ZlsIdERSoS0_RK8tensor_tIT_E:
 	leaq	.LC11(%rip), %rsi
 	movq	%r13, %rdi
 	addl	$1, %ebx
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movl	4(%r15), %edx
 	cmpl	%ebx, %edx
 	jg	.L126
@@ -1079,13 +1079,13 @@ _ZlsIdERSoS0_RK8tensor_tIT_E:
 	ret
 	.cfi_endproc
 .LFE6054:
-	.size	_ZlsIdERSoS0_RK8tensor_tIT_E, .-_ZlsIdERSoS0_RK8tensor_tIT_E
-	.section	.text._ZNK7layer_t8kind_strB5cxx11Ev,"axG",@progbits,_ZNK7layer_t8kind_strB5cxx11Ev,comdat
+	.size	std::basic_ostream<char, std::char_traits<char> >& operator<< <double>(std::basic_ostream<char, std::char_traits<char> >&, tensor_t<double> const&), .-std::basic_ostream<char, std::char_traits<char> >& operator<< <double>(std::basic_ostream<char, std::char_traits<char> >&, tensor_t<double> const&)
+	.section	.text._ZNK7layer_t8kind_strB5cxx11Ev,"axG",@progbits,layer_t::kind_str[abi:cxx11]() const,comdat
 	.align 2
 	.p2align 4
-	.weak	_ZNK7layer_t8kind_strB5cxx11Ev
-	.type	_ZNK7layer_t8kind_strB5cxx11Ev, @function
-_ZNK7layer_t8kind_strB5cxx11Ev:
+	.weak	layer_t::kind_str[abi:cxx11]() const
+	.type	layer_t::kind_str[abi:cxx11]() const, @function
+layer_t::kind_str[abi:cxx11]() const:
 .LFB5231:
 	.cfi_startproc
 	pushq	%rbp
@@ -1107,13 +1107,13 @@ _ZNK7layer_t8kind_strB5cxx11Ev:
 	ret
 	.cfi_endproc
 .LFE5231:
-	.size	_ZNK7layer_t8kind_strB5cxx11Ev, .-_ZNK7layer_t8kind_strB5cxx11Ev
-	.section	.text._ZNK7layer_t9param_strB5cxx11Ev,"axG",@progbits,_ZNK7layer_t9param_strB5cxx11Ev,comdat
+	.size	layer_t::kind_str[abi:cxx11]() const, .-layer_t::kind_str[abi:cxx11]() const
+	.section	.text._ZNK7layer_t9param_strB5cxx11Ev,"axG",@progbits,layer_t::param_str[abi:cxx11]() const,comdat
 	.align 2
 	.p2align 4
-	.weak	_ZNK7layer_t9param_strB5cxx11Ev
-	.type	_ZNK7layer_t9param_strB5cxx11Ev, @function
-_ZNK7layer_t9param_strB5cxx11Ev:
+	.weak	layer_t::param_str[abi:cxx11]() const
+	.type	layer_t::param_str[abi:cxx11]() const, @function
+layer_t::param_str[abi:cxx11]() const:
 .LFB5230:
 	.cfi_startproc
 	pushq	%rbp
@@ -1135,13 +1135,13 @@ _ZNK7layer_t9param_strB5cxx11Ev:
 	ret
 	.cfi_endproc
 .LFE5230:
-	.size	_ZNK7layer_t9param_strB5cxx11Ev, .-_ZNK7layer_t9param_strB5cxx11Ev
-	.section	.text._ZNK7layer_t14internal_stateB5cxx11Ev,"axG",@progbits,_ZNK7layer_t14internal_stateB5cxx11Ev,comdat
+	.size	layer_t::param_str[abi:cxx11]() const, .-layer_t::param_str[abi:cxx11]() const
+	.section	.text._ZNK7layer_t14internal_stateB5cxx11Ev,"axG",@progbits,layer_t::internal_state[abi:cxx11]() const,comdat
 	.align 2
 	.p2align 4
-	.weak	_ZNK7layer_t14internal_stateB5cxx11Ev
-	.type	_ZNK7layer_t14internal_stateB5cxx11Ev, @function
-_ZNK7layer_t14internal_stateB5cxx11Ev:
+	.weak	layer_t::internal_state[abi:cxx11]() const
+	.type	layer_t::internal_state[abi:cxx11]() const, @function
+layer_t::internal_state[abi:cxx11]() const:
 .LFB5234:
 	.cfi_startproc
 	pushq	%rbp
@@ -1160,13 +1160,13 @@ _ZNK7layer_t14internal_stateB5cxx11Ev:
 	ret
 	.cfi_endproc
 .LFE5234:
-	.size	_ZNK7layer_t14internal_stateB5cxx11Ev, .-_ZNK7layer_t14internal_stateB5cxx11Ev
-	.section	.text._ZNK10fc_layer_t8kind_strB5cxx11Ev,"axG",@progbits,_ZNK10fc_layer_t8kind_strB5cxx11Ev,comdat
+	.size	layer_t::internal_state[abi:cxx11]() const, .-layer_t::internal_state[abi:cxx11]() const
+	.section	.text._ZNK10fc_layer_t8kind_strB5cxx11Ev,"axG",@progbits,fc_layer_t::kind_str[abi:cxx11]() const,comdat
 	.align 2
 	.p2align 4
-	.weak	_ZNK10fc_layer_t8kind_strB5cxx11Ev
-	.type	_ZNK10fc_layer_t8kind_strB5cxx11Ev, @function
-_ZNK10fc_layer_t8kind_strB5cxx11Ev:
+	.weak	fc_layer_t::kind_str[abi:cxx11]() const
+	.type	fc_layer_t::kind_str[abi:cxx11]() const, @function
+fc_layer_t::kind_str[abi:cxx11]() const:
 .LFB5260:
 	.cfi_startproc
 	pushq	%rbp
@@ -1189,13 +1189,13 @@ _ZNK10fc_layer_t8kind_strB5cxx11Ev:
 	ret
 	.cfi_endproc
 .LFE5260:
-	.size	_ZNK10fc_layer_t8kind_strB5cxx11Ev, .-_ZNK10fc_layer_t8kind_strB5cxx11Ev
-	.section	.text._ZNK7layer_t15regression_codeB5cxx11Ev,"axG",@progbits,_ZNK7layer_t15regression_codeB5cxx11Ev,comdat
+	.size	fc_layer_t::kind_str[abi:cxx11]() const, .-fc_layer_t::kind_str[abi:cxx11]() const
+	.section	.text._ZNK7layer_t15regression_codeB5cxx11Ev,"axG",@progbits,layer_t::regression_code[abi:cxx11]() const,comdat
 	.align 2
 	.p2align 4
-	.weak	_ZNK7layer_t15regression_codeB5cxx11Ev
-	.type	_ZNK7layer_t15regression_codeB5cxx11Ev, @function
-_ZNK7layer_t15regression_codeB5cxx11Ev:
+	.weak	layer_t::regression_code[abi:cxx11]() const
+	.type	layer_t::regression_code[abi:cxx11]() const, @function
+layer_t::regression_code[abi:cxx11]() const:
 .LFB5232:
 	.cfi_startproc
 	pushq	%rbp
@@ -1217,7 +1217,7 @@ _ZNK7layer_t15regression_codeB5cxx11Ev:
 	ret
 	.cfi_endproc
 .LFE5232:
-	.size	_ZNK7layer_t15regression_codeB5cxx11Ev, .-_ZNK7layer_t15regression_codeB5cxx11Ev
+	.size	layer_t::regression_code[abi:cxx11]() const, .-layer_t::regression_code[abi:cxx11]() const
 	.section	.rodata._ZlsRSoRK7point_t.str1.1,"aMS",@progbits,1
 .LC12:
 	.string	"("
@@ -1225,11 +1225,11 @@ _ZNK7layer_t15regression_codeB5cxx11Ev:
 	.string	", "
 .LC14:
 	.string	")"
-	.section	.text._ZlsRSoRK7point_t,"axG",@progbits,_ZlsRSoRK7point_t,comdat
+	.section	.text._ZlsRSoRK7point_t,"axG",@progbits,operator<<(std::basic_ostream<char, std::char_traits<char> >&, point_t const&),comdat
 	.p2align 4
-	.weak	_ZlsRSoRK7point_t
-	.type	_ZlsRSoRK7point_t, @function
-_ZlsRSoRK7point_t:
+	.weak	operator<<(std::basic_ostream<char, std::char_traits<char> >&, point_t const&)
+	.type	operator<<(std::basic_ostream<char, std::char_traits<char> >&, point_t const&), @function
+operator<<(std::basic_ostream<char, std::char_traits<char> >&, point_t const&):
 .LFB4858:
 	.cfi_startproc
 	pushq	%rbp
@@ -1254,38 +1254,38 @@ _ZlsRSoRK7point_t:
 	leaq	.LC12(%rip), %rsi
 	movq	%rdi, %r12
 	movq	$2, 8(%rdi,%rax)
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movl	(%rbx), %esi
 	movq	%r12, %rdi
-	call	_ZNSolsEi@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >::operator<<(int)@PLT
 	movl	$2, %edx
 	leaq	.LC13(%rip), %rsi
 	movq	%rax, %rdi
 	movq	%rax, %r13
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movl	4(%rbx), %esi
 	movq	%r13, %rdi
-	call	_ZNSolsEi@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >::operator<<(int)@PLT
 	movl	$2, %edx
 	leaq	.LC13(%rip), %rsi
 	movq	%rax, %rdi
 	movq	%rax, %r13
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movl	8(%rbx), %esi
 	movq	%r13, %rdi
-	call	_ZNSolsEi@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >::operator<<(int)@PLT
 	movl	$2, %edx
 	leaq	.LC13(%rip), %rsi
 	movq	%rax, %rdi
 	movq	%rax, %r13
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movl	12(%rbx), %esi
 	movq	%r13, %rdi
-	call	_ZNSolsEi@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >::operator<<(int)@PLT
 	movl	$1, %edx
 	leaq	.LC14(%rip), %rsi
 	movq	%rax, %rdi
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	addq	$8, %rsp
 	movq	%r12, %rax
 	popq	%rbx
@@ -1296,12 +1296,12 @@ _ZlsRSoRK7point_t:
 	ret
 	.cfi_endproc
 .LFE4858:
-	.size	_ZlsRSoRK7point_t, .-_ZlsRSoRK7point_t
+	.size	operator<<(std::basic_ostream<char, std::char_traits<char> >&, point_t const&), .-operator<<(std::basic_ostream<char, std::char_traits<char> >&, point_t const&)
 	.text
 	.p2align 4
-	.globl	_Z10test_modelP7model_tR9dataset_t
-	.type	_Z10test_modelP7model_tR9dataset_t, @function
-_Z10test_modelP7model_tR9dataset_t:
+	.globl	test_model(model_t*, dataset_t&)
+	.type	test_model(model_t*, dataset_t&), @function
+test_model(model_t*, dataset_t&):
 .LFB5457:
 	.cfi_startproc
 	pushq	%rbp
@@ -1629,13 +1629,13 @@ _Z10test_modelP7model_tR9dataset_t:
 	jmp	.L174
 	.cfi_endproc
 .LFE5457:
-	.size	_Z10test_modelP7model_tR9dataset_t, .-_Z10test_modelP7model_tR9dataset_t
-	.section	.text._ZNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEED2Ev,"axG",@progbits,_ZNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEED5Ev,comdat
+	.size	test_model(model_t*, dataset_t&), .-test_model(model_t*, dataset_t&)
+	.section	.text._ZNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEED2Ev,"axG",@progbits,std::__cxx11::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >::~basic_stringbuf(),comdat
 	.align 2
 	.p2align 4
-	.weak	_ZNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEED2Ev
-	.type	_ZNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEED2Ev, @function
-_ZNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEED2Ev:
+	.weak	std::__cxx11::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >::~basic_stringbuf()
+	.type	std::__cxx11::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >::~basic_stringbuf(), @function
+std::__cxx11::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >::~basic_stringbuf():
 .LFB5669:
 	.cfi_startproc
 	pushq	%rbp
@@ -1647,34 +1647,34 @@ _ZNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEED2Ev:
 	subq	$8, %rsp
 	.cfi_offset 3, -24
 1:	call	*mcount@GOTPCREL(%rip)
-	leaq	16+_ZTVNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEEE(%rip), %rax
+	leaq	16+vtable for std::__cxx11::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >(%rip), %rax
 	movq	%rax, (%rdi)
 	movq	%rdi, %rbx
 	movq	72(%rdi), %rdi
 	leaq	88(%rbx), %rax
 	cmpq	%rax, %rdi
 	je	.L202
-	call	_ZdlPv@PLT
+	call	operator delete(void*)@PLT
 .L202:
-	leaq	16+_ZTVSt15basic_streambufIcSt11char_traitsIcEE(%rip), %rax
+	leaq	16+vtable for std::basic_streambuf<char, std::char_traits<char> >(%rip), %rax
 	leaq	56(%rbx), %rdi
 	movq	%rax, (%rbx)
 	addq	$8, %rsp
 	popq	%rbx
 	popq	%rbp
 	.cfi_def_cfa 7, 8
-	jmp	_ZNSt6localeD1Ev@PLT
+	jmp	std::locale::~locale()@PLT
 	.cfi_endproc
 .LFE5669:
-	.size	_ZNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEED2Ev, .-_ZNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEED2Ev
-	.weak	_ZNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEED1Ev
-	.set	_ZNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEED1Ev,_ZNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEED2Ev
-	.section	.text._ZNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEED0Ev,"axG",@progbits,_ZNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEED5Ev,comdat
+	.size	std::__cxx11::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >::~basic_stringbuf(), .-std::__cxx11::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >::~basic_stringbuf()
+	.weak	std::__cxx11::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >::~basic_stringbuf()
+	.set	std::__cxx11::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >::~basic_stringbuf(),std::__cxx11::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >::~basic_stringbuf()
+	.section	.text._ZNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEED0Ev,"axG",@progbits,std::__cxx11::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >::~basic_stringbuf(),comdat
 	.align 2
 	.p2align 4
-	.weak	_ZNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEED0Ev
-	.type	_ZNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEED0Ev, @function
-_ZNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEED0Ev:
+	.weak	std::__cxx11::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >::~basic_stringbuf()
+	.type	std::__cxx11::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >::~basic_stringbuf(), @function
+std::__cxx11::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >::~basic_stringbuf():
 .LFB5671:
 	.cfi_startproc
 	pushq	%rbp
@@ -1686,28 +1686,28 @@ _ZNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEED0Ev:
 	subq	$8, %rsp
 	.cfi_offset 12, -24
 1:	call	*mcount@GOTPCREL(%rip)
-	leaq	16+_ZTVNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEEE(%rip), %rax
+	leaq	16+vtable for std::__cxx11::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >(%rip), %rax
 	movq	%rax, (%rdi)
 	movq	%rdi, %r12
 	movq	72(%rdi), %rdi
 	leaq	88(%r12), %rax
 	cmpq	%rax, %rdi
 	je	.L204
-	call	_ZdlPv@PLT
+	call	operator delete(void*)@PLT
 .L204:
-	leaq	16+_ZTVSt15basic_streambufIcSt11char_traitsIcEE(%rip), %rax
+	leaq	16+vtable for std::basic_streambuf<char, std::char_traits<char> >(%rip), %rax
 	leaq	56(%r12), %rdi
 	movq	%rax, (%r12)
-	call	_ZNSt6localeD1Ev@PLT
+	call	std::locale::~locale()@PLT
 	addq	$8, %rsp
 	movq	%r12, %rdi
 	popq	%r12
 	popq	%rbp
 	.cfi_def_cfa 7, 8
-	jmp	_ZdlPv@PLT
+	jmp	operator delete(void*)@PLT
 	.cfi_endproc
 .LFE5671:
-	.size	_ZNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEED0Ev, .-_ZNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEED0Ev
+	.size	std::__cxx11::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >::~basic_stringbuf(), .-std::__cxx11::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >::~basic_stringbuf()
 	.section	.rodata._ZN25AssertionFailureExceptionC2EPKcS1_iRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE.str1.8,"aMS",@progbits,1
 	.align 8
 .LC17:
@@ -1731,12 +1731,12 @@ _ZNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEED0Ev:
 	.string	" failed in file '"
 .LC26:
 	.string	"' line "
-	.section	.text._ZN25AssertionFailureExceptionC2EPKcS1_iRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE,"axG",@progbits,_ZN25AssertionFailureExceptionC5EPKcS1_iRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE,comdat
+	.section	.text._ZN25AssertionFailureExceptionC2EPKcS1_iRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE,"axG",@progbits,AssertionFailureException::AssertionFailureException(char const*, char const*, int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&),comdat
 	.align 2
 	.p2align 4
-	.weak	_ZN25AssertionFailureExceptionC2EPKcS1_iRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
-	.type	_ZN25AssertionFailureExceptionC2EPKcS1_iRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE, @function
-_ZN25AssertionFailureExceptionC2EPKcS1_iRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE:
+	.weak	AssertionFailureException::AssertionFailureException(char const*, char const*, int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+	.type	AssertionFailureException::AssertionFailureException(char const*, char const*, int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&), @function
+AssertionFailureException::AssertionFailureException(char const*, char const*, int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&):
 .LFB4833:
 	.cfi_startproc
 	.cfi_personality 0x9b,DW.ref.__gxx_personality_v0
@@ -1767,7 +1767,7 @@ _ZN25AssertionFailureExceptionC2EPKcS1_iRKNSt7__cxx1112basic_stringIcSt11char_tr
 	movq	%fs:40, %rax
 	movq	%rax, -56(%rbp)
 	xorl	%eax, %eax
-	leaq	16+_ZTV25AssertionFailureException(%rip), %rax
+	leaq	16+vtable for AssertionFailureException(%rip), %rax
 	movq	%rsi, 8(%rdi)
 	movq	%rax, (%rdi)
 	leaq	48(%rdi), %rax
@@ -1802,11 +1802,11 @@ _ZN25AssertionFailureExceptionC2EPKcS1_iRKNSt7__cxx1112basic_stringIcSt11char_tr
 	leaq	-320(%rbp), %rax
 	movq	%rax, %rdi
 	movq	%rax, -520(%rbp)
-	call	_ZNSt8ios_baseC2Ev@PLT
-	movq	8+_ZTTNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rdx
+	call	std::ios_base::ios_base()@PLT
+	movq	8+VTT for std::__cxx11::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rdx
 	xorl	%eax, %eax
 	xorl	%esi, %esi
-	leaq	16+_ZTVSt9basic_iosIcSt11char_traitsIcEE(%rip), %rcx
+	leaq	16+vtable for std::basic_ios<char, std::char_traits<char> >(%rip), %rcx
 	pxor	%xmm0, %xmm0
 	movw	%ax, -96(%rbp)
 	movq	%rcx, -320(%rbp)
@@ -1817,13 +1817,13 @@ _ZN25AssertionFailureExceptionC2EPKcS1_iRKNSt7__cxx1112basic_stringIcSt11char_tr
 	addq	%r15, %rcx
 	movq	%rdx, -432(%rbp)
 	movq	%rcx, %rdi
-	movq	16+_ZTTNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rcx
+	movq	16+VTT for std::__cxx11::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rcx
 	movq	%rcx, (%rdi)
 .LEHB0:
-	call	_ZNSt9basic_iosIcSt11char_traitsIcEE4initEPSt15basic_streambufIcS1_E@PLT
+	call	std::basic_ios<char, std::char_traits<char> >::init(std::basic_streambuf<char, std::char_traits<char> >*)@PLT
 .LEHE0:
 	movq	.LC27(%rip), %xmm0
-	leaq	64+_ZTVNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rcx
+	leaq	64+vtable for std::__cxx11::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rcx
 	leaq	-424(%rbp), %r13
 	movq	%rcx, -320(%rbp)
 	leaq	-368(%rbp), %rcx
@@ -1835,8 +1835,8 @@ _ZN25AssertionFailureExceptionC2EPKcS1_iRKNSt7__cxx1112basic_stringIcSt11char_tr
 	movaps	%xmm0, -416(%rbp)
 	movaps	%xmm0, -400(%rbp)
 	movaps	%xmm0, -384(%rbp)
-	call	_ZNSt6localeC1Ev@PLT
-	leaq	16+_ZTVNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEEE(%rip), %rsi
+	call	std::locale::locale()@PLT
+	leaq	16+vtable for std::__cxx11::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >(%rip), %rsi
 	movq	-520(%rbp), %rdi
 	movl	$16, -360(%rbp)
 	movq	%rsi, -424(%rbp)
@@ -1847,7 +1847,7 @@ _ZN25AssertionFailureExceptionC2EPKcS1_iRKNSt7__cxx1112basic_stringIcSt11char_tr
 	movq	$0, -344(%rbp)
 	movb	$0, -336(%rbp)
 .LEHB1:
-	call	_ZNSt9basic_iosIcSt11char_traitsIcEE4initEPSt15basic_streambufIcS1_E@PLT
+	call	std::basic_ios<char, std::char_traits<char> >::init(std::basic_streambuf<char, std::char_traits<char> >*)@PLT
 .LEHE1:
 	movq	8(%rbx), %rdx
 	testq	%rdx, %rdx
@@ -1855,11 +1855,11 @@ _ZN25AssertionFailureExceptionC2EPKcS1_iRKNSt7__cxx1112basic_stringIcSt11char_tr
 	movq	(%rbx), %rsi
 	movq	%r15, %rdi
 .LEHB2:
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movq	%rax, %rdi
 	movl	$2, %edx
 	leaq	.LC18(%rip), %rsi
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 .LEHE2:
 .L215:
 	leaq	-480(%rbp), %rax
@@ -1887,12 +1887,12 @@ _ZN25AssertionFailureExceptionC2EPKcS1_iRKNSt7__cxx1112basic_stringIcSt11char_tr
 	leaq	.LC19(%rip), %rsi
 	movb	$0, (%rdi,%r13)
 	movq	%rbx, %rdi
-	call	_ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7compareEPKc@PLT
+	call	std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::compare(char const*) const@PLT
 	testl	%eax, %eax
 	je	.L223
 	leaq	.LC21(%rip), %rsi
 	movq	%rbx, %rdi
-	call	_ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7compareEPKc@PLT
+	call	std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::compare(char const*) const@PLT
 	testl	%eax, %eax
 	jne	.L287
 .L223:
@@ -1900,12 +1900,12 @@ _ZN25AssertionFailureExceptionC2EPKcS1_iRKNSt7__cxx1112basic_stringIcSt11char_tr
 	leaq	.LC20(%rip), %rsi
 	movq	%r15, %rdi
 .LEHB3:
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 .L222:
 	movl	$17, %edx
 	leaq	.LC25(%rip), %rsi
 	movq	%r15, %rdi
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	cmpq	$0, -528(%rbp)
 	je	.L288
 	movq	-528(%rbp), %rbx
@@ -1914,15 +1914,15 @@ _ZN25AssertionFailureExceptionC2EPKcS1_iRKNSt7__cxx1112basic_stringIcSt11char_tr
 	movq	%rbx, %rsi
 	movq	%r15, %rdi
 	movq	%rax, %rdx
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 .L227:
 	movl	$7, %edx
 	leaq	.LC26(%rip), %rsi
 	movq	%r15, %rdi
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movl	-532(%rbp), %esi
 	movq	%r15, %rdi
-	call	_ZNSolsEi@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >::operator<<(int)@PLT
 .LEHE3:
 	movq	-384(%rbp), %rax
 	leaq	-448(%rbp), %rbx
@@ -1941,7 +1941,7 @@ _ZN25AssertionFailureExceptionC2EPKcS1_iRKNSt7__cxx1112basic_stringIcSt11char_tr
 	xorl	%esi, %esi
 	movq	%rax, %r8
 .LEHB4:
-	call	_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE10_M_replaceEmmPKcm@PLT
+	call	std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_replace(unsigned long, unsigned long, char const*, unsigned long)@PLT
 .L230:
 	movq	-464(%rbp), %rax
 	movq	64(%r12), %rdi
@@ -1967,36 +1967,36 @@ _ZN25AssertionFailureExceptionC2EPKcS1_iRKNSt7__cxx1112basic_stringIcSt11char_tr
 	movq	-464(%rbp), %rdi
 	cmpq	%rbx, %rdi
 	je	.L241
-	call	_ZdlPv@PLT
+	call	operator delete(void*)@PLT
 .L241:
 	movq	-496(%rbp), %rdi
 	cmpq	-560(%rbp), %rdi
 	je	.L242
-	call	_ZdlPv@PLT
+	call	operator delete(void*)@PLT
 .L242:
 	movq	.LC27(%rip), %xmm0
-	leaq	64+_ZTVNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rax
+	leaq	64+vtable for std::__cxx11::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rax
 	movq	-352(%rbp), %rdi
 	movq	%rax, -320(%rbp)
 	movhps	.LC29(%rip), %xmm0
 	movaps	%xmm0, -432(%rbp)
 	cmpq	-552(%rbp), %rdi
 	je	.L243
-	call	_ZdlPv@PLT
+	call	operator delete(void*)@PLT
 .L243:
 	movq	-544(%rbp), %rdi
-	leaq	16+_ZTVSt15basic_streambufIcSt11char_traitsIcEE(%rip), %rax
+	leaq	16+vtable for std::basic_streambuf<char, std::char_traits<char> >(%rip), %rax
 	movq	%rax, -424(%rbp)
-	call	_ZNSt6localeD1Ev@PLT
-	movq	8+_ZTTNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rax
-	movq	16+_ZTTNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rbx
+	call	std::locale::~locale()@PLT
+	movq	8+VTT for std::__cxx11::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rax
+	movq	16+VTT for std::__cxx11::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rbx
 	movq	-520(%rbp), %rdi
 	movq	%rax, -432(%rbp)
 	movq	-24(%rax), %rax
 	movq	%rbx, -432(%rbp,%rax)
-	leaq	16+_ZTVSt9basic_iosIcSt11char_traitsIcEE(%rip), %rax
+	leaq	16+vtable for std::basic_ios<char, std::char_traits<char> >(%rip), %rax
 	movq	%rax, -320(%rbp)
-	call	_ZNSt8ios_baseD2Ev@PLT
+	call	std::ios_base::~ios_base()@PLT
 	movq	-56(%rbp), %rax
 	xorq	%fs:40, %rax
 	jne	.L291
@@ -2024,7 +2024,7 @@ _ZN25AssertionFailureExceptionC2EPKcS1_iRKNSt7__cxx1112basic_stringIcSt11char_tr
 	subq	%rcx, %r8
 	xorl	%edx, %edx
 	xorl	%esi, %esi
-	call	_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE10_M_replaceEmmPKcm@PLT
+	call	std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_replace(unsigned long, unsigned long, char const*, unsigned long)@PLT
 .LEHE4:
 	jmp	.L230
 	.p2align 4,,10
@@ -2041,7 +2041,7 @@ _ZN25AssertionFailureExceptionC2EPKcS1_iRKNSt7__cxx1112basic_stringIcSt11char_tr
 	leaq	32(%r12), %rdi
 	xorl	%edx, %edx
 .LEHB5:
-	call	_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_createERmm@PLT
+	call	std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_create(unsigned long&, unsigned long)@PLT
 .LEHE5:
 	movq	%rax, 32(%r12)
 	movq	%rax, %rdi
@@ -2062,7 +2062,7 @@ _ZN25AssertionFailureExceptionC2EPKcS1_iRKNSt7__cxx1112basic_stringIcSt11char_tr
 	xorl	%edx, %edx
 	movq	%rbx, %rdi
 .LEHB6:
-	call	_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_createERmm@PLT
+	call	std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_create(unsigned long&, unsigned long)@PLT
 	movq	%rax, -496(%rbp)
 	movq	%rax, %rdi
 	movq	-504(%rbp), %rax
@@ -2078,7 +2078,7 @@ _ZN25AssertionFailureExceptionC2EPKcS1_iRKNSt7__cxx1112basic_stringIcSt11char_tr
 	.p2align 3
 .L285:
 	leaq	.LC17(%rip), %rdi
-	call	_ZSt19__throw_logic_errorPKc@PLT
+	call	std::__throw_logic_error(char const*)@PLT
 .LEHE6:
 	.p2align 4,,10
 	.p2align 3
@@ -2089,7 +2089,7 @@ _ZN25AssertionFailureExceptionC2EPKcS1_iRKNSt7__cxx1112basic_stringIcSt11char_tr
 	movl	32(%rdi), %esi
 	orl	$1, %esi
 .LEHB7:
-	call	_ZNSt9basic_iosIcSt11char_traitsIcEE5clearESt12_Ios_Iostate@PLT
+	call	std::basic_ios<char, std::char_traits<char> >::clear(std::_Ios_Iostate)@PLT
 .LEHE7:
 	jmp	.L227
 	.p2align 4,,10
@@ -2126,7 +2126,7 @@ _ZN25AssertionFailureExceptionC2EPKcS1_iRKNSt7__cxx1112basic_stringIcSt11char_tr
 .L228:
 	leaq	-352(%rbp), %rsi
 .LEHB8:
-	call	_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_assignERKS4_@PLT
+	call	std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_assign(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)@PLT
 .LEHE8:
 	jmp	.L230
 	.p2align 4,,10
@@ -2134,14 +2134,14 @@ _ZN25AssertionFailureExceptionC2EPKcS1_iRKNSt7__cxx1112basic_stringIcSt11char_tr
 .L287:
 	leaq	.LC22(%rip), %rsi
 	movq	%rbx, %rdi
-	call	_ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7compareEPKc@PLT
+	call	std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::compare(char const*) const@PLT
 	testl	%eax, %eax
 	je	.L223
 	movl	$11, %edx
 	leaq	.LC23(%rip), %rsi
 	movq	%r15, %rdi
 .LEHB9:
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	testq	%r14, %r14
 	je	.L294
 	movq	%r14, %rdi
@@ -2149,12 +2149,12 @@ _ZN25AssertionFailureExceptionC2EPKcS1_iRKNSt7__cxx1112basic_stringIcSt11char_tr
 	movq	%r14, %rsi
 	movq	%r15, %rdi
 	movq	%rax, %rdx
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 .L225:
 	movl	$1, %edx
 	leaq	.LC24(%rip), %rsi
 	movq	%r15, %rdi
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	jmp	.L222
 	.p2align 4,,10
 	.p2align 3
@@ -2172,13 +2172,13 @@ _ZN25AssertionFailureExceptionC2EPKcS1_iRKNSt7__cxx1112basic_stringIcSt11char_tr
 	addq	%r15, %rdi
 	movl	32(%rdi), %esi
 	orl	$1, %esi
-	call	_ZNSt9basic_iosIcSt11char_traitsIcEE5clearESt12_Ios_Iostate@PLT
+	call	std::basic_ios<char, std::char_traits<char> >::clear(std::_Ios_Iostate)@PLT
 .LEHE9:
 	jmp	.L225
 .L283:
 	leaq	.LC17(%rip), %rdi
 .LEHB10:
-	call	_ZSt19__throw_logic_errorPKc@PLT
+	call	std::__throw_logic_error(char const*)@PLT
 .LEHE10:
 .L291:
 	call	__stack_chk_fail@PLT
@@ -2195,29 +2195,29 @@ _ZN25AssertionFailureExceptionC2EPKcS1_iRKNSt7__cxx1112basic_stringIcSt11char_tr
 	movq	-464(%rbp), %rdi
 	cmpq	%rbx, %rdi
 	je	.L235
-	call	_ZdlPv@PLT
+	call	operator delete(void*)@PLT
 .L235:
 	movq	-496(%rbp), %rdi
 	cmpq	-560(%rbp), %rdi
 	je	.L245
-	call	_ZdlPv@PLT
+	call	operator delete(void*)@PLT
 .L245:
 	movq	%r15, %rdi
 	movq	%r13, %rbx
-	call	_ZNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEED1Ev@PLT
+	call	std::__cxx11::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >::~basic_ostringstream()@PLT
 .L214:
 	movq	64(%r12), %rdi
 	cmpq	%rdi, -568(%rbp)
 	je	.L246
-	call	_ZdlPv@PLT
+	call	operator delete(void*)@PLT
 .L246:
 	movq	32(%r12), %rdi
 	cmpq	%rdi, -576(%rbp)
 	je	.L248
-	call	_ZdlPv@PLT
+	call	operator delete(void*)@PLT
 .L248:
 	movq	%r12, %rdi
-	call	_ZNSt9exceptionD2Ev@PLT
+	call	std::exception::~exception()@PLT
 	movq	%rbx, %rdi
 .LEHB11:
 	call	_Unwind_Resume@PLT
@@ -2229,17 +2229,17 @@ _ZN25AssertionFailureExceptionC2EPKcS1_iRKNSt7__cxx1112basic_stringIcSt11char_tr
 	movq	%rax, %rbx
 .L212:
 	movq	%r13, %rdi
-	call	_ZNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEED1Ev
-	movq	8+_ZTTNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rax
-	movq	16+_ZTTNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rdx
+	call	std::__cxx11::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >::~basic_stringbuf()
+	movq	8+VTT for std::__cxx11::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rax
+	movq	16+VTT for std::__cxx11::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rdx
 	movq	%rax, -432(%rbp)
 	movq	-24(%rax), %rax
 	movq	%rdx, -432(%rbp,%rax)
 .L213:
 	movq	-520(%rbp), %rdi
-	leaq	16+_ZTVSt9basic_iosIcSt11char_traitsIcEE(%rip), %rax
+	leaq	16+vtable for std::basic_ios<char, std::char_traits<char> >(%rip), %rax
 	movq	%rax, -320(%rbp)
-	call	_ZNSt8ios_baseD2Ev@PLT
+	call	std::ios_base::~ios_base()@PLT
 	jmp	.L214
 .L255:
 	movq	%rax, %r13
@@ -2250,7 +2250,7 @@ _ZN25AssertionFailureExceptionC2EPKcS1_iRKNSt7__cxx1112basic_stringIcSt11char_tr
 	.cfi_endproc
 .LFE4833:
 	.globl	__gxx_personality_v0
-	.section	.gcc_except_table._ZN25AssertionFailureExceptionC2EPKcS1_iRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE,"aG",@progbits,_ZN25AssertionFailureExceptionC5EPKcS1_iRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE,comdat
+	.section	.gcc_except_table._ZN25AssertionFailureExceptionC2EPKcS1_iRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE,"aG",@progbits,AssertionFailureException::AssertionFailureException(char const*, char const*, int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&),comdat
 .LLSDA4833:
 	.byte	0xff
 	.byte	0xff
@@ -2306,10 +2306,10 @@ _ZN25AssertionFailureExceptionC2EPKcS1_iRKNSt7__cxx1112basic_stringIcSt11char_tr
 	.uleb128 0
 	.uleb128 0
 .LLSDACSE4833:
-	.section	.text._ZN25AssertionFailureExceptionC2EPKcS1_iRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE,"axG",@progbits,_ZN25AssertionFailureExceptionC5EPKcS1_iRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE,comdat
-	.size	_ZN25AssertionFailureExceptionC2EPKcS1_iRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE, .-_ZN25AssertionFailureExceptionC2EPKcS1_iRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
-	.weak	_ZN25AssertionFailureExceptionC1EPKcS1_iRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
-	.set	_ZN25AssertionFailureExceptionC1EPKcS1_iRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE,_ZN25AssertionFailureExceptionC2EPKcS1_iRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+	.section	.text._ZN25AssertionFailureExceptionC2EPKcS1_iRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE,"axG",@progbits,AssertionFailureException::AssertionFailureException(char const*, char const*, int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&),comdat
+	.size	AssertionFailureException::AssertionFailureException(char const*, char const*, int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&), .-AssertionFailureException::AssertionFailureException(char const*, char const*, int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+	.weak	AssertionFailureException::AssertionFailureException(char const*, char const*, int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+	.set	AssertionFailureException::AssertionFailureException(char const*, char const*, int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&),AssertionFailureException::AssertionFailureException(char const*, char const*, int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
 	.section	.rodata._ZN7layer_t10copy_inputERK8tensor_tIdE.str1.8,"aMS",@progbits,1
 	.align 8
 .LC30:
@@ -2324,12 +2324,12 @@ _ZN25AssertionFailureExceptionC2EPKcS1_iRKNSt7__cxx1112basic_stringIcSt11char_tr
 	.section	.rodata._ZN7layer_t10copy_inputERK8tensor_tIdE.str1.1
 .LC33:
 	.string	"this->in.size == in.size"
-	.section	.text._ZN7layer_t10copy_inputERK8tensor_tIdE,"axG",@progbits,_ZN7layer_t10copy_inputERK8tensor_tIdE,comdat
+	.section	.text._ZN7layer_t10copy_inputERK8tensor_tIdE,"axG",@progbits,layer_t::copy_input(tensor_t<double> const&),comdat
 	.align 2
 	.p2align 4
-	.weak	_ZN7layer_t10copy_inputERK8tensor_tIdE
-	.type	_ZN7layer_t10copy_inputERK8tensor_tIdE, @function
-_ZN7layer_t10copy_inputERK8tensor_tIdE:
+	.weak	layer_t::copy_input(tensor_t<double> const&)
+	.type	layer_t::copy_input(tensor_t<double> const&), @function
+layer_t::copy_input(tensor_t<double> const&):
 .LFB5219:
 	.cfi_startproc
 	.cfi_personality 0x9b,DW.ref.__gxx_personality_v0
@@ -2372,7 +2372,7 @@ _ZN7layer_t10copy_inputERK8tensor_tIdE:
 	movq	24(%rdi), %rdi
 	testq	%rdi, %rdi
 	je	.L298
-	call	_ZdaPv@PLT
+	call	operator delete[](void*)@PLT
 .L298:
 	movabsq	$1152921504606846975, %rax
 	movdqu	(%r12), %xmm0
@@ -2386,7 +2386,7 @@ _ZN7layer_t10copy_inputERK8tensor_tIdE:
 	ja	.L299
 	salq	$3, %rdi
 .LEHB12:
-	call	_Znam@PLT
+	call	operator new[](unsigned long)@PLT
 .LEHE12:
 	movl	8(%rbx), %edx
 	imull	12(%rbx), %edx
@@ -2425,25 +2425,25 @@ _ZN7layer_t10copy_inputERK8tensor_tIdE:
 	rep stosq
 	movq	%r14, %rdi
 .LEHB13:
-	call	_ZNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEEC1Ev@PLT
+	call	std::__cxx11::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >::basic_ostringstream()@PLT
 .LEHE13:
 	leaq	.LC30(%rip), %rsi
 	movq	%r14, %rdi
 .LEHB14:
-	call	_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)@PLT
 	leaq	8(%rbx), %rsi
 	movq	%r14, %rdi
-	call	_ZlsRSoRK7point_t
+	call	operator<<(std::basic_ostream<char, std::char_traits<char> >&, point_t const&)
 	leaq	.LC31(%rip), %rsi
 	movq	%r14, %rdi
-	call	_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)@PLT
 	movq	%r12, %rsi
 	movq	%r14, %rdi
-	call	_ZlsRSoRK7point_t
+	call	operator<<(std::basic_ostream<char, std::char_traits<char> >&, point_t const&)
 	leaq	-448(%rbp), %rbx
 	leaq	-408(%rbp), %rsi
 	movq	%rbx, %rdi
-	call	_ZNKSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEE3strEv@PLT
+	call	std::__cxx11::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >::str() const@PLT
 .LEHE14:
 	movq	%rbx, %r8
 	movl	$47, %ecx
@@ -2451,18 +2451,18 @@ _ZN7layer_t10copy_inputERK8tensor_tIdE:
 	leaq	.LC32(%rip), %rdx
 	leaq	.LC33(%rip), %rsi
 .LEHB15:
-	call	_ZN25AssertionFailureExceptionC1EPKcS1_iRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+	call	AssertionFailureException::AssertionFailureException(char const*, char const*, int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
 .LEHE15:
 	movq	-448(%rbp), %rdi
 	leaq	-432(%rbp), %rax
 	cmpq	%rax, %rdi
 	je	.L300
-	call	_ZdlPv@PLT
+	call	operator delete(void*)@PLT
 .L300:
 	movq	%r14, %rdi
-	call	_ZNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEED1Ev@PLT
-	leaq	_ZN25AssertionFailureExceptionD1Ev(%rip), %rdx
-	leaq	_ZTI25AssertionFailureException(%rip), %rsi
+	call	std::__cxx11::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >::~basic_ostringstream()@PLT
+	leaq	AssertionFailureException::~AssertionFailureException()(%rip), %rdx
+	leaq	typeinfo for AssertionFailureException(%rip), %rsi
 	movq	%r13, %rdi
 .LEHB16:
 	call	__cxa_throw@PLT
@@ -2484,7 +2484,7 @@ _ZN7layer_t10copy_inputERK8tensor_tIdE:
 	jne	.L313
 .L303:
 	movq	%r14, %rdi
-	call	_ZNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEED1Ev@PLT
+	call	std::__cxx11::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >::~basic_ostringstream()@PLT
 .L304:
 	movq	%r13, %rdi
 	call	__cxa_free_exception@PLT
@@ -2492,11 +2492,11 @@ _ZN7layer_t10copy_inputERK8tensor_tIdE:
 	call	_Unwind_Resume@PLT
 .LEHE16:
 .L313:
-	call	_ZdlPv@PLT
+	call	operator delete(void*)@PLT
 	jmp	.L303
 	.cfi_endproc
 .LFE5219:
-	.section	.gcc_except_table._ZN7layer_t10copy_inputERK8tensor_tIdE,"aG",@progbits,_ZN7layer_t10copy_inputERK8tensor_tIdE,comdat
+	.section	.gcc_except_table._ZN7layer_t10copy_inputERK8tensor_tIdE,"aG",@progbits,layer_t::copy_input(tensor_t<double> const&),comdat
 .LLSDA5219:
 	.byte	0xff
 	.byte	0xff
@@ -2524,14 +2524,14 @@ _ZN7layer_t10copy_inputERK8tensor_tIdE:
 	.uleb128 0
 	.uleb128 0
 .LLSDACSE5219:
-	.section	.text._ZN7layer_t10copy_inputERK8tensor_tIdE,"axG",@progbits,_ZN7layer_t10copy_inputERK8tensor_tIdE,comdat
-	.size	_ZN7layer_t10copy_inputERK8tensor_tIdE, .-_ZN7layer_t10copy_inputERK8tensor_tIdE
-	.section	.text._ZN10fc_layer_t8activateER8tensor_tIdE,"axG",@progbits,_ZN10fc_layer_t8activateER8tensor_tIdE,comdat
+	.section	.text._ZN7layer_t10copy_inputERK8tensor_tIdE,"axG",@progbits,layer_t::copy_input(tensor_t<double> const&),comdat
+	.size	layer_t::copy_input(tensor_t<double> const&), .-layer_t::copy_input(tensor_t<double> const&)
+	.section	.text._ZN10fc_layer_t8activateER8tensor_tIdE,"axG",@progbits,fc_layer_t::activate(tensor_t<double>&),comdat
 	.align 2
 	.p2align 4
-	.weak	_ZN10fc_layer_t8activateER8tensor_tIdE
-	.type	_ZN10fc_layer_t8activateER8tensor_tIdE, @function
-_ZN10fc_layer_t8activateER8tensor_tIdE:
+	.weak	fc_layer_t::activate(tensor_t<double>&)
+	.type	fc_layer_t::activate(tensor_t<double>&), @function
+fc_layer_t::activate(tensor_t<double>&):
 .LFB5256:
 	.cfi_startproc
 	pushq	%rbp
@@ -2555,7 +2555,7 @@ _ZN10fc_layer_t8activateER8tensor_tIdE:
 	movq	%rdi, %rbx
 	movq	%rdi, -216(%rbp)
 	movq	%rsi, -224(%rbp)
-	call	_ZN7layer_t10copy_inputERK8tensor_tIdE
+	call	layer_t::copy_input(tensor_t<double> const&)
 	movl	(%r14), %esi
 	movl	4(%r14), %eax
 	movq	%r14, %rdi
@@ -2872,7 +2872,7 @@ _ZN10fc_layer_t8activateER8tensor_tIdE:
 	jmp	.L318
 	.cfi_endproc
 .LFE5256:
-	.size	_ZN10fc_layer_t8activateER8tensor_tIdE, .-_ZN10fc_layer_t8activateER8tensor_tIdE
+	.size	fc_layer_t::activate(tensor_t<double>&), .-fc_layer_t::activate(tensor_t<double>&)
 	.section	.rodata._ZN7layer_t9configureERK7point_t.str1.8,"aMS",@progbits,1
 	.align 8
 .LC34:
@@ -2883,12 +2883,12 @@ _ZN10fc_layer_t8activateER8tensor_tIdE:
 	.align 8
 .LC36:
 	.string	"size.x > 0 && size.y > 0 && size.z > 0"
-	.section	.text._ZN7layer_t9configureERK7point_t,"axG",@progbits,_ZN7layer_t9configureERK7point_t,comdat
+	.section	.text._ZN7layer_t9configureERK7point_t,"axG",@progbits,layer_t::configure(point_t const&),comdat
 	.align 2
 	.p2align 4
-	.weak	_ZN7layer_t9configureERK7point_t
-	.type	_ZN7layer_t9configureERK7point_t, @function
-_ZN7layer_t9configureERK7point_t:
+	.weak	layer_t::configure(point_t const&)
+	.type	layer_t::configure(point_t const&), @function
+layer_t::configure(point_t const&):
 .LFB5235:
 	.cfi_startproc
 	.cfi_personality 0x9b,DW.ref.__gxx_personality_v0
@@ -2938,7 +2938,7 @@ _ZN7layer_t9configureERK7point_t:
 	movq	%rdx, %rdi
 	movq	%rdx, -488(%rbp)
 .LEHB17:
-	call	_Znam@PLT
+	call	operator new[](unsigned long)@PLT
 	movq	-488(%rbp), %rdx
 	movq	%rax, %r12
 .L368:
@@ -2948,7 +2948,7 @@ _ZN7layer_t9configureERK7point_t:
 	movq	24(%rbx), %rdi
 	testq	%rdi, %rdi
 	je	.L349
-	call	_ZdaPv@PLT
+	call	operator delete[](void*)@PLT
 .L349:
 	movd	%r13d, %xmm1
 	movd	%r14d, %xmm2
@@ -2980,7 +2980,7 @@ _ZN7layer_t9configureERK7point_t:
 	salq	$3, %rdx
 	movq	%rdx, %rdi
 	movq	%rdx, -480(%rbp)
-	call	_Znam@PLT
+	call	operator new[](unsigned long)@PLT
 	movq	-480(%rbp), %rdx
 	movq	%rax, %r12
 .L365:
@@ -2990,7 +2990,7 @@ _ZN7layer_t9configureERK7point_t:
 	movq	72(%rbx), %rdi
 	testq	%rdi, %rdi
 	je	.L360
-	call	_ZdaPv@PLT
+	call	operator delete[](void*)@PLT
 .L360:
 	movd	%r13d, %xmm1
 	movd	%r15d, %xmm4
@@ -3029,7 +3029,7 @@ _ZN7layer_t9configureERK7point_t:
 	salq	$3, %rdx
 	movq	%rdx, %rdi
 	movq	%rdx, -480(%rbp)
-	call	_Znam@PLT
+	call	operator new[](unsigned long)@PLT
 	movq	-480(%rbp), %rdx
 	movq	%rax, %r12
 	jmp	.L365
@@ -3047,7 +3047,7 @@ _ZN7layer_t9configureERK7point_t:
 	salq	$3, %rdx
 	movq	%rdx, %rdi
 	movq	%rdx, -488(%rbp)
-	call	_Znam@PLT
+	call	operator new[](unsigned long)@PLT
 .LEHE17:
 	movq	-488(%rbp), %rdx
 	movq	%rax, %r12
@@ -3065,16 +3065,16 @@ _ZN7layer_t9configureERK7point_t:
 	rep stosq
 	movq	%r14, %rdi
 .LEHB18:
-	call	_ZNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEEC1Ev@PLT
+	call	std::__cxx11::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >::basic_ostringstream()@PLT
 .LEHE18:
 	leaq	.LC34(%rip), %rsi
 	movq	%r14, %rdi
 .LEHB19:
-	call	_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)@PLT
 	leaq	-464(%rbp), %rbx
 	leaq	-424(%rbp), %rsi
 	movq	%rbx, %rdi
-	call	_ZNKSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEE3strEv@PLT
+	call	std::__cxx11::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >::str() const@PLT
 .LEHE19:
 	movq	%rbx, %r8
 	movl	$167, %ecx
@@ -3082,19 +3082,19 @@ _ZN7layer_t9configureERK7point_t:
 	leaq	.LC35(%rip), %rdx
 	leaq	.LC36(%rip), %rsi
 .LEHB20:
-	call	_ZN25AssertionFailureExceptionC1EPKcS1_iRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+	call	AssertionFailureException::AssertionFailureException(char const*, char const*, int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
 .LEHE20:
 .L383:
 	movq	-464(%rbp), %rdi
 	leaq	-448(%rbp), %rax
 	cmpq	%rax, %rdi
 	je	.L356
-	call	_ZdlPv@PLT
+	call	operator delete(void*)@PLT
 .L356:
 	movq	%r14, %rdi
-	call	_ZNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEED1Ev@PLT
-	leaq	_ZN25AssertionFailureExceptionD1Ev(%rip), %rdx
-	leaq	_ZTI25AssertionFailureException(%rip), %rsi
+	call	std::__cxx11::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >::~basic_ostringstream()@PLT
+	leaq	AssertionFailureException::~AssertionFailureException()(%rip), %rdx
+	leaq	typeinfo for AssertionFailureException(%rip), %rsi
 	movq	%r13, %rdi
 .LEHB21:
 	call	__cxa_throw@PLT
@@ -3110,16 +3110,16 @@ _ZN7layer_t9configureERK7point_t:
 	rep stosq
 	movq	%r14, %rdi
 .LEHB22:
-	call	_ZNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEEC1Ev@PLT
+	call	std::__cxx11::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >::basic_ostringstream()@PLT
 .LEHE22:
 	leaq	.LC34(%rip), %rsi
 	movq	%r14, %rdi
 .LEHB23:
-	call	_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)@PLT
 	leaq	-464(%rbp), %rbx
 	leaq	-424(%rbp), %rsi
 	movq	%rbx, %rdi
-	call	_ZNKSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEE3strEv@PLT
+	call	std::__cxx11::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >::str() const@PLT
 .LEHE23:
 	movq	%rbx, %r8
 	movl	$167, %ecx
@@ -3127,7 +3127,7 @@ _ZN7layer_t9configureERK7point_t:
 	leaq	.LC35(%rip), %rdx
 	leaq	.LC36(%rip), %rsi
 .LEHB24:
-	call	_ZN25AssertionFailureExceptionC1EPKcS1_iRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+	call	AssertionFailureException::AssertionFailureException(char const*, char const*, int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
 .LEHE24:
 	jmp	.L383
 .L367:
@@ -3152,7 +3152,7 @@ _ZN7layer_t9configureERK7point_t:
 	jne	.L391
 .L363:
 	movq	%r14, %rdi
-	call	_ZNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEED1Ev@PLT
+	call	std::__cxx11::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >::~basic_ostringstream()@PLT
 .L364:
 	movq	%r13, %rdi
 	call	__cxa_free_exception@PLT
@@ -3160,7 +3160,7 @@ _ZN7layer_t9configureERK7point_t:
 	call	_Unwind_Resume@PLT
 .LEHE25:
 .L391:
-	call	_ZdlPv@PLT
+	call	operator delete(void*)@PLT
 	jmp	.L363
 .L376:
 	jmp	.L387
@@ -3170,7 +3170,7 @@ _ZN7layer_t9configureERK7point_t:
 	jmp	.L381
 	.cfi_endproc
 .LFE5235:
-	.section	.gcc_except_table._ZN7layer_t9configureERK7point_t,"aG",@progbits,_ZN7layer_t9configureERK7point_t,comdat
+	.section	.gcc_except_table._ZN7layer_t9configureERK7point_t,"aG",@progbits,layer_t::configure(point_t const&),comdat
 .LLSDA5235:
 	.byte	0xff
 	.byte	0xff
@@ -3214,14 +3214,14 @@ _ZN7layer_t9configureERK7point_t:
 	.uleb128 0
 	.uleb128 0
 .LLSDACSE5235:
-	.section	.text._ZN7layer_t9configureERK7point_t,"axG",@progbits,_ZN7layer_t9configureERK7point_t,comdat
-	.size	_ZN7layer_t9configureERK7point_t, .-_ZN7layer_t9configureERK7point_t
-	.section	.text._ZN7layer_t7test_meEv,"axG",@progbits,_ZN7layer_t7test_meEv,comdat
+	.section	.text._ZN7layer_t9configureERK7point_t,"axG",@progbits,layer_t::configure(point_t const&),comdat
+	.size	layer_t::configure(point_t const&), .-layer_t::configure(point_t const&)
+	.section	.text._ZN7layer_t7test_meEv,"axG",@progbits,layer_t::test_me(),comdat
 	.align 2
 	.p2align 4
-	.weak	_ZN7layer_t7test_meEv
-	.type	_ZN7layer_t7test_meEv, @function
-_ZN7layer_t7test_meEv:
+	.weak	layer_t::test_me()
+	.type	layer_t::test_me(), @function
+layer_t::test_me():
 .LFB5244:
 	.cfi_startproc
 	.cfi_personality 0x9b,DW.ref.__gxx_personality_v0
@@ -3270,7 +3270,7 @@ _ZN7layer_t7test_meEv:
 	xorl	%r15d, %r15d
 	movq	%r12, %rdi
 .LEHB26:
-	call	_Znam@PLT
+	call	operator new[](unsigned long)@PLT
 .LEHE26:
 	movq	%r12, %rdx
 	xorl	%esi, %esi
@@ -3366,7 +3366,7 @@ _ZN7layer_t7test_meEv:
 	salq	$3, %r12
 	movq	%r12, %rdi
 .LEHB27:
-	call	_Znam@PLT
+	call	operator new[](unsigned long)@PLT
 .LEHE27:
 	movq	%r12, %rdx
 	xorl	%esi, %esi
@@ -3457,12 +3457,12 @@ _ZN7layer_t7test_meEv:
 	movq	-480(%rbp), %rdi
 	testq	%rdi, %rdi
 	je	.L432
-	call	_ZdaPv@PLT
+	call	operator delete[](void*)@PLT
 .L432:
 	movq	-512(%rbp), %rdi
 	testq	%rdi, %rdi
 	je	.L392
-	call	_ZdaPv@PLT
+	call	operator delete[](void*)@PLT
 .L392:
 	movq	-56(%rbp), %rax
 	xorq	%fs:40, %rax
@@ -3516,12 +3516,12 @@ _ZN7layer_t7test_meEv:
 	movq	-480(%rbp), %rdi
 	testq	%rdi, %rdi
 	je	.L424
-	call	_ZdaPv@PLT
+	call	operator delete[](void*)@PLT
 .L424:
 	movq	-512(%rbp), %rdi
 	testq	%rdi, %rdi
 	je	.L436
-	call	_ZdaPv@PLT
+	call	operator delete[](void*)@PLT
 .L436:
 	movq	%r12, %rdi
 .LEHB31:
@@ -3538,16 +3538,16 @@ _ZN7layer_t7test_meEv:
 	rep stosq
 	movq	%r14, %rdi
 .LEHB32:
-	call	_ZNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEEC1Ev@PLT
+	call	std::__cxx11::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >::basic_ostringstream()@PLT
 .LEHE32:
 	leaq	.LC34(%rip), %rsi
 	movq	%r14, %rdi
 .LEHB33:
-	call	_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)@PLT
 	leaq	-464(%rbp), %rbx
 	leaq	-424(%rbp), %rsi
 	movq	%rbx, %rdi
-	call	_ZNKSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEE3strEv@PLT
+	call	std::__cxx11::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >::str() const@PLT
 .LEHE33:
 	movq	%rbx, %r8
 	movl	$167, %ecx
@@ -3555,18 +3555,18 @@ _ZN7layer_t7test_meEv:
 	leaq	.LC35(%rip), %rdx
 	leaq	.LC36(%rip), %rsi
 .LEHB34:
-	call	_ZN25AssertionFailureExceptionC1EPKcS1_iRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+	call	AssertionFailureException::AssertionFailureException(char const*, char const*, int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
 .LEHE34:
 	movq	-464(%rbp), %rdi
 	leaq	-448(%rbp), %rax
 	cmpq	%rax, %rdi
 	je	.L413
-	call	_ZdlPv@PLT
+	call	operator delete(void*)@PLT
 .L413:
 	movq	%r14, %rdi
-	call	_ZNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEED1Ev@PLT
-	leaq	_ZN25AssertionFailureExceptionD1Ev(%rip), %rdx
-	leaq	_ZTI25AssertionFailureException(%rip), %rsi
+	call	std::__cxx11::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >::~basic_ostringstream()@PLT
+	leaq	AssertionFailureException::~AssertionFailureException()(%rip), %rdx
+	leaq	typeinfo for AssertionFailureException(%rip), %rsi
 	movq	%r13, %rdi
 .LEHB35:
 	call	__cxa_throw@PLT
@@ -3582,16 +3582,16 @@ _ZN7layer_t7test_meEv:
 	rep stosq
 	movq	%r14, %rdi
 .LEHB36:
-	call	_ZNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEEC1Ev@PLT
+	call	std::__cxx11::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >::basic_ostringstream()@PLT
 .LEHE36:
 	leaq	.LC34(%rip), %rsi
 	movq	%r14, %rdi
 .LEHB37:
-	call	_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)@PLT
 	leaq	-464(%rbp), %rbx
 	leaq	-424(%rbp), %rsi
 	movq	%rbx, %rdi
-	call	_ZNKSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEE3strEv@PLT
+	call	std::__cxx11::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >::str() const@PLT
 .LEHE37:
 	movq	%rbx, %r8
 	movl	$167, %ecx
@@ -3599,18 +3599,18 @@ _ZN7layer_t7test_meEv:
 	leaq	.LC35(%rip), %rdx
 	leaq	.LC36(%rip), %rsi
 .LEHB38:
-	call	_ZN25AssertionFailureExceptionC1EPKcS1_iRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+	call	AssertionFailureException::AssertionFailureException(char const*, char const*, int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
 .LEHE38:
 	movq	-464(%rbp), %rdi
 	leaq	-448(%rbp), %rax
 	cmpq	%rax, %rdi
 	je	.L395
-	call	_ZdlPv@PLT
+	call	operator delete(void*)@PLT
 .L395:
 	movq	%r14, %rdi
-	call	_ZNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEED1Ev@PLT
-	leaq	_ZN25AssertionFailureExceptionD1Ev(%rip), %rdx
-	leaq	_ZTI25AssertionFailureException(%rip), %rsi
+	call	std::__cxx11::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >::~basic_ostringstream()@PLT
+	leaq	AssertionFailureException::~AssertionFailureException()(%rip), %rdx
+	leaq	typeinfo for AssertionFailureException(%rip), %rsi
 	movq	%r13, %rdi
 .LEHB39:
 	call	__cxa_throw@PLT
@@ -3631,10 +3631,10 @@ _ZN7layer_t7test_meEv:
 	leaq	-448(%rbp), %rax
 	cmpq	%rax, %rdi
 	je	.L402
-	call	_ZdlPv@PLT
+	call	operator delete(void*)@PLT
 .L402:
 	movq	%r14, %rdi
-	call	_ZNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEED1Ev@PLT
+	call	std::__cxx11::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >::~basic_ostringstream()@PLT
 .L403:
 	movq	%r13, %rdi
 	call	__cxa_free_exception@PLT
@@ -3646,10 +3646,10 @@ _ZN7layer_t7test_meEv:
 	leaq	-448(%rbp), %rax
 	cmpq	%rax, %rdi
 	je	.L422
-	call	_ZdlPv@PLT
+	call	operator delete(void*)@PLT
 .L422:
 	movq	%r14, %rdi
-	call	_ZNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEED1Ev@PLT
+	call	std::__cxx11::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >::~basic_ostringstream()@PLT
 .L423:
 	movq	%r13, %rdi
 	call	__cxa_free_exception@PLT
@@ -3662,7 +3662,7 @@ _ZN7layer_t7test_meEv:
 	jmp	.L420
 	.cfi_endproc
 .LFE5244:
-	.section	.gcc_except_table._ZN7layer_t7test_meEv,"aG",@progbits,_ZN7layer_t7test_meEv,comdat
+	.section	.gcc_except_table._ZN7layer_t7test_meEv,"aG",@progbits,layer_t::test_me(),comdat
 .LLSDA5244:
 	.byte	0xff
 	.byte	0xff
@@ -3726,14 +3726,14 @@ _ZN7layer_t7test_meEv:
 	.uleb128 0
 	.uleb128 0
 .LLSDACSE5244:
-	.section	.text._ZN7layer_t7test_meEv,"axG",@progbits,_ZN7layer_t7test_meEv,comdat
-	.size	_ZN7layer_t7test_meEv, .-_ZN7layer_t7test_meEv
-	.section	.text._ZN7layer_t17change_batch_sizeEi,"axG",@progbits,_ZN7layer_t17change_batch_sizeEi,comdat
+	.section	.text._ZN7layer_t7test_meEv,"axG",@progbits,layer_t::test_me(),comdat
+	.size	layer_t::test_me(), .-layer_t::test_me()
+	.section	.text._ZN7layer_t17change_batch_sizeEi,"axG",@progbits,layer_t::change_batch_size(int),comdat
 	.align 2
 	.p2align 4
-	.weak	_ZN7layer_t17change_batch_sizeEi
-	.type	_ZN7layer_t17change_batch_sizeEi, @function
-_ZN7layer_t17change_batch_sizeEi:
+	.weak	layer_t::change_batch_size(int)
+	.type	layer_t::change_batch_size(int), @function
+layer_t::change_batch_size(int):
 .LFB5218:
 	.cfi_startproc
 	.cfi_personality 0x9b,DW.ref.__gxx_personality_v0
@@ -3787,7 +3787,7 @@ _ZN7layer_t17change_batch_sizeEi:
 	leaq	0(,%r8,8), %r12
 	movq	%r12, %rdi
 .LEHB40:
-	call	_Znam@PLT
+	call	operator new[](unsigned long)@PLT
 .LEHE40:
 	movl	$1, -468(%rbp)
 	movq	%rax, %r13
@@ -3799,7 +3799,7 @@ _ZN7layer_t17change_batch_sizeEi:
 	movq	24(%rbx), %rdi
 	testq	%rdi, %rdi
 	je	.L477
-	call	_ZdaPv@PLT
+	call	operator delete[](void*)@PLT
 .L477:
 	movd	-496(%rbp), %xmm4
 	movd	-500(%rbp), %xmm0
@@ -3813,7 +3813,7 @@ _ZN7layer_t17change_batch_sizeEi:
 	movups	%xmm2, 8(%rbx)
 	movaps	%xmm2, -496(%rbp)
 .LEHB41:
-	call	_Znam@PLT
+	call	operator new[](unsigned long)@PLT
 	movl	8(%rbx), %edx
 	imull	12(%rbx), %edx
 	movq	%rax, 24(%rbx)
@@ -3843,7 +3843,7 @@ _ZN7layer_t17change_batch_sizeEi:
 	ja	.L485
 	salq	$3, %r12
 	movq	%r12, %rdi
-	call	_Znam@PLT
+	call	operator new[](unsigned long)@PLT
 .LEHE41:
 	movq	%rax, %rdi
 	movq	%r12, %rdx
@@ -3853,7 +3853,7 @@ _ZN7layer_t17change_batch_sizeEi:
 	movq	48(%rbx), %rdi
 	testq	%rdi, %rdi
 	je	.L487
-	call	_ZdaPv@PLT
+	call	operator delete[](void*)@PLT
 .L487:
 	movd	-480(%rbp), %xmm1
 	movd	-468(%rbp), %xmm5
@@ -3865,7 +3865,7 @@ _ZN7layer_t17change_batch_sizeEi:
 	punpcklqdq	%xmm1, %xmm0
 	movups	%xmm0, 32(%rbx)
 .LEHB42:
-	call	_Znam@PLT
+	call	operator new[](unsigned long)@PLT
 	movl	32(%rbx), %edx
 	imull	36(%rbx), %edx
 	movq	%rax, 48(%rbx)
@@ -3882,7 +3882,7 @@ _ZN7layer_t17change_batch_sizeEi:
 .L494:
 	salq	$3, %r15
 	movq	%r15, %rdi
-	call	_Znam@PLT
+	call	operator new[](unsigned long)@PLT
 .LEHE42:
 	movq	%rax, %rdi
 	movq	%r15, %rdx
@@ -3892,13 +3892,13 @@ _ZN7layer_t17change_batch_sizeEi:
 	movq	72(%rbx), %rdi
 	testq	%rdi, %rdi
 	je	.L497
-	call	_ZdaPv@PLT
+	call	operator delete[](void*)@PLT
 .L497:
 	movdqa	-496(%rbp), %xmm7
 	movq	%r15, %rdi
 	movups	%xmm7, 56(%rbx)
 .LEHB43:
-	call	_Znam@PLT
+	call	operator new[](unsigned long)@PLT
 .LEHE43:
 	movl	56(%rbx), %edx
 	imull	60(%rbx), %edx
@@ -3911,11 +3911,11 @@ _ZN7layer_t17change_batch_sizeEi:
 	salq	$3, %rdx
 	call	memcpy@PLT
 	movq	%r12, %rdi
-	call	_ZdaPv@PLT
+	call	operator delete[](void*)@PLT
 	movq	%r14, %rdi
-	call	_ZdaPv@PLT
+	call	operator delete[](void*)@PLT
 	movq	%r13, %rdi
-	call	_ZdaPv@PLT
+	call	operator delete[](void*)@PLT
 	movq	-56(%rbp), %rax
 	xorq	%fs:40, %rax
 	jne	.L517
@@ -3957,7 +3957,7 @@ _ZN7layer_t17change_batch_sizeEi:
 	leaq	0(,%r8,8), %r12
 	movq	%r12, %rdi
 .LEHB45:
-	call	_Znam@PLT
+	call	operator new[](unsigned long)@PLT
 	movl	%r15d, -468(%rbp)
 	movq	%rax, %r13
 	jmp	.L500
@@ -3972,13 +3972,13 @@ _ZN7layer_t17change_batch_sizeEi:
 .L498:
 	movq	%r12, %rdi
 	movq	%rbx, %r12
-	call	_ZdaPv@PLT
+	call	operator delete[](void*)@PLT
 .L499:
 	movq	%r14, %rdi
-	call	_ZdaPv@PLT
+	call	operator delete[](void*)@PLT
 .L492:
 	movq	%r13, %rdi
-	call	_ZdaPv@PLT
+	call	operator delete[](void*)@PLT
 	movq	%r12, %rdi
 	call	_Unwind_Resume@PLT
 .LEHE45:
@@ -3997,16 +3997,16 @@ _ZN7layer_t17change_batch_sizeEi:
 	rep stosq
 	movq	%r15, %rdi
 .LEHB47:
-	call	_ZNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEEC1Ev@PLT
+	call	std::__cxx11::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >::basic_ostringstream()@PLT
 .LEHE47:
 	leaq	.LC34(%rip), %rsi
 	movq	%r15, %rdi
 .LEHB48:
-	call	_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)@PLT
 	leaq	-464(%rbp), %rbx
 	leaq	-424(%rbp), %rsi
 	movq	%rbx, %rdi
-	call	_ZNKSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEE3strEv@PLT
+	call	std::__cxx11::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >::str() const@PLT
 .LEHE48:
 	movq	%rbx, %r8
 	movl	$167, %ecx
@@ -4014,18 +4014,18 @@ _ZN7layer_t17change_batch_sizeEi:
 	leaq	.LC35(%rip), %rdx
 	leaq	.LC36(%rip), %rsi
 .LEHB49:
-	call	_ZN25AssertionFailureExceptionC1EPKcS1_iRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+	call	AssertionFailureException::AssertionFailureException(char const*, char const*, int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
 .LEHE49:
 	movq	-464(%rbp), %rdi
 	leaq	-448(%rbp), %rax
 	cmpq	%rax, %rdi
 	je	.L484
-	call	_ZdlPv@PLT
+	call	operator delete(void*)@PLT
 .L484:
 	movq	%r15, %rdi
-	call	_ZNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEED1Ev@PLT
-	leaq	_ZN25AssertionFailureExceptionD1Ev(%rip), %rdx
-	leaq	_ZTI25AssertionFailureException(%rip), %rsi
+	call	std::__cxx11::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >::~basic_ostringstream()@PLT
+	leaq	AssertionFailureException::~AssertionFailureException()(%rip), %rdx
+	leaq	typeinfo for AssertionFailureException(%rip), %rsi
 	movq	%r14, %rdi
 .LEHB50:
 	call	__cxa_throw@PLT
@@ -4048,16 +4048,16 @@ _ZN7layer_t17change_batch_sizeEi:
 	rep stosq
 	movq	%r15, %rdi
 .LEHB52:
-	call	_ZNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEEC1Ev@PLT
+	call	std::__cxx11::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >::basic_ostringstream()@PLT
 .LEHE52:
 	leaq	.LC34(%rip), %rsi
 	movq	%r15, %rdi
 .LEHB53:
-	call	_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)@PLT
 	leaq	-464(%rbp), %rbx
 	leaq	-424(%rbp), %rsi
 	movq	%rbx, %rdi
-	call	_ZNKSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEE3strEv@PLT
+	call	std::__cxx11::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >::str() const@PLT
 .LEHE53:
 	movq	%rbx, %r8
 	movl	$167, %ecx
@@ -4065,18 +4065,18 @@ _ZN7layer_t17change_batch_sizeEi:
 	leaq	.LC35(%rip), %rdx
 	leaq	.LC36(%rip), %rsi
 .LEHB54:
-	call	_ZN25AssertionFailureExceptionC1EPKcS1_iRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+	call	AssertionFailureException::AssertionFailureException(char const*, char const*, int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
 .LEHE54:
 	movq	-464(%rbp), %rdi
 	leaq	-448(%rbp), %rax
 	cmpq	%rax, %rdi
 	je	.L473
-	call	_ZdlPv@PLT
+	call	operator delete(void*)@PLT
 .L473:
 	movq	%r15, %rdi
-	call	_ZNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEED1Ev@PLT
-	leaq	_ZN25AssertionFailureExceptionD1Ev(%rip), %rdx
-	leaq	_ZTI25AssertionFailureException(%rip), %rsi
+	call	std::__cxx11::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >::~basic_ostringstream()@PLT
+	leaq	AssertionFailureException::~AssertionFailureException()(%rip), %rdx
+	leaq	typeinfo for AssertionFailureException(%rip), %rsi
 	movq	%r13, %rdi
 .LEHB55:
 	call	__cxa_throw@PLT
@@ -4096,7 +4096,7 @@ _ZN7layer_t17change_batch_sizeEi:
 	jne	.L519
 .L480:
 	movq	%r15, %rdi
-	call	_ZNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEED1Ev@PLT
+	call	std::__cxx11::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >::~basic_ostringstream()@PLT
 .L481:
 	movq	%r13, %rdi
 	call	__cxa_free_exception@PLT
@@ -4104,7 +4104,7 @@ _ZN7layer_t17change_batch_sizeEi:
 	call	_Unwind_Resume@PLT
 .LEHE55:
 .L519:
-	call	_ZdlPv@PLT
+	call	operator delete(void*)@PLT
 	jmp	.L480
 .L512:
 	movq	%rax, %r12
@@ -4122,17 +4122,17 @@ _ZN7layer_t17change_batch_sizeEi:
 	jne	.L520
 .L490:
 	movq	%r15, %rdi
-	call	_ZNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEED1Ev@PLT
+	call	std::__cxx11::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >::~basic_ostringstream()@PLT
 .L491:
 	movq	%r14, %rdi
 	call	__cxa_free_exception@PLT
 	jmp	.L492
 .L520:
-	call	_ZdlPv@PLT
+	call	operator delete(void*)@PLT
 	jmp	.L490
 	.cfi_endproc
 .LFE5218:
-	.section	.gcc_except_table._ZN7layer_t17change_batch_sizeEi,"aG",@progbits,_ZN7layer_t17change_batch_sizeEi,comdat
+	.section	.gcc_except_table._ZN7layer_t17change_batch_sizeEi,"aG",@progbits,layer_t::change_batch_size(int),comdat
 .LLSDA5218:
 	.byte	0xff
 	.byte	0xff
@@ -4204,17 +4204,17 @@ _ZN7layer_t17change_batch_sizeEi:
 	.uleb128 0
 	.uleb128 0
 .LLSDACSE5218:
-	.section	.text._ZN7layer_t17change_batch_sizeEi,"axG",@progbits,_ZN7layer_t17change_batch_sizeEi,comdat
-	.size	_ZN7layer_t17change_batch_sizeEi, .-_ZN7layer_t17change_batch_sizeEi
+	.section	.text._ZN7layer_t17change_batch_sizeEi,"axG",@progbits,layer_t::change_batch_size(int),comdat
+	.size	layer_t::change_batch_size(int), .-layer_t::change_batch_size(int)
 	.section	.rodata._ZN10fc_layer_t17change_batch_sizeEi.str1.1,"aMS",@progbits,1
 .LC37:
 	.string	"Changing fc_layer batch_size"
-	.section	.text._ZN10fc_layer_t17change_batch_sizeEi,"axG",@progbits,_ZN10fc_layer_t17change_batch_sizeEi,comdat
+	.section	.text._ZN10fc_layer_t17change_batch_sizeEi,"axG",@progbits,fc_layer_t::change_batch_size(int),comdat
 	.align 2
 	.p2align 4
-	.weak	_ZN10fc_layer_t17change_batch_sizeEi
-	.type	_ZN10fc_layer_t17change_batch_sizeEi, @function
-_ZN10fc_layer_t17change_batch_sizeEi:
+	.weak	fc_layer_t::change_batch_size(int)
+	.type	fc_layer_t::change_batch_size(int), @function
+fc_layer_t::change_batch_size(int):
 .LFB5253:
 	.cfi_startproc
 	.cfi_personality 0x9b,DW.ref.__gxx_personality_v0
@@ -4242,12 +4242,12 @@ _ZN10fc_layer_t17change_batch_sizeEi:
 	xorl	%eax, %eax
 	movq	%rdi, %rbx
 	movl	%esi, %r12d
-	leaq	_ZSt4cout(%rip), %rdi
+	leaq	std::cout(%rip), %rdi
 	leaq	.LC37(%rip), %rsi
 .LEHB56:
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
-	movq	_ZSt4cout(%rip), %rax
-	leaq	_ZSt4cout(%rip), %rdx
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
+	movq	std::cout(%rip), %rax
+	leaq	std::cout(%rip), %rdx
 	movq	-24(%rax), %rax
 	movq	240(%rdx,%rax), %r13
 	testq	%r13, %r13
@@ -4256,10 +4256,10 @@ _ZN10fc_layer_t17change_batch_sizeEi:
 	je	.L523
 	movsbl	67(%r13), %esi
 .L524:
-	leaq	_ZSt4cout(%rip), %rdi
-	call	_ZNSo3putEc@PLT
+	leaq	std::cout(%rip), %rdi
+	call	std::basic_ostream<char, std::char_traits<char> >::put(char)@PLT
 	movq	%rax, %rdi
-	call	_ZNSo5flushEv@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >::flush()@PLT
 	movl	32(%rbx), %esi
 	movl	8(%rbx), %eax
 	movl	16(%rbx), %ecx
@@ -4290,7 +4290,7 @@ _ZN10fc_layer_t17change_batch_sizeEi:
 	ja	.L559
 	leaq	0(,%r8,8), %r13
 	movq	%r13, %rdi
-	call	_Znam@PLT
+	call	operator new[](unsigned long)@PLT
 .LEHE56:
 	movl	%r12d, -472(%rbp)
 	movq	%rax, -496(%rbp)
@@ -4302,7 +4302,7 @@ _ZN10fc_layer_t17change_batch_sizeEi:
 	movq	24(%rbx), %rdi
 	testq	%rdi, %rdi
 	je	.L531
-	call	_ZdaPv@PLT
+	call	operator delete[](void*)@PLT
 .L531:
 	movd	-488(%rbp), %xmm1
 	movd	-512(%rbp), %xmm0
@@ -4316,7 +4316,7 @@ _ZN10fc_layer_t17change_batch_sizeEi:
 	movups	%xmm2, 8(%rbx)
 	movaps	%xmm2, -512(%rbp)
 .LEHB57:
-	call	_Znam@PLT
+	call	operator new[](unsigned long)@PLT
 	movl	8(%rbx), %edx
 	imull	12(%rbx), %edx
 	movq	%rax, 24(%rbx)
@@ -4346,7 +4346,7 @@ _ZN10fc_layer_t17change_batch_sizeEi:
 	ja	.L539
 	salq	$3, %r13
 	movq	%r13, %rdi
-	call	_Znam@PLT
+	call	operator new[](unsigned long)@PLT
 .LEHE57:
 	movq	%rax, %rdi
 	movq	%r13, %rdx
@@ -4356,7 +4356,7 @@ _ZN10fc_layer_t17change_batch_sizeEi:
 	movq	48(%rbx), %rdi
 	testq	%rdi, %rdi
 	je	.L541
-	call	_ZdaPv@PLT
+	call	operator delete[](void*)@PLT
 .L541:
 	movd	-476(%rbp), %xmm1
 	movd	-472(%rbp), %xmm7
@@ -4368,7 +4368,7 @@ _ZN10fc_layer_t17change_batch_sizeEi:
 	punpcklqdq	%xmm1, %xmm0
 	movups	%xmm0, 32(%rbx)
 .LEHB58:
-	call	_Znam@PLT
+	call	operator new[](unsigned long)@PLT
 	movl	32(%rbx), %edx
 	imull	36(%rbx), %edx
 	movq	%rax, 48(%rbx)
@@ -4390,7 +4390,7 @@ _ZN10fc_layer_t17change_batch_sizeEi:
 .L548:
 	salq	$3, %r13
 	movq	%r13, %rdi
-	call	_Znam@PLT
+	call	operator new[](unsigned long)@PLT
 .LEHE58:
 	movq	%rax, %rdi
 	movq	%r13, %rdx
@@ -4400,13 +4400,13 @@ _ZN10fc_layer_t17change_batch_sizeEi:
 	movq	72(%rbx), %rdi
 	testq	%rdi, %rdi
 	je	.L551
-	call	_ZdaPv@PLT
+	call	operator delete[](void*)@PLT
 .L551:
 	movdqa	-512(%rbp), %xmm6
 	movq	%r13, %rdi
 	movups	%xmm6, 56(%rbx)
 .LEHB59:
-	call	_Znam@PLT
+	call	operator new[](unsigned long)@PLT
 .LEHE59:
 	movl	56(%rbx), %edx
 	imull	60(%rbx), %edx
@@ -4419,11 +4419,11 @@ _ZN10fc_layer_t17change_batch_sizeEi:
 	salq	$3, %rdx
 	call	memcpy@PLT
 	movq	%r15, %rdi
-	call	_ZdaPv@PLT
+	call	operator delete[](void*)@PLT
 	movq	%r14, %rdi
-	call	_ZdaPv@PLT
+	call	operator delete[](void*)@PLT
 	movq	-496(%rbp), %rdi
-	call	_ZdaPv@PLT
+	call	operator delete[](void*)@PLT
 	movl	80(%rbx), %r14d
 	testl	%r14d, %r14d
 	jle	.L631
@@ -4439,7 +4439,7 @@ _ZN10fc_layer_t17change_batch_sizeEi:
 	salq	$3, %r13
 	movq	%r13, %rdi
 .LEHB60:
-	call	_Znam@PLT
+	call	operator new[](unsigned long)@PLT
 .LEHE60:
 	movq	%r13, %rdx
 	xorl	%esi, %esi
@@ -4449,7 +4449,7 @@ _ZN10fc_layer_t17change_batch_sizeEi:
 	movq	96(%rbx), %rdi
 	testq	%rdi, %rdi
 	je	.L561
-	call	_ZdaPv@PLT
+	call	operator delete[](void*)@PLT
 .L561:
 	movabsq	$4294967297, %rax
 	movl	%r14d, 80(%rbx)
@@ -4458,7 +4458,7 @@ _ZN10fc_layer_t17change_batch_sizeEi:
 	movl	-472(%rbp), %eax
 	movl	%eax, 92(%rbx)
 .LEHB61:
-	call	_Znam@PLT
+	call	operator new[](unsigned long)@PLT
 	movl	80(%rbx), %edx
 	imull	84(%rbx), %edx
 	movq	%rax, 96(%rbx)
@@ -4481,7 +4481,7 @@ _ZN10fc_layer_t17change_batch_sizeEi:
 .L569:
 	salq	$3, %r14
 	movq	%r14, %rdi
-	call	_Znam@PLT
+	call	operator new[](unsigned long)@PLT
 .LEHE61:
 	movq	%rax, %rdi
 	movq	%r14, %rdx
@@ -4491,7 +4491,7 @@ _ZN10fc_layer_t17change_batch_sizeEi:
 	movq	144(%rbx), %rdi
 	testq	%rdi, %rdi
 	je	.L572
-	call	_ZdaPv@PLT
+	call	operator delete[](void*)@PLT
 .L572:
 	movl	-472(%rbp), %eax
 	movl	%r15d, 140(%rbx)
@@ -4500,7 +4500,7 @@ _ZN10fc_layer_t17change_batch_sizeEi:
 	movabsq	$4294967297, %rax
 	movq	%rax, 132(%rbx)
 .LEHB62:
-	call	_Znam@PLT
+	call	operator new[](unsigned long)@PLT
 	movl	128(%rbx), %r15d
 	movq	%rax, 144(%rbx)
 	movq	%rax, %rdi
@@ -4543,7 +4543,7 @@ _ZN10fc_layer_t17change_batch_sizeEi:
 	ja	.L582
 	leaq	0(,%rcx,8), %r15
 	movq	%r15, %rdi
-	call	_Znam@PLT
+	call	operator new[](unsigned long)@PLT
 .LEHE62:
 	cmpq	$0, -472(%rbp)
 	movq	%rax, %r14
@@ -4556,7 +4556,7 @@ _ZN10fc_layer_t17change_batch_sizeEi:
 	movq	168(%rbx), %rdi
 	testq	%rdi, %rdi
 	je	.L585
-	call	_ZdaPv@PLT
+	call	operator delete[](void*)@PLT
 .L585:
 	movd	-484(%rbp), %xmm1
 	movd	-476(%rbp), %xmm3
@@ -4568,7 +4568,7 @@ _ZN10fc_layer_t17change_batch_sizeEi:
 	punpcklqdq	%xmm1, %xmm0
 	movups	%xmm0, 152(%rbx)
 .LEHB63:
-	call	_Znam@PLT
+	call	operator new[](unsigned long)@PLT
 .LEHE63:
 	movl	152(%rbx), %edx
 	imull	156(%rbx), %edx
@@ -4581,11 +4581,11 @@ _ZN10fc_layer_t17change_batch_sizeEi:
 	salq	$3, %rdx
 	call	memcpy@PLT
 	movq	%r14, %rdi
-	call	_ZdaPv@PLT
+	call	operator delete[](void*)@PLT
 	movq	%r13, %rdi
-	call	_ZdaPv@PLT
+	call	operator delete[](void*)@PLT
 	movq	%r12, %rdi
-	call	_ZdaPv@PLT
+	call	operator delete[](void*)@PLT
 	movq	-56(%rbp), %rax
 	xorq	%fs:40, %rax
 	jne	.L633
@@ -4610,7 +4610,7 @@ _ZN10fc_layer_t17change_batch_sizeEi:
 	leaq	0(,%r8,8), %r13
 	movq	%r13, %rdi
 .LEHB64:
-	call	_Znam@PLT
+	call	operator new[](unsigned long)@PLT
 .LEHE64:
 	movl	$1, -472(%rbp)
 	movq	%rax, -496(%rbp)
@@ -4633,10 +4633,10 @@ _ZN10fc_layer_t17change_batch_sizeEi:
 .L523:
 	movq	%r13, %rdi
 .LEHB66:
-	call	_ZNKSt5ctypeIcE13_M_widen_initEv@PLT
+	call	std::ctype<char>::_M_widen_init() const@PLT
 	movq	0(%r13), %rax
 	movl	$10, %esi
-	leaq	_ZNKSt5ctypeIcE8do_widenEc(%rip), %rdx
+	leaq	std::ctype<char>::do_widen(char) const(%rip), %rdx
 	movq	48(%rax), %rax
 	cmpq	%rdx, %rax
 	je	.L524
@@ -4647,18 +4647,18 @@ _ZN10fc_layer_t17change_batch_sizeEi:
 .L633:
 	call	__stack_chk_fail@PLT
 .L630:
-	call	_ZSt16__throw_bad_castv@PLT
+	call	std::__throw_bad_cast()@PLT
 .L605:
 	movq	%rax, %r12
 .L554:
 	movq	%r15, %rdi
-	call	_ZdaPv@PLT
+	call	operator delete[](void*)@PLT
 .L555:
 	movq	%r14, %rdi
-	call	_ZdaPv@PLT
+	call	operator delete[](void*)@PLT
 .L546:
 	movq	-496(%rbp), %rdi
-	call	_ZdaPv@PLT
+	call	operator delete[](void*)@PLT
 	movq	%r12, %rdi
 	call	_Unwind_Resume@PLT
 .LEHE66:
@@ -4676,16 +4676,16 @@ _ZN10fc_layer_t17change_batch_sizeEi:
 	rep stosq
 	movq	%r14, %rdi
 .LEHB67:
-	call	_ZNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEEC1Ev@PLT
+	call	std::__cxx11::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >::basic_ostringstream()@PLT
 .LEHE67:
 	leaq	.LC34(%rip), %rsi
 	movq	%r14, %rdi
 .LEHB68:
-	call	_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)@PLT
 	leaq	-464(%rbp), %rbx
 	leaq	-424(%rbp), %rsi
 	movq	%rbx, %rdi
-	call	_ZNKSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEE3strEv@PLT
+	call	std::__cxx11::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >::str() const@PLT
 .LEHE68:
 	movq	%rbx, %r8
 	movl	$167, %ecx
@@ -4693,19 +4693,19 @@ _ZN10fc_layer_t17change_batch_sizeEi:
 	leaq	.LC35(%rip), %rdx
 	leaq	.LC36(%rip), %rsi
 .LEHB69:
-	call	_ZN25AssertionFailureExceptionC1EPKcS1_iRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+	call	AssertionFailureException::AssertionFailureException(char const*, char const*, int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
 .LEHE69:
 .L625:
 	movq	-464(%rbp), %rdi
 	leaq	-448(%rbp), %rax
 	cmpq	%rax, %rdi
 	je	.L556
-	call	_ZdlPv@PLT
+	call	operator delete(void*)@PLT
 .L556:
 	movq	%r14, %rdi
-	call	_ZNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEED1Ev@PLT
-	leaq	_ZN25AssertionFailureExceptionD1Ev(%rip), %rdx
-	leaq	_ZTI25AssertionFailureException(%rip), %rsi
+	call	std::__cxx11::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >::~basic_ostringstream()@PLT
+	leaq	AssertionFailureException::~AssertionFailureException()(%rip), %rdx
+	leaq	typeinfo for AssertionFailureException(%rip), %rsi
 	movq	%r13, %rdi
 .LEHB70:
 	call	__cxa_throw@PLT
@@ -4743,7 +4743,7 @@ _ZN10fc_layer_t17change_batch_sizeEi:
 	jne	.L634
 .L564:
 	movq	%r14, %rdi
-	call	_ZNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEED1Ev@PLT
+	call	std::__cxx11::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >::~basic_ostringstream()@PLT
 .L565:
 	movq	%r13, %rdi
 	call	__cxa_free_exception@PLT
@@ -4751,7 +4751,7 @@ _ZN10fc_layer_t17change_batch_sizeEi:
 	call	_Unwind_Resume@PLT
 .LEHE73:
 .L634:
-	call	_ZdlPv@PLT
+	call	operator delete(void*)@PLT
 	jmp	.L564
 .L631:
 	movl	$96, %edi
@@ -4764,16 +4764,16 @@ _ZN10fc_layer_t17change_batch_sizeEi:
 	rep stosq
 	movq	%r14, %rdi
 .LEHB74:
-	call	_ZNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEEC1Ev@PLT
+	call	std::__cxx11::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >::basic_ostringstream()@PLT
 .LEHE74:
 	leaq	.LC34(%rip), %rsi
 	movq	%r14, %rdi
 .LEHB75:
-	call	_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)@PLT
 	leaq	-464(%rbp), %rbx
 	leaq	-424(%rbp), %rsi
 	movq	%rbx, %rdi
-	call	_ZNKSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEE3strEv@PLT
+	call	std::__cxx11::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >::str() const@PLT
 .LEHE75:
 	movq	%rbx, %r8
 	movl	$167, %ecx
@@ -4781,7 +4781,7 @@ _ZN10fc_layer_t17change_batch_sizeEi:
 	leaq	.LC35(%rip), %rdx
 	leaq	.LC36(%rip), %rsi
 .LEHB76:
-	call	_ZN25AssertionFailureExceptionC1EPKcS1_iRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+	call	AssertionFailureException::AssertionFailureException(char const*, char const*, int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
 .LEHE76:
 	jmp	.L625
 .L597:
@@ -4794,16 +4794,16 @@ _ZN10fc_layer_t17change_batch_sizeEi:
 	leaq	-448(%rbp), %rax
 	cmpq	%rax, %rdi
 	je	.L575
-	call	_ZdlPv@PLT
+	call	operator delete(void*)@PLT
 .L575:
 	movq	%r14, %rdi
-	call	_ZNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEED1Ev@PLT
+	call	std::__cxx11::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >::~basic_ostringstream()@PLT
 .L576:
 	movq	%r15, %rdi
 	call	__cxa_free_exception@PLT
 .L577:
 	movq	%r12, %rdi
-	call	_ZdaPv@PLT
+	call	operator delete[](void*)@PLT
 	movq	%r13, %rdi
 .LEHB77:
 	call	_Unwind_Resume@PLT
@@ -4823,16 +4823,16 @@ _ZN10fc_layer_t17change_batch_sizeEi:
 	rep stosq
 	movq	%r14, %rdi
 .LEHB78:
-	call	_ZNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEEC1Ev@PLT
+	call	std::__cxx11::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >::basic_ostringstream()@PLT
 .LEHE78:
 	leaq	.LC34(%rip), %rsi
 	movq	%r14, %rdi
 .LEHB79:
-	call	_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)@PLT
 	leaq	-464(%rbp), %rbx
 	leaq	-424(%rbp), %rsi
 	movq	%rbx, %rdi
-	call	_ZNKSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEE3strEv@PLT
+	call	std::__cxx11::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >::str() const@PLT
 .LEHE79:
 	movq	%rbx, %r8
 	movl	$167, %ecx
@@ -4840,18 +4840,18 @@ _ZN10fc_layer_t17change_batch_sizeEi:
 	leaq	.LC35(%rip), %rdx
 	leaq	.LC36(%rip), %rsi
 .LEHB80:
-	call	_ZN25AssertionFailureExceptionC1EPKcS1_iRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+	call	AssertionFailureException::AssertionFailureException(char const*, char const*, int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
 .LEHE80:
 	movq	-464(%rbp), %rdi
 	leaq	-448(%rbp), %rax
 	cmpq	%rax, %rdi
 	je	.L567
-	call	_ZdlPv@PLT
+	call	operator delete(void*)@PLT
 .L567:
 	movq	%r14, %rdi
-	call	_ZNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEED1Ev@PLT
-	leaq	_ZN25AssertionFailureExceptionD1Ev(%rip), %rdx
-	leaq	_ZTI25AssertionFailureException(%rip), %rsi
+	call	std::__cxx11::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >::~basic_ostringstream()@PLT
+	leaq	AssertionFailureException::~AssertionFailureException()(%rip), %rdx
+	leaq	typeinfo for AssertionFailureException(%rip), %rsi
 	movq	%r15, %rdi
 .LEHB81:
 	call	__cxa_throw@PLT
@@ -4864,17 +4864,17 @@ _ZN10fc_layer_t17change_batch_sizeEi:
 	leaq	-448(%rbp), %rax
 	cmpq	%rax, %rdi
 	je	.L589
-	call	_ZdlPv@PLT
+	call	operator delete(void*)@PLT
 .L589:
 	movq	%r14, %rdi
-	call	_ZNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEED1Ev@PLT
+	call	std::__cxx11::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >::~basic_ostringstream()@PLT
 .L590:
 	movq	%r15, %rdi
 	call	__cxa_free_exception@PLT
 .L591:
 	movq	%r13, %rdi
 	movq	%rbx, %r13
-	call	_ZdaPv@PLT
+	call	operator delete[](void*)@PLT
 	jmp	.L577
 .L614:
 	movq	%rax, %r13
@@ -4896,16 +4896,16 @@ _ZN10fc_layer_t17change_batch_sizeEi:
 	rep stosq
 	movq	%r14, %rdi
 .LEHB82:
-	call	_ZNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEEC1Ev@PLT
+	call	std::__cxx11::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >::basic_ostringstream()@PLT
 .LEHE82:
 	leaq	.LC34(%rip), %rsi
 	movq	%r14, %rdi
 .LEHB83:
-	call	_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)@PLT
 	leaq	-464(%rbp), %rbx
 	leaq	-424(%rbp), %rsi
 	movq	%rbx, %rdi
-	call	_ZNKSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEE3strEv@PLT
+	call	std::__cxx11::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >::str() const@PLT
 .LEHE83:
 	movq	%rbx, %r8
 	movl	$167, %ecx
@@ -4913,18 +4913,18 @@ _ZN10fc_layer_t17change_batch_sizeEi:
 	leaq	.LC35(%rip), %rdx
 	leaq	.LC36(%rip), %rsi
 .LEHB84:
-	call	_ZN25AssertionFailureExceptionC1EPKcS1_iRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+	call	AssertionFailureException::AssertionFailureException(char const*, char const*, int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
 .LEHE84:
 	movq	-464(%rbp), %rdi
 	leaq	-448(%rbp), %rax
 	cmpq	%rax, %rdi
 	je	.L580
-	call	_ZdlPv@PLT
+	call	operator delete(void*)@PLT
 .L580:
 	movq	%r14, %rdi
-	call	_ZNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEED1Ev@PLT
-	leaq	_ZN25AssertionFailureExceptionD1Ev(%rip), %rdx
-	leaq	_ZTI25AssertionFailureException(%rip), %rsi
+	call	std::__cxx11::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >::~basic_ostringstream()@PLT
+	leaq	AssertionFailureException::~AssertionFailureException()(%rip), %rdx
+	leaq	typeinfo for AssertionFailureException(%rip), %rsi
 	movq	%r15, %rdi
 .LEHB85:
 	call	__cxa_throw@PLT
@@ -4954,16 +4954,16 @@ _ZN10fc_layer_t17change_batch_sizeEi:
 	rep stosq
 	movq	%r14, %rdi
 .LEHB86:
-	call	_ZNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEEC1Ev@PLT
+	call	std::__cxx11::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >::basic_ostringstream()@PLT
 .LEHE86:
 	leaq	.LC34(%rip), %rsi
 	movq	%r14, %rdi
 .LEHB87:
-	call	_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)@PLT
 	leaq	-464(%rbp), %rbx
 	leaq	-424(%rbp), %rsi
 	movq	%rbx, %rdi
-	call	_ZNKSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEE3strEv@PLT
+	call	std::__cxx11::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >::str() const@PLT
 .LEHE87:
 	movq	%rbx, %r8
 	movl	$167, %ecx
@@ -4971,18 +4971,18 @@ _ZN10fc_layer_t17change_batch_sizeEi:
 	leaq	.LC35(%rip), %rdx
 	leaq	.LC36(%rip), %rsi
 .LEHB88:
-	call	_ZN25AssertionFailureExceptionC1EPKcS1_iRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+	call	AssertionFailureException::AssertionFailureException(char const*, char const*, int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
 .LEHE88:
 	movq	-464(%rbp), %rdi
 	leaq	-448(%rbp), %rax
 	cmpq	%rax, %rdi
 	je	.L538
-	call	_ZdlPv@PLT
+	call	operator delete(void*)@PLT
 .L538:
 	movq	%r14, %rdi
-	call	_ZNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEED1Ev@PLT
-	leaq	_ZN25AssertionFailureExceptionD1Ev(%rip), %rdx
-	leaq	_ZTI25AssertionFailureException(%rip), %rsi
+	call	std::__cxx11::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >::~basic_ostringstream()@PLT
+	leaq	AssertionFailureException::~AssertionFailureException()(%rip), %rdx
+	leaq	typeinfo for AssertionFailureException(%rip), %rsi
 	movq	%r13, %rdi
 .LEHB89:
 	call	__cxa_throw@PLT
@@ -4992,7 +4992,7 @@ _ZN10fc_layer_t17change_batch_sizeEi:
 	jmp	.L542
 .L592:
 	movq	%r14, %rdi
-	call	_ZdaPv@PLT
+	call	operator delete[](void*)@PLT
 	jmp	.L591
 .L542:
 	movq	-464(%rbp), %rdi
@@ -5001,7 +5001,7 @@ _ZN10fc_layer_t17change_batch_sizeEi:
 	jne	.L635
 .L544:
 	movq	%r14, %rdi
-	call	_ZNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEED1Ev@PLT
+	call	std::__cxx11::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >::~basic_ostringstream()@PLT
 .L545:
 	movq	%r13, %rdi
 	call	__cxa_free_exception@PLT
@@ -5013,11 +5013,11 @@ _ZN10fc_layer_t17change_batch_sizeEi:
 	movq	%rax, %r12
 	jmp	.L545
 .L635:
-	call	_ZdlPv@PLT
+	call	operator delete(void*)@PLT
 	jmp	.L544
 	.cfi_endproc
 .LFE5253:
-	.section	.gcc_except_table._ZN10fc_layer_t17change_batch_sizeEi,"aG",@progbits,_ZN10fc_layer_t17change_batch_sizeEi,comdat
+	.section	.gcc_except_table._ZN10fc_layer_t17change_batch_sizeEi,"aG",@progbits,fc_layer_t::change_batch_size(int),comdat
 .LLSDA5253:
 	.byte	0xff
 	.byte	0xff
@@ -5161,18 +5161,18 @@ _ZN10fc_layer_t17change_batch_sizeEi:
 	.uleb128 .L603-.LFB5253
 	.uleb128 0
 .LLSDACSE5253:
-	.section	.text._ZN10fc_layer_t17change_batch_sizeEi,"axG",@progbits,_ZN10fc_layer_t17change_batch_sizeEi,comdat
-	.size	_ZN10fc_layer_t17change_batch_sizeEi, .-_ZN10fc_layer_t17change_batch_sizeEi
+	.section	.text._ZN10fc_layer_t17change_batch_sizeEi,"axG",@progbits,fc_layer_t::change_batch_size(int),comdat
+	.size	fc_layer_t::change_batch_size(int), .-fc_layer_t::change_batch_size(int)
 	.section	.rodata._ZN10fc_layer_tC2E7point_ti.str1.8,"aMS",@progbits,1
 	.align 8
 .LC38:
 	.string	"size.x > 0 && size.y > 0 && size.z > 0 && size.b > 0"
-	.section	.text._ZN10fc_layer_tC2E7point_ti,"axG",@progbits,_ZN10fc_layer_tC5E7point_ti,comdat
+	.section	.text._ZN10fc_layer_tC2E7point_ti,"axG",@progbits,fc_layer_t::fc_layer_t(point_t, int),comdat
 	.align 2
 	.p2align 4
-	.weak	_ZN10fc_layer_tC2E7point_ti
-	.type	_ZN10fc_layer_tC2E7point_ti, @function
-_ZN10fc_layer_tC2E7point_ti:
+	.weak	fc_layer_t::fc_layer_t(point_t, int)
+	.type	fc_layer_t::fc_layer_t(point_t, int), @function
+fc_layer_t::fc_layer_t(point_t, int):
 .LFB5251:
 	.cfi_startproc
 	.cfi_personality 0x9b,DW.ref.__gxx_personality_v0
@@ -5198,7 +5198,7 @@ _ZN10fc_layer_tC2E7point_ti:
 	movq	%rax, -56(%rbp)
 	xorl	%eax, %eax
 	movq	%rdx, %r14
-	leaq	16+_ZTV7layer_t(%rip), %rax
+	leaq	16+vtable for layer_t(%rip), %rax
 	movq	%rsi, 8(%rdi)
 	movq	%rax, (%rdi)
 	movq	%rdi, %rbx
@@ -5231,7 +5231,7 @@ _ZN10fc_layer_tC2E7point_ti:
 	movq	%r8, %rdi
 	movq	%r8, -472(%rbp)
 .LEHB90:
-	call	_Znam@PLT
+	call	operator new[](unsigned long)@PLT
 .LEHE90:
 	movq	-480(%rbp), %rdx
 	movq	-472(%rbp), %r8
@@ -5264,7 +5264,7 @@ _ZN10fc_layer_tC2E7point_ti:
 	movq	%rax, %rdi
 	movq	%rax, -472(%rbp)
 .LEHB91:
-	call	_Znam@PLT
+	call	operator new[](unsigned long)@PLT
 .LEHE91:
 	movq	-472(%rbp), %rdx
 	xorl	%esi, %esi
@@ -5294,7 +5294,7 @@ _ZN10fc_layer_tC2E7point_ti:
 	movq	%rax, %rdi
 	movq	%rax, -472(%rbp)
 .LEHB92:
-	call	_Znam@PLT
+	call	operator new[](unsigned long)@PLT
 .LEHE92:
 	movq	-472(%rbp), %rdx
 	xorl	%esi, %esi
@@ -5302,7 +5302,7 @@ _ZN10fc_layer_tC2E7point_ti:
 	call	memset@PLT
 	movl	%r13d, 80(%rbx)
 	movq	%rax, 72(%rbx)
-	leaq	16+_ZTV10fc_layer_t(%rip), %rax
+	leaq	16+vtable for fc_layer_t(%rip), %rax
 	movq	%rax, (%rbx)
 	movabsq	$4294967297, %rax
 	movq	%rax, 84(%rbx)
@@ -5315,7 +5315,7 @@ _ZN10fc_layer_tC2E7point_ti:
 	movq	%rax, %rdi
 	movq	%rax, -472(%rbp)
 .LEHB93:
-	call	_Znam@PLT
+	call	operator new[](unsigned long)@PLT
 .LEHE93:
 	movq	-472(%rbp), %rdx
 	xorl	%esi, %esi
@@ -5338,7 +5338,7 @@ _ZN10fc_layer_tC2E7point_ti:
 	salq	$3, %r12
 	movq	%r12, %rdi
 .LEHB94:
-	call	_Znam@PLT
+	call	operator new[](unsigned long)@PLT
 .LEHE94:
 	movq	%r12, %rdx
 	xorl	%esi, %esi
@@ -5360,7 +5360,7 @@ _ZN10fc_layer_tC2E7point_ti:
 	salq	$3, %r12
 	movq	%r12, %rdi
 .LEHB95:
-	call	_Znam@PLT
+	call	operator new[](unsigned long)@PLT
 .LEHE95:
 	movq	%r12, %rdx
 	xorl	%esi, %esi
@@ -5389,7 +5389,7 @@ _ZN10fc_layer_tC2E7point_ti:
 	salq	$3, %r12
 	movq	%r12, %rdi
 .LEHB96:
-	call	_Znam@PLT
+	call	operator new[](unsigned long)@PLT
 	movq	%r12, %rdx
 	xorl	%esi, %esi
 	movq	%rax, %rdi
@@ -5508,16 +5508,16 @@ _ZN10fc_layer_tC2E7point_ti:
 	rep stosq
 	movq	%r14, %rdi
 .LEHB99:
-	call	_ZNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEEC1Ev@PLT
+	call	std::__cxx11::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >::basic_ostringstream()@PLT
 .LEHE99:
 	leaq	.LC34(%rip), %rsi
 	movq	%r14, %rdi
 .LEHB100:
-	call	_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)@PLT
 	leaq	-464(%rbp), %r12
 	leaq	-424(%rbp), %rsi
 	movq	%r12, %rdi
-	call	_ZNKSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEE3strEv@PLT
+	call	std::__cxx11::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >::str() const@PLT
 .LEHE100:
 	movq	%r12, %r8
 	movl	$167, %ecx
@@ -5525,18 +5525,18 @@ _ZN10fc_layer_tC2E7point_ti:
 	leaq	.LC35(%rip), %rdx
 	leaq	.LC36(%rip), %rsi
 .LEHB101:
-	call	_ZN25AssertionFailureExceptionC1EPKcS1_iRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+	call	AssertionFailureException::AssertionFailureException(char const*, char const*, int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
 .LEHE101:
 	movq	-464(%rbp), %rdi
 	leaq	-448(%rbp), %rax
 	cmpq	%rax, %rdi
 	je	.L692
-	call	_ZdlPv@PLT
+	call	operator delete(void*)@PLT
 .L692:
 	movq	%r14, %rdi
-	call	_ZNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEED1Ev@PLT
-	leaq	_ZN25AssertionFailureExceptionD1Ev(%rip), %rdx
-	leaq	_ZTI25AssertionFailureException(%rip), %rsi
+	call	std::__cxx11::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >::~basic_ostringstream()@PLT
+	leaq	AssertionFailureException::~AssertionFailureException()(%rip), %rdx
+	leaq	typeinfo for AssertionFailureException(%rip), %rsi
 	movq	%r13, %rdi
 .LEHB102:
 	call	__cxa_throw@PLT
@@ -5555,16 +5555,16 @@ _ZN10fc_layer_tC2E7point_ti:
 	rep stosq
 	movq	%r14, %rdi
 .LEHB103:
-	call	_ZNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEEC1Ev@PLT
+	call	std::__cxx11::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >::basic_ostringstream()@PLT
 .LEHE103:
 	leaq	.LC34(%rip), %rsi
 	movq	%r14, %rdi
 .LEHB104:
-	call	_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)@PLT
 	leaq	-464(%rbp), %r12
 	leaq	-424(%rbp), %rsi
 	movq	%r12, %rdi
-	call	_ZNKSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEE3strEv@PLT
+	call	std::__cxx11::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >::str() const@PLT
 .LEHE104:
 	movq	%r12, %r8
 	movl	$167, %ecx
@@ -5572,18 +5572,18 @@ _ZN10fc_layer_tC2E7point_ti:
 	leaq	.LC35(%rip), %rdx
 	leaq	.LC36(%rip), %rsi
 .LEHB105:
-	call	_ZN25AssertionFailureExceptionC1EPKcS1_iRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+	call	AssertionFailureException::AssertionFailureException(char const*, char const*, int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
 .LEHE105:
 	movq	-464(%rbp), %rdi
 	leaq	-448(%rbp), %rax
 	cmpq	%rax, %rdi
 	je	.L639
-	call	_ZdlPv@PLT
+	call	operator delete(void*)@PLT
 .L639:
 	movq	%r14, %rdi
-	call	_ZNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEED1Ev@PLT
-	leaq	_ZN25AssertionFailureExceptionD1Ev(%rip), %rdx
-	leaq	_ZTI25AssertionFailureException(%rip), %rsi
+	call	std::__cxx11::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >::~basic_ostringstream()@PLT
+	leaq	AssertionFailureException::~AssertionFailureException()(%rip), %rdx
+	leaq	typeinfo for AssertionFailureException(%rip), %rsi
 	movq	%r13, %rdi
 .LEHB106:
 	call	__cxa_throw@PLT
@@ -5592,7 +5592,7 @@ _ZN10fc_layer_tC2E7point_ti:
 	movq	24(%rbx), %rdi
 	testq	%rdi, %rdi
 	je	.L710
-	call	_ZdaPv@PLT
+	call	operator delete[](void*)@PLT
 .L710:
 	movq	%r12, %rdi
 	call	_Unwind_Resume@PLT
@@ -5610,10 +5610,10 @@ _ZN10fc_layer_tC2E7point_ti:
 	leaq	-448(%rbp), %rax
 	cmpq	%rax, %rdi
 	je	.L649
-	call	_ZdlPv@PLT
+	call	operator delete(void*)@PLT
 .L649:
 	movq	%r14, %rdi
-	call	_ZNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEED1Ev@PLT
+	call	std::__cxx11::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >::~basic_ostringstream()@PLT
 .L650:
 	movq	%r13, %rdi
 	call	__cxa_free_exception@PLT
@@ -5631,16 +5631,16 @@ _ZN10fc_layer_tC2E7point_ti:
 	rep stosq
 	movq	%r14, %rdi
 .LEHB107:
-	call	_ZNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEEC1Ev@PLT
+	call	std::__cxx11::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >::basic_ostringstream()@PLT
 .LEHE107:
 	leaq	.LC34(%rip), %rsi
 	movq	%r14, %rdi
 .LEHB108:
-	call	_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)@PLT
 	leaq	-464(%rbp), %r12
 	leaq	-424(%rbp), %rsi
 	movq	%r12, %rdi
-	call	_ZNKSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEE3strEv@PLT
+	call	std::__cxx11::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >::str() const@PLT
 .LEHE108:
 	movq	%r12, %r8
 	movl	$161, %ecx
@@ -5648,18 +5648,18 @@ _ZN10fc_layer_tC2E7point_ti:
 	leaq	.LC35(%rip), %rdx
 	leaq	.LC38(%rip), %rsi
 .LEHB109:
-	call	_ZN25AssertionFailureExceptionC1EPKcS1_iRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+	call	AssertionFailureException::AssertionFailureException(char const*, char const*, int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
 .LEHE109:
 	movq	-464(%rbp), %rdi
 	leaq	-448(%rbp), %rax
 	cmpq	%rax, %rdi
 	je	.L680
-	call	_ZdlPv@PLT
+	call	operator delete(void*)@PLT
 .L680:
 	movq	%r14, %rdi
-	call	_ZNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEED1Ev@PLT
-	leaq	_ZN25AssertionFailureExceptionD1Ev(%rip), %rdx
-	leaq	_ZTI25AssertionFailureException(%rip), %rsi
+	call	std::__cxx11::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >::~basic_ostringstream()@PLT
+	leaq	AssertionFailureException::~AssertionFailureException()(%rip), %rdx
+	leaq	typeinfo for AssertionFailureException(%rip), %rsi
 	movq	%r13, %rdi
 .LEHB110:
 	call	__cxa_throw@PLT
@@ -5672,10 +5672,10 @@ _ZN10fc_layer_tC2E7point_ti:
 	leaq	-448(%rbp), %rax
 	cmpq	%rax, %rdi
 	je	.L686
-	call	_ZdlPv@PLT
+	call	operator delete(void*)@PLT
 .L686:
 	movq	%r14, %rdi
-	call	_ZNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEED1Ev@PLT
+	call	std::__cxx11::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >::~basic_ostringstream()@PLT
 .L687:
 	movq	%r13, %rdi
 	call	__cxa_free_exception@PLT
@@ -5683,19 +5683,19 @@ _ZN10fc_layer_tC2E7point_ti:
 	movq	96(%rbx), %rdi
 	testq	%rdi, %rdi
 	je	.L707
-	call	_ZdaPv@PLT
+	call	operator delete[](void*)@PLT
 .L707:
 	movq	72(%rbx), %rdi
-	leaq	16+_ZTV7layer_t(%rip), %rax
+	leaq	16+vtable for layer_t(%rip), %rax
 	movq	%rax, (%rbx)
 	testq	%rdi, %rdi
 	je	.L708
-	call	_ZdaPv@PLT
+	call	operator delete[](void*)@PLT
 .L708:
 	movq	48(%rbx), %rdi
 	testq	%rdi, %rdi
 	je	.L709
-	call	_ZdaPv@PLT
+	call	operator delete[](void*)@PLT
 	jmp	.L709
 .L729:
 	movq	%rax, %r12
@@ -5720,16 +5720,16 @@ _ZN10fc_layer_tC2E7point_ti:
 	rep stosq
 	movq	%r14, %rdi
 .LEHB111:
-	call	_ZNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEEC1Ev@PLT
+	call	std::__cxx11::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >::basic_ostringstream()@PLT
 .LEHE111:
 	leaq	.LC34(%rip), %rsi
 	movq	%r14, %rdi
 .LEHB112:
-	call	_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)@PLT
 	leaq	-464(%rbp), %r12
 	leaq	-424(%rbp), %rsi
 	movq	%r12, %rdi
-	call	_ZNKSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEE3strEv@PLT
+	call	std::__cxx11::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >::str() const@PLT
 .LEHE112:
 	movq	%r12, %r8
 	movl	$167, %ecx
@@ -5737,18 +5737,18 @@ _ZN10fc_layer_tC2E7point_ti:
 	leaq	.LC35(%rip), %rdx
 	leaq	.LC36(%rip), %rsi
 .LEHB113:
-	call	_ZN25AssertionFailureExceptionC1EPKcS1_iRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+	call	AssertionFailureException::AssertionFailureException(char const*, char const*, int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
 .LEHE113:
 	movq	-464(%rbp), %rdi
 	leaq	-448(%rbp), %rax
 	cmpq	%rax, %rdi
 	je	.L663
-	call	_ZdlPv@PLT
+	call	operator delete(void*)@PLT
 .L663:
 	movq	%r14, %rdi
-	call	_ZNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEED1Ev@PLT
-	leaq	_ZN25AssertionFailureExceptionD1Ev(%rip), %rdx
-	leaq	_ZTI25AssertionFailureException(%rip), %rsi
+	call	std::__cxx11::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >::~basic_ostringstream()@PLT
+	leaq	AssertionFailureException::~AssertionFailureException()(%rip), %rdx
+	leaq	typeinfo for AssertionFailureException(%rip), %rsi
 	movq	%r13, %rdi
 .LEHB114:
 	call	__cxa_throw@PLT
@@ -5771,13 +5771,13 @@ _ZN10fc_layer_tC2E7point_ti:
 	jne	.L780
 .L671:
 	movq	%r14, %rdi
-	call	_ZNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEED1Ev@PLT
+	call	std::__cxx11::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >::~basic_ostringstream()@PLT
 .L672:
 	movq	%r13, %rdi
 	call	__cxa_free_exception@PLT
 	jmp	.L708
 .L780:
-	call	_ZdlPv@PLT
+	call	operator delete(void*)@PLT
 	jmp	.L671
 .L778:
 .LEHB115:
@@ -5794,10 +5794,10 @@ _ZN10fc_layer_tC2E7point_ti:
 	leaq	-448(%rbp), %rax
 	cmpq	%rax, %rdi
 	je	.L699
-	call	_ZdlPv@PLT
+	call	operator delete(void*)@PLT
 .L699:
 	movq	%r14, %rdi
-	call	_ZNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEED1Ev@PLT
+	call	std::__cxx11::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >::~basic_ostringstream()@PLT
 .L700:
 	movq	%r13, %rdi
 	call	__cxa_free_exception@PLT
@@ -5805,12 +5805,12 @@ _ZN10fc_layer_tC2E7point_ti:
 	movq	144(%rbx), %rdi
 	testq	%rdi, %rdi
 	je	.L704
-	call	_ZdaPv@PLT
+	call	operator delete[](void*)@PLT
 .L704:
 	movq	120(%rbx), %rdi
 	testq	%rdi, %rdi
 	je	.L688
-	call	_ZdaPv@PLT
+	call	operator delete[](void*)@PLT
 	jmp	.L688
 .L774:
 	movl	$96, %edi
@@ -5823,16 +5823,16 @@ _ZN10fc_layer_tC2E7point_ti:
 	rep stosq
 	movq	%r14, %rdi
 .LEHB116:
-	call	_ZNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEEC1Ev@PLT
+	call	std::__cxx11::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >::basic_ostringstream()@PLT
 .LEHE116:
 	leaq	.LC34(%rip), %rsi
 	movq	%r14, %rdi
 .LEHB117:
-	call	_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)@PLT
 	leaq	-464(%rbp), %r12
 	leaq	-424(%rbp), %rsi
 	movq	%r12, %rdi
-	call	_ZNKSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEE3strEv@PLT
+	call	std::__cxx11::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >::str() const@PLT
 .LEHE117:
 	movq	%r12, %r8
 	movl	$167, %ecx
@@ -5840,18 +5840,18 @@ _ZN10fc_layer_tC2E7point_ti:
 	leaq	.LC35(%rip), %rdx
 	leaq	.LC36(%rip), %rsi
 .LEHB118:
-	call	_ZN25AssertionFailureExceptionC1EPKcS1_iRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+	call	AssertionFailureException::AssertionFailureException(char const*, char const*, int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
 .LEHE118:
 	movq	-464(%rbp), %rdi
 	leaq	-448(%rbp), %rax
 	cmpq	%rax, %rdi
 	je	.L651
-	call	_ZdlPv@PLT
+	call	operator delete(void*)@PLT
 .L651:
 	movq	%r14, %rdi
-	call	_ZNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEED1Ev@PLT
-	leaq	_ZN25AssertionFailureExceptionD1Ev(%rip), %rdx
-	leaq	_ZTI25AssertionFailureException(%rip), %rsi
+	call	std::__cxx11::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >::~basic_ostringstream()@PLT
+	leaq	AssertionFailureException::~AssertionFailureException()(%rip), %rdx
+	leaq	typeinfo for AssertionFailureException(%rip), %rsi
 	movq	%r13, %rdi
 .LEHB119:
 	call	__cxa_throw@PLT
@@ -5878,10 +5878,10 @@ _ZN10fc_layer_tC2E7point_ti:
 	leaq	-448(%rbp), %rax
 	cmpq	%rax, %rdi
 	je	.L659
-	call	_ZdlPv@PLT
+	call	operator delete(void*)@PLT
 .L659:
 	movq	%r14, %rdi
-	call	_ZNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEED1Ev@PLT
+	call	std::__cxx11::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >::~basic_ostringstream()@PLT
 .L660:
 	movq	%r13, %rdi
 	call	__cxa_free_exception@PLT
@@ -5897,7 +5897,7 @@ _ZN10fc_layer_tC2E7point_ti:
 	jmp	.L700
 	.cfi_endproc
 .LFE5251:
-	.section	.gcc_except_table._ZN10fc_layer_tC2E7point_ti,"aG",@progbits,_ZN10fc_layer_tC5E7point_ti,comdat
+	.section	.gcc_except_table._ZN10fc_layer_tC2E7point_ti,"aG",@progbits,fc_layer_t::fc_layer_t(point_t, int),comdat
 .LLSDA5251:
 	.byte	0xff
 	.byte	0xff
@@ -6033,10 +6033,10 @@ _ZN10fc_layer_tC2E7point_ti:
 	.uleb128 .L716-.LFB5251
 	.uleb128 0
 .LLSDACSE5251:
-	.section	.text._ZN10fc_layer_tC2E7point_ti,"axG",@progbits,_ZN10fc_layer_tC5E7point_ti,comdat
-	.size	_ZN10fc_layer_tC2E7point_ti, .-_ZN10fc_layer_tC2E7point_ti
-	.weak	_ZN10fc_layer_tC1E7point_ti
-	.set	_ZN10fc_layer_tC1E7point_ti,_ZN10fc_layer_tC2E7point_ti
+	.section	.text._ZN10fc_layer_tC2E7point_ti,"axG",@progbits,fc_layer_t::fc_layer_t(point_t, int),comdat
+	.size	fc_layer_t::fc_layer_t(point_t, int), .-fc_layer_t::fc_layer_t(point_t, int)
+	.weak	fc_layer_t::fc_layer_t(point_t, int)
+	.set	fc_layer_t::fc_layer_t(point_t, int),fc_layer_t::fc_layer_t(point_t, int)
 	.section	.rodata._ZNK10fc_layer_t15regression_codeB5cxx11Ev.str1.1,"aMS",@progbits,1
 .LC41:
 	.string	"fc_test<opt_fc_layer_t>("
@@ -6044,12 +6044,12 @@ _ZN10fc_layer_tC2E7point_ti:
 	.string	", i"
 .LC43:
 	.string	");"
-	.section	.text._ZNK10fc_layer_t15regression_codeB5cxx11Ev,"axG",@progbits,_ZNK10fc_layer_t15regression_codeB5cxx11Ev,comdat
+	.section	.text._ZNK10fc_layer_t15regression_codeB5cxx11Ev,"axG",@progbits,fc_layer_t::regression_code[abi:cxx11]() const,comdat
 	.align 2
 	.p2align 4
-	.weak	_ZNK10fc_layer_t15regression_codeB5cxx11Ev
-	.type	_ZNK10fc_layer_t15regression_codeB5cxx11Ev, @function
-_ZNK10fc_layer_t15regression_codeB5cxx11Ev:
+	.weak	fc_layer_t::regression_code[abi:cxx11]() const
+	.type	fc_layer_t::regression_code[abi:cxx11]() const, @function
+fc_layer_t::regression_code[abi:cxx11]() const:
 .LFB5269:
 	.cfi_startproc
 	.cfi_personality 0x9b,DW.ref.__gxx_personality_v0
@@ -6080,13 +6080,13 @@ _ZNK10fc_layer_t15regression_codeB5cxx11Ev:
 	leaq	-448(%rbp), %r14
 	movq	%r13, %rdi
 	movq	%r14, -472(%rbp)
-	call	_ZNSt8ios_baseC2Ev@PLT
-	movq	16+_ZTTNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE(%rip), %r15
+	call	std::ios_base::ios_base()@PLT
+	movq	16+VTT for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %r15
 	pxor	%xmm0, %xmm0
 	xorl	%esi, %esi
-	leaq	16+_ZTVSt9basic_iosIcSt11char_traitsIcEE(%rip), %rax
+	leaq	16+vtable for std::basic_ios<char, std::char_traits<char> >(%rip), %rax
 	movups	%xmm0, -88(%rbp)
-	movq	24+_ZTTNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rcx
+	movq	24+VTT for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rcx
 	movq	%rax, -320(%rbp)
 	xorl	%eax, %eax
 	movw	%ax, -96(%rbp)
@@ -6099,26 +6099,26 @@ _ZNK10fc_layer_t15regression_codeB5cxx11Ev:
 	movq	-24(%r15), %rdi
 	addq	%r14, %rdi
 .LEHB122:
-	call	_ZNSt9basic_iosIcSt11char_traitsIcEE4initEPSt15basic_streambufIcS1_E@PLT
+	call	std::basic_ios<char, std::char_traits<char> >::init(std::basic_streambuf<char, std::char_traits<char> >*)@PLT
 .LEHE122:
-	movq	32+_ZTTNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rax
+	movq	32+VTT for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rax
 	leaq	-432(%rbp), %r14
 	xorl	%esi, %esi
 	movq	-24(%rax), %rdi
 	movq	%rax, -432(%rbp)
-	movq	40+_ZTTNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rax
+	movq	40+VTT for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rax
 	addq	%r14, %rdi
 	movq	%rax, (%rdi)
 .LEHB123:
-	call	_ZNSt9basic_iosIcSt11char_traitsIcEE4initEPSt15basic_streambufIcS1_E@PLT
+	call	std::basic_ios<char, std::char_traits<char> >::init(std::basic_streambuf<char, std::char_traits<char> >*)@PLT
 .LEHE123:
-	movq	8+_ZTTNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rax
-	movq	48+_ZTTNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rcx
+	movq	8+VTT for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rax
+	movq	48+VTT for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rcx
 	movq	.LC44(%rip), %xmm0
 	movq	-24(%rax), %rax
 	movhps	.LC28(%rip), %xmm0
 	movq	%rcx, -448(%rbp,%rax)
-	leaq	24+_ZTVNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rax
+	leaq	24+vtable for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rax
 	movq	%rax, -448(%rbp)
 	addq	$80, %rax
 	movq	%rax, -320(%rbp)
@@ -6130,8 +6130,8 @@ _ZNK10fc_layer_t15regression_codeB5cxx11Ev:
 	movaps	%xmm0, -416(%rbp)
 	movaps	%xmm0, -400(%rbp)
 	movaps	%xmm0, -384(%rbp)
-	call	_ZNSt6localeC1Ev@PLT
-	leaq	16+_ZTVNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEEE(%rip), %rax
+	call	std::locale::locale()@PLT
+	leaq	16+vtable for std::__cxx11::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >(%rip), %rax
 	movq	%r13, %rdi
 	movl	$24, -360(%rbp)
 	movq	%rax, -424(%rbp)
@@ -6144,57 +6144,57 @@ _ZNK10fc_layer_t15regression_codeB5cxx11Ev:
 	movq	$0, -344(%rbp)
 	movq	%rax, -480(%rbp)
 .LEHB124:
-	call	_ZNSt9basic_iosIcSt11char_traitsIcEE4initEPSt15basic_streambufIcS1_E@PLT
+	call	std::basic_ios<char, std::char_traits<char> >::init(std::basic_streambuf<char, std::char_traits<char> >*)@PLT
 .LEHE124:
 	movl	$24, %edx
 	leaq	.LC41(%rip), %rsi
 	movq	%r14, %rdi
 .LEHB125:
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movl	8(%rbx), %esi
 	movq	%r14, %rdi
-	call	_ZNSolsEi@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >::operator<<(int)@PLT
 	movl	$2, %edx
 	leaq	.LC13(%rip), %rsi
 	movq	%rax, %rdi
 	movq	%rax, %r14
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movl	12(%rbx), %esi
 	movq	%r14, %rdi
-	call	_ZNSolsEi@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >::operator<<(int)@PLT
 	movl	$2, %edx
 	leaq	.LC13(%rip), %rsi
 	movq	%rax, %rdi
 	movq	%rax, %r14
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movl	16(%rbx), %esi
 	movq	%r14, %rdi
-	call	_ZNSolsEi@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >::operator<<(int)@PLT
 	movl	$2, %edx
 	leaq	.LC13(%rip), %rsi
 	movq	%rax, %rdi
 	movq	%rax, %r14
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movl	20(%rbx), %esi
 	movq	%r14, %rdi
-	call	_ZNSolsEi@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >::operator<<(int)@PLT
 	movl	$2, %edx
 	leaq	.LC13(%rip), %rsi
 	movq	%rax, %rdi
 	movq	%rax, %r14
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movl	32(%rbx), %esi
 	movq	%r14, %rdi
-	call	_ZNSolsEi@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >::operator<<(int)@PLT
 	movl	$3, %edx
 	leaq	.LC42(%rip), %rsi
 	movq	%rax, %rdi
 	movq	%rax, %r14
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movl	$2, %edx
 	leaq	.LC43(%rip), %rsi
 	movq	%r14, %rdi
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 .LEHE125:
 	movq	-384(%rbp), %rax
 	leaq	16(%r12), %rbx
@@ -6212,10 +6212,10 @@ _ZNK10fc_layer_t15regression_codeB5cxx11Ev:
 	xorl	%esi, %esi
 	movq	%r12, %rdi
 .LEHB126:
-	call	_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE10_M_replaceEmmPKcm@PLT
+	call	std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_replace(unsigned long, unsigned long, char const*, unsigned long)@PLT
 .L788:
 	movq	.LC44(%rip), %xmm0
-	leaq	24+_ZTVNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rax
+	leaq	24+vtable for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rax
 	movq	-352(%rbp), %rdi
 	movq	%rax, -448(%rbp)
 	addq	$80, %rax
@@ -6224,30 +6224,30 @@ _ZNK10fc_layer_t15regression_codeB5cxx11Ev:
 	movaps	%xmm0, -432(%rbp)
 	cmpq	-464(%rbp), %rdi
 	je	.L790
-	call	_ZdlPv@PLT
+	call	operator delete(void*)@PLT
 .L790:
 	movq	-456(%rbp), %rdi
-	leaq	16+_ZTVSt15basic_streambufIcSt11char_traitsIcEE(%rip), %rax
+	leaq	16+vtable for std::basic_streambuf<char, std::char_traits<char> >(%rip), %rax
 	movq	%rax, -424(%rbp)
-	call	_ZNSt6localeD1Ev@PLT
-	movq	8+_ZTTNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rax
+	call	std::locale::~locale()@PLT
+	movq	8+VTT for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rax
 	movq	%r13, %rdi
-	movq	48+_ZTTNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rcx
-	movq	40+_ZTTNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rdx
-	movq	24+_ZTTNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rbx
+	movq	48+VTT for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rcx
+	movq	40+VTT for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rdx
+	movq	24+VTT for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rbx
 	movq	-24(%rax), %rax
 	movq	%rcx, -448(%rbp,%rax)
-	movq	32+_ZTTNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rax
+	movq	32+VTT for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rax
 	movq	%rax, -432(%rbp)
 	movq	-24(%rax), %rax
 	movq	%rdx, -432(%rbp,%rax)
 	movq	-24(%r15), %rax
 	movq	%r15, -448(%rbp)
 	movq	%rbx, -448(%rbp,%rax)
-	leaq	16+_ZTVSt9basic_iosIcSt11char_traitsIcEE(%rip), %rax
+	leaq	16+vtable for std::basic_ios<char, std::char_traits<char> >(%rip), %rax
 	movq	%rax, -320(%rbp)
 	movq	$0, -440(%rbp)
-	call	_ZNSt8ios_baseD2Ev@PLT
+	call	std::ios_base::~ios_base()@PLT
 	movq	-56(%rbp), %rax
 	xorq	%fs:40, %rax
 	jne	.L804
@@ -6271,14 +6271,14 @@ _ZNK10fc_layer_t15regression_codeB5cxx11Ev:
 	xorl	%esi, %esi
 	movq	%r12, %rdi
 	movq	%rax, %r8
-	call	_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE10_M_replaceEmmPKcm@PLT
+	call	std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_replace(unsigned long, unsigned long, char const*, unsigned long)@PLT
 	jmp	.L788
 	.p2align 4,,10
 	.p2align 3
 .L786:
 	leaq	-352(%rbp), %rsi
 	movq	%r12, %rdi
-	call	_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_assignERKS4_@PLT
+	call	std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_assign(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)@PLT
 .LEHE126:
 	jmp	.L788
 .L804:
@@ -6301,36 +6301,36 @@ _ZNK10fc_layer_t15regression_codeB5cxx11Ev:
 	movq	(%r12), %rdi
 	cmpq	%rdi, %rbx
 	je	.L793
-	call	_ZdlPv@PLT
+	call	operator delete(void*)@PLT
 .L793:
 	movq	-472(%rbp), %rdi
-	call	_ZNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEED1Ev@PLT
+	call	std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >::~basic_stringstream()@PLT
 	movq	%r13, %rdi
 .LEHB127:
 	call	_Unwind_Resume@PLT
 .L785:
 	movq	-480(%rbp), %rdi
-	call	_ZNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEED1Ev
-	movq	8+_ZTTNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rax
-	movq	48+_ZTTNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rcx
+	call	std::__cxx11::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >::~basic_stringbuf()
+	movq	8+VTT for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rax
+	movq	48+VTT for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rcx
 	movq	-24(%rax), %rax
 	movq	%rcx, -448(%rbp,%rax)
-	movq	32+_ZTTNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rax
-	movq	40+_ZTTNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rcx
+	movq	32+VTT for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rax
+	movq	40+VTT for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rcx
 	movq	%rax, -432(%rbp)
 	movq	-24(%rax), %rax
 	movq	%rcx, -432(%rbp,%rax)
 .L802:
 	movq	-24(%r15), %rax
-	movq	24+_ZTTNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rcx
+	movq	24+VTT for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rcx
 	movq	%r15, -448(%rbp)
 	movq	%rcx, -448(%rbp,%rax)
 	movq	$0, -440(%rbp)
 .L784:
-	leaq	16+_ZTVSt9basic_iosIcSt11char_traitsIcEE(%rip), %rax
+	leaq	16+vtable for std::basic_ios<char, std::char_traits<char> >(%rip), %rax
 	movq	%r13, %rdi
 	movq	%rax, -320(%rbp)
-	call	_ZNSt8ios_baseD2Ev@PLT
+	call	std::ios_base::~ios_base()@PLT
 	movq	%rbx, %rdi
 	call	_Unwind_Resume@PLT
 .LEHE127:
@@ -6338,7 +6338,7 @@ _ZNK10fc_layer_t15regression_codeB5cxx11Ev:
 	jmp	.L802
 	.cfi_endproc
 .LFE5269:
-	.section	.gcc_except_table._ZNK10fc_layer_t15regression_codeB5cxx11Ev,"aG",@progbits,_ZNK10fc_layer_t15regression_codeB5cxx11Ev,comdat
+	.section	.gcc_except_table._ZNK10fc_layer_t15regression_codeB5cxx11Ev,"aG",@progbits,fc_layer_t::regression_code[abi:cxx11]() const,comdat
 .LLSDA5269:
 	.byte	0xff
 	.byte	0xff
@@ -6370,14 +6370,14 @@ _ZNK10fc_layer_t15regression_codeB5cxx11Ev:
 	.uleb128 0
 	.uleb128 0
 .LLSDACSE5269:
-	.section	.text._ZNK10fc_layer_t15regression_codeB5cxx11Ev,"axG",@progbits,_ZNK10fc_layer_t15regression_codeB5cxx11Ev,comdat
-	.size	_ZNK10fc_layer_t15regression_codeB5cxx11Ev, .-_ZNK10fc_layer_t15regression_codeB5cxx11Ev
-	.section	.text._ZNK10fc_layer_t9param_strB5cxx11Ev,"axG",@progbits,_ZNK10fc_layer_t9param_strB5cxx11Ev,comdat
+	.section	.text._ZNK10fc_layer_t15regression_codeB5cxx11Ev,"axG",@progbits,fc_layer_t::regression_code[abi:cxx11]() const,comdat
+	.size	fc_layer_t::regression_code[abi:cxx11]() const, .-fc_layer_t::regression_code[abi:cxx11]() const
+	.section	.text._ZNK10fc_layer_t9param_strB5cxx11Ev,"axG",@progbits,fc_layer_t::param_str[abi:cxx11]() const,comdat
 	.align 2
 	.p2align 4
-	.weak	_ZNK10fc_layer_t9param_strB5cxx11Ev
-	.type	_ZNK10fc_layer_t9param_strB5cxx11Ev, @function
-_ZNK10fc_layer_t9param_strB5cxx11Ev:
+	.weak	fc_layer_t::param_str[abi:cxx11]() const
+	.type	fc_layer_t::param_str[abi:cxx11]() const, @function
+fc_layer_t::param_str[abi:cxx11]() const:
 .LFB5261:
 	.cfi_startproc
 	.cfi_personality 0x9b,DW.ref.__gxx_personality_v0
@@ -6407,13 +6407,13 @@ _ZNK10fc_layer_t9param_strB5cxx11Ev:
 	movq	%rdi, %r12
 	movq	%r13, %rdi
 	movq	%r14, -464(%rbp)
-	call	_ZNSt8ios_baseC2Ev@PLT
-	movq	16+_ZTTNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rbx
+	call	std::ios_base::ios_base()@PLT
+	movq	16+VTT for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rbx
 	pxor	%xmm0, %xmm0
 	xorl	%esi, %esi
-	leaq	16+_ZTVSt9basic_iosIcSt11char_traitsIcEE(%rip), %rax
+	leaq	16+vtable for std::basic_ios<char, std::char_traits<char> >(%rip), %rax
 	movups	%xmm0, -88(%rbp)
-	movq	24+_ZTTNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rdx
+	movq	24+VTT for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rdx
 	movq	%rax, -320(%rbp)
 	xorl	%eax, %eax
 	movw	%ax, -96(%rbp)
@@ -6426,20 +6426,20 @@ _ZNK10fc_layer_t9param_strB5cxx11Ev:
 	movq	-24(%rbx), %rdi
 	addq	%r14, %rdi
 .LEHB128:
-	call	_ZNSt9basic_iosIcSt11char_traitsIcEE4initEPSt15basic_streambufIcS1_E@PLT
+	call	std::basic_ios<char, std::char_traits<char> >::init(std::basic_streambuf<char, std::char_traits<char> >*)@PLT
 .LEHE128:
-	movq	32+_ZTTNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rax
+	movq	32+VTT for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rax
 	xorl	%esi, %esi
 	movq	%rax, -432(%rbp)
 	movq	-24(%rax), %rax
 	leaq	-432(%rbp,%rax), %rdi
-	movq	40+_ZTTNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rax
+	movq	40+VTT for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rax
 	movq	%rax, (%rdi)
 .LEHB129:
-	call	_ZNSt9basic_iosIcSt11char_traitsIcEE4initEPSt15basic_streambufIcS1_E@PLT
+	call	std::basic_ios<char, std::char_traits<char> >::init(std::basic_streambuf<char, std::char_traits<char> >*)@PLT
 .LEHE129:
-	movq	8+_ZTTNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rax
-	movq	48+_ZTTNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rdx
+	movq	8+VTT for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rax
+	movq	48+VTT for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rdx
 	leaq	-368(%rbp), %r14
 	leaq	-424(%rbp), %r15
 	movq	.LC44(%rip), %xmm0
@@ -6447,7 +6447,7 @@ _ZNK10fc_layer_t9param_strB5cxx11Ev:
 	movq	-24(%rax), %rax
 	movhps	.LC28(%rip), %xmm0
 	movq	%rdx, -448(%rbp,%rax)
-	leaq	24+_ZTVNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rax
+	leaq	24+vtable for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rax
 	movq	%rax, -448(%rbp)
 	addq	$80, %rax
 	movaps	%xmm0, -432(%rbp)
@@ -6456,8 +6456,8 @@ _ZNK10fc_layer_t9param_strB5cxx11Ev:
 	movaps	%xmm0, -416(%rbp)
 	movaps	%xmm0, -400(%rbp)
 	movaps	%xmm0, -384(%rbp)
-	call	_ZNSt6localeC1Ev@PLT
-	leaq	16+_ZTVNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEEE(%rip), %rax
+	call	std::locale::locale()@PLT
+	leaq	16+vtable for std::__cxx11::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >(%rip), %rax
 	movq	%r15, %rsi
 	movq	%r13, %rdi
 	movq	%rax, -424(%rbp)
@@ -6468,7 +6468,7 @@ _ZNK10fc_layer_t9param_strB5cxx11Ev:
 	movq	$0, -344(%rbp)
 	movb	$0, -336(%rbp)
 .LEHB130:
-	call	_ZNSt9basic_iosIcSt11char_traitsIcEE4initEPSt15basic_streambufIcS1_E@PLT
+	call	std::basic_ios<char, std::char_traits<char> >::init(std::basic_streambuf<char, std::char_traits<char> >*)@PLT
 .LEHE130:
 	movq	-384(%rbp), %rax
 	leaq	16(%r12), %r15
@@ -6486,10 +6486,10 @@ _ZNK10fc_layer_t9param_strB5cxx11Ev:
 	xorl	%esi, %esi
 	movq	%r12, %rdi
 .LEHB131:
-	call	_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE10_M_replaceEmmPKcm@PLT
+	call	std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_replace(unsigned long, unsigned long, char const*, unsigned long)@PLT
 .L812:
 	movq	.LC44(%rip), %xmm0
-	leaq	24+_ZTVNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rax
+	leaq	24+vtable for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rax
 	movq	-352(%rbp), %rdi
 	movq	%rax, -448(%rbp)
 	addq	$80, %rax
@@ -6498,30 +6498,30 @@ _ZNK10fc_layer_t9param_strB5cxx11Ev:
 	movaps	%xmm0, -432(%rbp)
 	cmpq	-456(%rbp), %rdi
 	je	.L814
-	call	_ZdlPv@PLT
+	call	operator delete(void*)@PLT
 .L814:
-	leaq	16+_ZTVSt15basic_streambufIcSt11char_traitsIcEE(%rip), %rax
+	leaq	16+vtable for std::basic_streambuf<char, std::char_traits<char> >(%rip), %rax
 	movq	%r14, %rdi
 	movq	%rax, -424(%rbp)
-	call	_ZNSt6localeD1Ev@PLT
-	movq	8+_ZTTNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rax
+	call	std::locale::~locale()@PLT
+	movq	8+VTT for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rax
 	movq	%r13, %rdi
-	movq	48+_ZTTNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rcx
-	movq	40+_ZTTNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rsi
-	movq	24+_ZTTNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rdx
+	movq	48+VTT for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rcx
+	movq	40+VTT for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rsi
+	movq	24+VTT for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rdx
 	movq	-24(%rax), %rax
 	movq	%rcx, -448(%rbp,%rax)
-	movq	32+_ZTTNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rax
+	movq	32+VTT for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rax
 	movq	%rax, -432(%rbp)
 	movq	-24(%rax), %rax
 	movq	%rsi, -432(%rbp,%rax)
 	movq	-24(%rbx), %rax
 	movq	%rbx, -448(%rbp)
 	movq	%rdx, -448(%rbp,%rax)
-	leaq	16+_ZTVSt9basic_iosIcSt11char_traitsIcEE(%rip), %rax
+	leaq	16+vtable for std::basic_ios<char, std::char_traits<char> >(%rip), %rax
 	movq	%rax, -320(%rbp)
 	movq	$0, -440(%rbp)
-	call	_ZNSt8ios_baseD2Ev@PLT
+	call	std::ios_base::~ios_base()@PLT
 	movq	-56(%rbp), %rax
 	xorq	%fs:40, %rax
 	jne	.L825
@@ -6545,14 +6545,14 @@ _ZNK10fc_layer_t9param_strB5cxx11Ev:
 	xorl	%esi, %esi
 	movq	%r12, %rdi
 	movq	%rax, %r8
-	call	_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE10_M_replaceEmmPKcm@PLT
+	call	std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_replace(unsigned long, unsigned long, char const*, unsigned long)@PLT
 	jmp	.L812
 	.p2align 4,,10
 	.p2align 3
 .L810:
 	leaq	-352(%rbp), %rsi
 	movq	%r12, %rdi
-	call	_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_assignERKS4_@PLT
+	call	std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_assign(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)@PLT
 .LEHE131:
 	jmp	.L812
 .L825:
@@ -6565,27 +6565,27 @@ _ZNK10fc_layer_t9param_strB5cxx11Ev:
 	jmp	.L807
 .L809:
 	movq	%r15, %rdi
-	call	_ZNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEED1Ev
-	movq	8+_ZTTNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rax
-	movq	48+_ZTTNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rcx
+	call	std::__cxx11::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >::~basic_stringbuf()
+	movq	8+VTT for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rax
+	movq	48+VTT for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rcx
 	movq	-24(%rax), %rax
 	movq	%rcx, -448(%rbp,%rax)
-	movq	32+_ZTTNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rax
-	movq	40+_ZTTNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rcx
+	movq	32+VTT for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rax
+	movq	40+VTT for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rcx
 	movq	%rax, -432(%rbp)
 	movq	-24(%rax), %rax
 	movq	%rcx, -432(%rbp,%rax)
 .L823:
 	movq	-24(%rbx), %rax
-	movq	24+_ZTTNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rcx
+	movq	24+VTT for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rcx
 	movq	%rbx, -448(%rbp)
 	movq	%rcx, -448(%rbp,%rax)
 	movq	$0, -440(%rbp)
 .L808:
-	leaq	16+_ZTVSt9basic_iosIcSt11char_traitsIcEE(%rip), %rax
+	leaq	16+vtable for std::basic_ios<char, std::char_traits<char> >(%rip), %rax
 	movq	%r13, %rdi
 	movq	%rax, -320(%rbp)
-	call	_ZNSt8ios_baseD2Ev@PLT
+	call	std::ios_base::~ios_base()@PLT
 	movq	%r12, %rdi
 .LEHB132:
 	call	_Unwind_Resume@PLT
@@ -6600,16 +6600,16 @@ _ZNK10fc_layer_t9param_strB5cxx11Ev:
 	movq	(%r12), %rdi
 	cmpq	%rdi, %r15
 	je	.L816
-	call	_ZdlPv@PLT
+	call	operator delete(void*)@PLT
 .L816:
 	movq	-464(%rbp), %rdi
-	call	_ZNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEED1Ev@PLT
+	call	std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >::~basic_stringstream()@PLT
 	movq	%r13, %rdi
 	call	_Unwind_Resume@PLT
 .LEHE132:
 	.cfi_endproc
 .LFE5261:
-	.section	.gcc_except_table._ZNK10fc_layer_t9param_strB5cxx11Ev,"aG",@progbits,_ZNK10fc_layer_t9param_strB5cxx11Ev,comdat
+	.section	.gcc_except_table._ZNK10fc_layer_t9param_strB5cxx11Ev,"aG",@progbits,fc_layer_t::param_str[abi:cxx11]() const,comdat
 .LLSDA5261:
 	.byte	0xff
 	.byte	0xff
@@ -6637,8 +6637,8 @@ _ZNK10fc_layer_t9param_strB5cxx11Ev:
 	.uleb128 0
 	.uleb128 0
 .LLSDACSE5261:
-	.section	.text._ZNK10fc_layer_t9param_strB5cxx11Ev,"axG",@progbits,_ZNK10fc_layer_t9param_strB5cxx11Ev,comdat
-	.size	_ZNK10fc_layer_t9param_strB5cxx11Ev, .-_ZNK10fc_layer_t9param_strB5cxx11Ev
+	.section	.text._ZNK10fc_layer_t9param_strB5cxx11Ev,"axG",@progbits,fc_layer_t::param_str[abi:cxx11]() const,comdat
+	.size	fc_layer_t::param_str[abi:cxx11]() const, .-fc_layer_t::param_str[abi:cxx11]() const
 	.section	.rodata.str1.1
 .LC45:
 	.string	"#"
@@ -6649,8 +6649,8 @@ _ZNK10fc_layer_t9param_strB5cxx11Ev:
 	.text
 .LHOTB49:
 	.p2align 4
-	.type	_Z4diffIdENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERK8tensor_tIT_ESA_, @function
-_Z4diffIdENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERK8tensor_tIT_ESA_:
+	.type	std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > diff<double>(tensor_t<double> const&, tensor_t<double> const&), @function
+std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > diff<double>(tensor_t<double> const&, tensor_t<double> const&):
 .LFB5988:
 	.cfi_startproc
 	.cfi_personality 0x9b,DW.ref.__gxx_personality_v0
@@ -6683,49 +6683,49 @@ _Z4diffIdENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERK8tensor_tIT_ESA_
 	xorl	%eax, %eax
 	movq	%rbx, -960(%rbp)
 	movq	%r15, -936(%rbp)
-	call	_ZNSt8ios_baseC2Ev@PLT
-	leaq	16+_ZTVSt9basic_iosIcSt11char_traitsIcEE(%rip), %rax
+	call	std::ios_base::ios_base()@PLT
+	leaq	16+vtable for std::basic_ios<char, std::char_traits<char> >(%rip), %rax
 	xorl	%ecx, %ecx
 	xorl	%esi, %esi
 	pxor	%xmm0, %xmm0
 	movq	%rax, -320(%rbp)
-	movq	16+_ZTTNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rax
+	movq	16+VTT for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rax
 	movw	%cx, -96(%rbp)
-	movq	24+_ZTTNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rdi
+	movq	24+VTT for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rdi
 	movups	%xmm0, -88(%rbp)
 	movups	%xmm0, -72(%rbp)
 	movq	%rax, -448(%rbp)
 	movq	-24(%rax), %rax
 	movq	$0, -104(%rbp)
 	movq	%rdi, -448(%rbp,%rax)
-	movq	16+_ZTTNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rax
+	movq	16+VTT for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rax
 	movq	$0, -440(%rbp)
 	addq	-24(%rax), %rbx
 	movq	%rbx, %rdi
 .LEHB133:
-	call	_ZNSt9basic_iosIcSt11char_traitsIcEE4initEPSt15basic_streambufIcS1_E@PLT
+	call	std::basic_ios<char, std::char_traits<char> >::init(std::basic_streambuf<char, std::char_traits<char> >*)@PLT
 .LEHE133:
-	movq	32+_ZTTNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rax
-	movq	32+_ZTTNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rbx
+	movq	32+VTT for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rax
+	movq	32+VTT for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rbx
 	xorl	%esi, %esi
 	movq	%rax, -432(%rbp)
 	leaq	-432(%rbp), %rax
 	movq	%rax, -896(%rbp)
 	addq	-24(%rbx), %rax
 	movq	%rax, %rdi
-	movq	40+_ZTTNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rax
+	movq	40+VTT for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rax
 	movq	%rax, (%rdi)
 .LEHB134:
-	call	_ZNSt9basic_iosIcSt11char_traitsIcEE4initEPSt15basic_streambufIcS1_E@PLT
+	call	std::basic_ios<char, std::char_traits<char> >::init(std::basic_streambuf<char, std::char_traits<char> >*)@PLT
 .LEHE134:
-	movq	8+_ZTTNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rax
-	movq	48+_ZTTNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rbx
+	movq	8+VTT for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rax
+	movq	48+VTT for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rbx
 	leaq	-424(%rbp), %r14
 	movq	.LC44(%rip), %xmm0
 	movq	-24(%rax), %rax
 	movhps	.LC28(%rip), %xmm0
 	movq	%rbx, -448(%rbp,%rax)
-	leaq	24+_ZTVNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rax
+	leaq	24+vtable for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rax
 	movq	%rax, -448(%rbp)
 	addq	$80, %rax
 	movq	%rax, -320(%rbp)
@@ -6737,8 +6737,8 @@ _Z4diffIdENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERK8tensor_tIT_ESA_
 	movaps	%xmm0, -416(%rbp)
 	movaps	%xmm0, -400(%rbp)
 	movaps	%xmm0, -384(%rbp)
-	call	_ZNSt6localeC1Ev@PLT
-	leaq	16+_ZTVNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEEE(%rip), %rax
+	call	std::locale::locale()@PLT
+	leaq	16+vtable for std::__cxx11::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >(%rip), %rax
 	movq	%r14, %rsi
 	movq	%r15, %rdi
 	movq	%rax, -424(%rbp)
@@ -6749,7 +6749,7 @@ _Z4diffIdENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERK8tensor_tIT_ESA_
 	movq	$0, -344(%rbp)
 	movb	$0, -336(%rbp)
 .LEHB135:
-	call	_ZNSt9basic_iosIcSt11char_traitsIcEE4initEPSt15basic_streambufIcS1_E@PLT
+	call	std::basic_ios<char, std::char_traits<char> >::init(std::basic_streambuf<char, std::char_traits<char> >*)@PLT
 .LEHE135:
 	movl	(%r12), %eax
 	movl	4(%r12), %ebx
@@ -6775,7 +6775,7 @@ _Z4diffIdENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERK8tensor_tIT_ESA_
 	movslq	%ebx, %rbx
 	movq	%rbx, %rdi
 .LEHB136:
-	call	_Znam@PLT
+	call	operator new[](unsigned long)@PLT
 .LEHE136:
 	movq	%rax, -928(%rbp)
 	movq	%rbx, %rax
@@ -6789,7 +6789,7 @@ _Z4diffIdENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERK8tensor_tIT_ESA_
 	xorl	%esi, %esi
 	call	memset@PLT
 .L838:
-	movzbl	_ZN8tensor_tIdE18diff_prints_deltasE(%rip), %eax
+	movzbl	tensor_t<double>::diff_prints_deltas(%rip), %eax
 	movl	-912(%rbp), %edx
 	movb	%al, -880(%rbp)
 	testl	%edx, %edx
@@ -6802,14 +6802,14 @@ _Z4diffIdENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERK8tensor_tIT_ESA_
 	leaq	.LC7(%rip), %rsi
 	movq	%rbx, %rdi
 .LEHB137:
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movl	-884(%rbp), %esi
 	movq	%rbx, %rdi
-	call	_ZNSolsEi@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >::operator<<(int)@PLT
 	movq	%rax, %rdi
 	movl	$3, %edx
 	leaq	.LC8(%rip), %rsi
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	xorl	%r15d, %r15d
 	.p2align 4,,10
 	.p2align 3
@@ -6818,14 +6818,14 @@ _Z4diffIdENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERK8tensor_tIT_ESA_
 	movl	$4, %edx
 	leaq	.LC9(%rip), %rsi
 	movq	%rbx, %rdi
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movl	%r15d, %esi
 	movq	%rbx, %rdi
-	call	_ZNSolsEi@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >::operator<<(int)@PLT
 	movq	%rax, %rdi
 	movl	$3, %edx
 	leaq	.LC8(%rip), %rsi
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	xorl	%r14d, %r14d
 	.p2align 4,,10
 	.p2align 3
@@ -6842,7 +6842,7 @@ _Z4diffIdENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERK8tensor_tIT_ESA_
 .L845:
 	movq	-896(%rbp), %rdi
 	movl	$1, %edx
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	addl	$1, %ebx
 	cmpl	%ebx, -888(%rbp)
 	je	.L893
@@ -6889,11 +6889,11 @@ _Z4diffIdENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERK8tensor_tIT_ESA_
 	movq	-896(%rbp), %rdi
 	movq	-24(%rax), %rax
 	movq	$2, -424(%rbp,%rax)
-	call	_ZNSo9_M_insertIdEERSoT_@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::basic_ostream<char, std::char_traits<char> >::_M_insert<double>(double)@PLT
 	movq	%rax, %rdi
 	movl	$1, %edx
 	leaq	.LC10(%rip), %rsi
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	addl	$1, %ebx
 	cmpl	%ebx, -888(%rbp)
 	jne	.L846
@@ -6901,7 +6901,7 @@ _Z4diffIdENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERK8tensor_tIT_ESA_
 	movq	-896(%rbp), %rdi
 	movl	$1, %edx
 	leaq	.LC11(%rip), %rsi
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 .LEHE137:
 	addl	$1, %r14d
 	cmpl	%r14d, -904(%rbp)
@@ -6933,7 +6933,7 @@ _Z4diffIdENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERK8tensor_tIT_ESA_
 	movq	%r12, %rdi
 	movq	%rax, %r8
 .LEHB138:
-	call	_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE10_M_replaceEmmPKcm@PLT
+	call	std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_replace(unsigned long, unsigned long, char const*, unsigned long)@PLT
 .LEHE138:
 .L851:
 	movl	$1, %r8d
@@ -6942,7 +6942,7 @@ _Z4diffIdENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERK8tensor_tIT_ESA_
 	movq	%r12, %rdi
 	leaq	.LC11(%rip), %rcx
 .LEHB139:
-	call	_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE10_M_replaceEmmPKcm@PLT
+	call	std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_replace(unsigned long, unsigned long, char const*, unsigned long)@PLT
 .LEHE139:
 	movq	-920(%rbp), %rdi
 	leaq	16(%rdi), %rdx
@@ -6963,14 +6963,14 @@ _Z4diffIdENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERK8tensor_tIT_ESA_
 	movq	-832(%rbp), %rdi
 	cmpq	%rbx, %rdi
 	je	.L859
-	call	_ZdlPv@PLT
+	call	operator delete(void*)@PLT
 .L859:
 	movq	.LC44(%rip), %xmm0
 	movq	-928(%rbp), %rdi
 	movhps	.LC29(%rip), %xmm0
 	movaps	%xmm0, -880(%rbp)
-	call	_ZdaPv@PLT
-	leaq	24+_ZTVNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rax
+	call	operator delete[](void*)@PLT
+	leaq	24+vtable for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rax
 	movdqa	-880(%rbp), %xmm0
 	movq	-352(%rbp), %rdi
 	movq	%rax, -448(%rbp)
@@ -6979,31 +6979,31 @@ _Z4diffIdENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERK8tensor_tIT_ESA_
 	movaps	%xmm0, -432(%rbp)
 	cmpq	-952(%rbp), %rdi
 	je	.L863
-	call	_ZdlPv@PLT
+	call	operator delete(void*)@PLT
 .L863:
 	movq	-944(%rbp), %rdi
-	leaq	16+_ZTVSt15basic_streambufIcSt11char_traitsIcEE(%rip), %rax
+	leaq	16+vtable for std::basic_streambuf<char, std::char_traits<char> >(%rip), %rax
 	movq	%rax, -424(%rbp)
-	call	_ZNSt6localeD1Ev@PLT
-	movq	8+_ZTTNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rax
-	movq	48+_ZTTNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rbx
+	call	std::locale::~locale()@PLT
+	movq	8+VTT for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rax
+	movq	48+VTT for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rbx
 	movq	-936(%rbp), %rdi
 	movq	-24(%rax), %rax
 	movq	%rbx, -448(%rbp,%rax)
-	movq	32+_ZTTNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rax
-	movq	40+_ZTTNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rbx
+	movq	32+VTT for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rax
+	movq	40+VTT for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rbx
 	movq	%rax, -432(%rbp)
 	movq	-24(%rax), %rax
 	movq	%rbx, -432(%rbp,%rax)
-	movq	16+_ZTTNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rax
-	movq	24+_ZTTNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rbx
+	movq	16+VTT for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rax
+	movq	24+VTT for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rbx
 	movq	%rax, -448(%rbp)
 	movq	-24(%rax), %rax
 	movq	%rbx, -448(%rbp,%rax)
-	leaq	16+_ZTVSt9basic_iosIcSt11char_traitsIcEE(%rip), %rax
+	leaq	16+vtable for std::basic_ios<char, std::char_traits<char> >(%rip), %rax
 	movq	%rax, -320(%rbp)
 	movq	$0, -440(%rbp)
-	call	_ZNSt8ios_baseD2Ev@PLT
+	call	std::ios_base::~ios_base()@PLT
 	movq	-56(%rbp), %rax
 	xorq	%fs:40, %rax
 	jne	.L896
@@ -7043,7 +7043,7 @@ _Z4diffIdENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERK8tensor_tIT_ESA_
 	xorl	%esi, %esi
 	movq	%r12, %rdi
 .LEHB140:
-	call	_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE10_M_replaceEmmPKcm@PLT
+	call	std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_replace(unsigned long, unsigned long, char const*, unsigned long)@PLT
 	jmp	.L851
 .L895:
 	movdqu	16(%rax), %xmm3
@@ -7052,7 +7052,7 @@ _Z4diffIdENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERK8tensor_tIT_ESA_
 .L849:
 	leaq	-352(%rbp), %rsi
 	movq	%r12, %rdi
-	call	_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_assignERKS4_@PLT
+	call	std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_assign(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)@PLT
 .LEHE140:
 	jmp	.L851
 .L896:
@@ -7123,8 +7123,8 @@ _Z4diffIdENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERK8tensor_tIT_ESA_
 	.cfi_startproc
 	.cfi_personality 0x9b,DW.ref.__gxx_personality_v0
 	.cfi_lsda 0x1b,.LLSDAC5988
-	.type	_Z4diffIdENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERK8tensor_tIT_ESA_.cold, @function
-_Z4diffIdENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERK8tensor_tIT_ESA_.cold:
+	.type	std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > diff<double>(tensor_t<double> const&, tensor_t<double> const&) [clone .cold], @function
+std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > diff<double>(tensor_t<double> const&, tensor_t<double> const&) [clone .cold]:
 .LFSB5988:
 .L853:
 	.cfi_def_cfa 6, 16
@@ -7137,45 +7137,45 @@ _Z4diffIdENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERK8tensor_tIT_ESA_
 	movq	-832(%rbp), %rdi
 	cmpq	%rbx, %rdi
 	je	.L855
-	call	_ZdlPv@PLT
+	call	operator delete(void*)@PLT
 .L855:
 	movq	-928(%rbp), %rdi
-	call	_ZdaPv@PLT
+	call	operator delete[](void*)@PLT
 .L843:
 	movq	-960(%rbp), %rdi
-	call	_ZNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEED1Ev@PLT
+	call	std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >::~basic_stringstream()@PLT
 	movq	%r12, %rdi
 .LEHB141:
 	call	_Unwind_Resume@PLT
 .L828:
-	movq	16+_ZTTNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rax
-	movq	24+_ZTTNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rdi
+	movq	16+VTT for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rax
+	movq	24+VTT for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rdi
 	movq	%rax, -448(%rbp)
 	movq	-24(%rax), %rax
 	movq	%rdi, -448(%rbp,%rax)
 	movq	$0, -440(%rbp)
 .L829:
 	movq	-936(%rbp), %rdi
-	leaq	16+_ZTVSt9basic_iosIcSt11char_traitsIcEE(%rip), %rax
+	leaq	16+vtable for std::basic_ios<char, std::char_traits<char> >(%rip), %rax
 	movq	%rax, -320(%rbp)
-	call	_ZNSt8ios_baseD2Ev@PLT
+	call	std::ios_base::~ios_base()@PLT
 	movq	%rbx, %rdi
 	call	_Unwind_Resume@PLT
 .LEHE141:
 .L830:
 	movq	%r14, %rdi
-	call	_ZNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEED1Ev
-	movq	8+_ZTTNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rax
-	movq	48+_ZTTNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rdi
+	call	std::__cxx11::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >::~basic_stringbuf()
+	movq	8+VTT for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rax
+	movq	48+VTT for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rdi
 	movq	-24(%rax), %rax
 	movq	%rdi, -448(%rbp,%rax)
-	movq	32+_ZTTNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rax
-	movq	40+_ZTTNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rdi
+	movq	32+VTT for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rax
+	movq	40+VTT for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rdi
 	movq	%rax, -432(%rbp)
 	movq	-24(%rax), %rax
 	movq	%rdi, -432(%rbp,%rax)
-	movq	16+_ZTTNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rax
-	movq	24+_ZTTNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rdi
+	movq	16+VTT for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rax
+	movq	24+VTT for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rdi
 	movq	%rax, -448(%rbp)
 	movq	-24(%rax), %rax
 	movq	%rdi, -448(%rbp,%rax)
@@ -7192,16 +7192,16 @@ _Z4diffIdENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERK8tensor_tIT_ESA_
 	rep stosq
 	movq	%r12, %rdi
 .LEHB142:
-	call	_ZNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEEC1Ev@PLT
+	call	std::__cxx11::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >::basic_ostringstream()@PLT
 .LEHE142:
 	leaq	.LC34(%rip), %rsi
 	movq	%r12, %rdi
 .LEHB143:
-	call	_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)@PLT
 	leaq	-864(%rbp), %rbx
 	leaq	-824(%rbp), %rsi
 	movq	%rbx, %rdi
-	call	_ZNKSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEE3strEv@PLT
+	call	std::__cxx11::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >::str() const@PLT
 .LEHE143:
 	movq	%rbx, %r8
 	movl	$167, %ecx
@@ -7209,18 +7209,18 @@ _Z4diffIdENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERK8tensor_tIT_ESA_
 	leaq	.LC35(%rip), %rdx
 	leaq	.LC36(%rip), %rsi
 .LEHB144:
-	call	_ZN25AssertionFailureExceptionC1EPKcS1_iRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+	call	AssertionFailureException::AssertionFailureException(char const*, char const*, int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
 .LEHE144:
 	movq	-864(%rbp), %rdi
 	leaq	-848(%rbp), %rax
 	cmpq	%rax, %rdi
 	je	.L833
-	call	_ZdlPv@PLT
+	call	operator delete(void*)@PLT
 .L833:
 	movq	%r12, %rdi
-	call	_ZNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEED1Ev@PLT
-	leaq	_ZN25AssertionFailureExceptionD1Ev(%rip), %rdx
-	leaq	_ZTI25AssertionFailureException(%rip), %rsi
+	call	std::__cxx11::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >::~basic_ostringstream()@PLT
+	leaq	AssertionFailureException::~AssertionFailureException()(%rip), %rdx
+	leaq	typeinfo for AssertionFailureException(%rip), %rsi
 	movq	%r13, %rdi
 .LEHB145:
 	call	__cxa_throw@PLT
@@ -7235,11 +7235,11 @@ _Z4diffIdENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERK8tensor_tIT_ESA_
 	leaq	-848(%rbp), %rax
 	cmpq	%rax, %rdi
 	je	.L841
-	call	_ZdlPv@PLT
+	call	operator delete(void*)@PLT
 .L841:
 	movq	%r12, %rdi
 	movq	%rbx, %r12
-	call	_ZNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEED1Ev@PLT
+	call	std::__cxx11::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >::~basic_ostringstream()@PLT
 .L842:
 	movq	%r13, %rdi
 	call	__cxa_free_exception@PLT
@@ -7254,7 +7254,7 @@ _Z4diffIdENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERK8tensor_tIT_ESA_
 	movq	-832(%rbp), %rdi
 	cmpq	%rbx, %rdi
 	je	.L855
-	call	_ZdlPv@PLT
+	call	operator delete(void*)@PLT
 	jmp	.L855
 	.cfi_endproc
 .LFE5988:
@@ -7288,9 +7288,9 @@ _Z4diffIdENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERK8tensor_tIT_ESA_
 .LLSDACSEC5988:
 	.section	.text.unlikely
 	.text
-	.size	_Z4diffIdENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERK8tensor_tIT_ESA_, .-_Z4diffIdENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERK8tensor_tIT_ESA_
+	.size	std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > diff<double>(tensor_t<double> const&, tensor_t<double> const&), .-std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > diff<double>(tensor_t<double> const&, tensor_t<double> const&)
 	.section	.text.unlikely
-	.size	_Z4diffIdENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERK8tensor_tIT_ESA_.cold, .-_Z4diffIdENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERK8tensor_tIT_ESA_.cold
+	.size	std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > diff<double>(tensor_t<double> const&, tensor_t<double> const&) [clone .cold], .-std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > diff<double>(tensor_t<double> const&, tensor_t<double> const&) [clone .cold]
 .LCOLDE49:
 	.text
 .LHOTE49:
@@ -7321,12 +7321,12 @@ _Z4diffIdENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERK8tensor_tIT_ESA_
 	.string	"Diff of ->out: "
 .LC62:
 	.string	"Diff of ->grads_out: "
-	.section	.text._ZN7layer_t23analyze_inequality_withB5cxx11EPS_,"axG",@progbits,_ZN7layer_t23analyze_inequality_withB5cxx11EPS_,comdat
+	.section	.text._ZN7layer_t23analyze_inequality_withB5cxx11EPS_,"axG",@progbits,layer_t::analyze_inequality_with[abi:cxx11](layer_t*),comdat
 	.align 2
 	.p2align 4
-	.weak	_ZN7layer_t23analyze_inequality_withB5cxx11EPS_
-	.type	_ZN7layer_t23analyze_inequality_withB5cxx11EPS_, @function
-_ZN7layer_t23analyze_inequality_withB5cxx11EPS_:
+	.weak	layer_t::analyze_inequality_with[abi:cxx11](layer_t*)
+	.type	layer_t::analyze_inequality_with[abi:cxx11](layer_t*), @function
+layer_t::analyze_inequality_with[abi:cxx11](layer_t*):
 .LFB5243:
 	.cfi_startproc
 	.cfi_personality 0x9b,DW.ref.__gxx_personality_v0
@@ -7359,48 +7359,48 @@ _ZN7layer_t23analyze_inequality_withB5cxx11EPS_:
 	movq	%rax, -496(%rbp)
 	movq	%rdx, %r13
 	movq	%r14, -520(%rbp)
-	call	_ZNSt8ios_baseC2Ev@PLT
-	leaq	16+_ZTVSt9basic_iosIcSt11char_traitsIcEE(%rip), %rcx
+	call	std::ios_base::ios_base()@PLT
+	leaq	16+vtable for std::basic_ios<char, std::char_traits<char> >(%rip), %rcx
 	xorl	%eax, %eax
 	xorl	%esi, %esi
 	movq	%rcx, -320(%rbp)
-	movq	16+_ZTTNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rcx
+	movq	16+VTT for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rcx
 	pxor	%xmm0, %xmm0
 	movw	%ax, -96(%rbp)
 	movups	%xmm0, -88(%rbp)
 	movups	%xmm0, -72(%rbp)
 	movq	-24(%rcx), %rax
 	movq	%rcx, -448(%rbp)
-	movq	24+_ZTTNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rcx
+	movq	24+VTT for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rcx
 	movq	$0, -104(%rbp)
 	movq	%rcx, -448(%rbp,%rax)
-	movq	16+_ZTTNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rcx
+	movq	16+VTT for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rcx
 	movq	$0, -440(%rbp)
 	addq	-24(%rcx), %r14
 	movq	%r14, %rdi
 .LEHB146:
-	call	_ZNSt9basic_iosIcSt11char_traitsIcEE4initEPSt15basic_streambufIcS1_E@PLT
+	call	std::basic_ios<char, std::char_traits<char> >::init(std::basic_streambuf<char, std::char_traits<char> >*)@PLT
 .LEHE146:
-	movq	32+_ZTTNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rcx
+	movq	32+VTT for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rcx
 	leaq	-432(%rbp), %r12
 	xorl	%esi, %esi
 	movq	%rcx, -432(%rbp)
 	movq	-24(%rcx), %rcx
 	addq	%r12, %rcx
 	movq	%rcx, %rdi
-	movq	40+_ZTTNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rcx
+	movq	40+VTT for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rcx
 	movq	%rcx, (%rdi)
 .LEHB147:
-	call	_ZNSt9basic_iosIcSt11char_traitsIcEE4initEPSt15basic_streambufIcS1_E@PLT
+	call	std::basic_ios<char, std::char_traits<char> >::init(std::basic_streambuf<char, std::char_traits<char> >*)@PLT
 .LEHE147:
-	movq	8+_ZTTNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rcx
+	movq	8+VTT for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rcx
 	leaq	-424(%rbp), %r14
 	movq	.LC44(%rip), %xmm0
 	movq	-24(%rcx), %rax
-	movq	48+_ZTTNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rcx
+	movq	48+VTT for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rcx
 	movhps	.LC28(%rip), %xmm0
 	movq	%rcx, -448(%rbp,%rax)
-	leaq	24+_ZTVNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rcx
+	leaq	24+vtable for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rcx
 	movq	%rcx, -448(%rbp)
 	addq	$80, %rcx
 	movq	%rcx, -320(%rbp)
@@ -7412,8 +7412,8 @@ _ZN7layer_t23analyze_inequality_withB5cxx11EPS_:
 	movaps	%xmm0, -416(%rbp)
 	movaps	%xmm0, -400(%rbp)
 	movaps	%xmm0, -384(%rbp)
-	call	_ZNSt6localeC1Ev@PLT
-	leaq	16+_ZTVNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEEE(%rip), %rcx
+	call	std::locale::locale()@PLT
+	leaq	16+vtable for std::__cxx11::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >(%rip), %rcx
 	movq	%r14, %rsi
 	movq	-496(%rbp), %rdi
 	movq	%rcx, -424(%rbp)
@@ -7424,7 +7424,7 @@ _ZN7layer_t23analyze_inequality_withB5cxx11EPS_:
 	movq	$0, -344(%rbp)
 	movb	$0, -336(%rbp)
 .LEHB148:
-	call	_ZNSt9basic_iosIcSt11char_traitsIcEE4initEPSt15basic_streambufIcS1_E@PLT
+	call	std::basic_ios<char, std::char_traits<char> >::init(std::basic_streambuf<char, std::char_traits<char> >*)@PLT
 .LEHE148:
 	movl	8(%rbx), %eax
 	cmpl	%eax, 8(%r13)
@@ -7434,11 +7434,11 @@ _ZN7layer_t23analyze_inequality_withB5cxx11EPS_:
 	leaq	.LC50(%rip), %rsi
 	movq	%r12, %rdi
 .LEHB149:
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movl	$16, %edx
 	leaq	.LC51(%rip), %rsi
 	movq	%r12, %rdi
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movq	-432(%rbp), %rax
 	leaq	.LC12(%rip), %rsi
 	movq	%r12, %rdi
@@ -7447,46 +7447,46 @@ _ZN7layer_t23analyze_inequality_withB5cxx11EPS_:
 	movq	-24(%rax), %rax
 	movl	$1, %edx
 	movq	$2, -424(%rbp,%rax)
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movl	8(%rbx), %esi
 	movq	%r12, %rdi
-	call	_ZNSolsEi@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >::operator<<(int)@PLT
 	movl	$2, %edx
 	leaq	.LC13(%rip), %rsi
 	movq	%rax, %rdi
 	movq	%rax, %r14
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movl	12(%rbx), %esi
 	movq	%r14, %rdi
-	call	_ZNSolsEi@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >::operator<<(int)@PLT
 	movl	$2, %edx
 	leaq	.LC13(%rip), %rsi
 	movq	%rax, %rdi
 	movq	%rax, %r14
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movl	16(%rbx), %esi
 	movq	%r14, %rdi
-	call	_ZNSolsEi@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >::operator<<(int)@PLT
 	movl	$2, %edx
 	leaq	.LC13(%rip), %rsi
 	movq	%rax, %rdi
 	movq	%rax, %r14
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movl	20(%rbx), %esi
 	movq	%r14, %rdi
-	call	_ZNSolsEi@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >::operator<<(int)@PLT
 	movq	%rax, %rdi
 	movl	$1, %edx
 	leaq	.LC14(%rip), %rsi
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movl	$4, %edx
 	leaq	.LC52(%rip), %rsi
 	movq	%r12, %rdi
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movl	$17, %edx
 	leaq	.LC53(%rip), %rsi
 	movq	%r12, %rdi
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movq	-432(%rbp), %rax
 	leaq	.LC12(%rip), %rsi
 	movq	%r12, %rdi
@@ -7495,42 +7495,42 @@ _ZN7layer_t23analyze_inequality_withB5cxx11EPS_:
 	movq	-24(%rax), %rax
 	movl	$1, %edx
 	movq	$2, -424(%rbp,%rax)
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movl	8(%r13), %esi
 	movq	%r12, %rdi
-	call	_ZNSolsEi@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >::operator<<(int)@PLT
 	movl	$2, %edx
 	leaq	.LC13(%rip), %rsi
 	movq	%rax, %rdi
 	movq	%rax, %r14
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movl	12(%r13), %esi
 	movq	%r14, %rdi
-	call	_ZNSolsEi@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >::operator<<(int)@PLT
 	movl	$2, %edx
 	leaq	.LC13(%rip), %rsi
 	movq	%rax, %rdi
 	movq	%rax, %r14
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movl	16(%r13), %esi
 	movq	%r14, %rdi
-	call	_ZNSolsEi@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >::operator<<(int)@PLT
 	movl	$2, %edx
 	leaq	.LC13(%rip), %rsi
 	movq	%rax, %rdi
 	movq	%rax, %r14
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movl	20(%r13), %esi
 	movq	%r14, %rdi
-	call	_ZNSolsEi@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >::operator<<(int)@PLT
 	movq	%rax, %rdi
 	movl	$1, %edx
 	leaq	.LC14(%rip), %rsi
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movl	$1, %edx
 	leaq	.LC11(%rip), %rsi
 	movq	%r12, %rdi
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 .L903:
 	movl	32(%r13), %eax
 	cmpl	%eax, 32(%rbx)
@@ -7539,11 +7539,11 @@ _ZN7layer_t23analyze_inequality_withB5cxx11EPS_:
 	movl	$26, %edx
 	leaq	.LC54(%rip), %rsi
 	movq	%r12, %rdi
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movl	$17, %edx
 	leaq	.LC55(%rip), %rsi
 	movq	%r12, %rdi
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movq	-432(%rbp), %rax
 	leaq	.LC12(%rip), %rsi
 	movq	%r12, %rdi
@@ -7552,46 +7552,46 @@ _ZN7layer_t23analyze_inequality_withB5cxx11EPS_:
 	movq	-24(%rax), %rax
 	movl	$1, %edx
 	movq	$2, -424(%rbp,%rax)
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movl	32(%rbx), %esi
 	movq	%r12, %rdi
-	call	_ZNSolsEi@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >::operator<<(int)@PLT
 	movl	$2, %edx
 	leaq	.LC13(%rip), %rsi
 	movq	%rax, %rdi
 	movq	%rax, %r14
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movl	36(%rbx), %esi
 	movq	%r14, %rdi
-	call	_ZNSolsEi@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >::operator<<(int)@PLT
 	movl	$2, %edx
 	leaq	.LC13(%rip), %rsi
 	movq	%rax, %rdi
 	movq	%rax, %r14
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movl	40(%rbx), %esi
 	movq	%r14, %rdi
-	call	_ZNSolsEi@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >::operator<<(int)@PLT
 	movl	$2, %edx
 	leaq	.LC13(%rip), %rsi
 	movq	%rax, %rdi
 	movq	%rax, %r14
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movl	44(%rbx), %esi
 	movq	%r14, %rdi
-	call	_ZNSolsEi@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >::operator<<(int)@PLT
 	movq	%rax, %rdi
 	movl	$1, %edx
 	leaq	.LC14(%rip), %rsi
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movl	$4, %edx
 	leaq	.LC52(%rip), %rsi
 	movq	%r12, %rdi
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movl	$18, %edx
 	leaq	.LC56(%rip), %rsi
 	movq	%r12, %rdi
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movq	-432(%rbp), %rax
 	leaq	.LC12(%rip), %rsi
 	movq	%r12, %rdi
@@ -7600,42 +7600,42 @@ _ZN7layer_t23analyze_inequality_withB5cxx11EPS_:
 	movq	-24(%rax), %rax
 	movl	$1, %edx
 	movq	$2, -424(%rbp,%rax)
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movl	32(%r13), %esi
 	movq	%r12, %rdi
-	call	_ZNSolsEi@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >::operator<<(int)@PLT
 	movl	$2, %edx
 	leaq	.LC13(%rip), %rsi
 	movq	%rax, %rdi
 	movq	%rax, %r14
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movl	36(%r13), %esi
 	movq	%r14, %rdi
-	call	_ZNSolsEi@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >::operator<<(int)@PLT
 	movl	$2, %edx
 	leaq	.LC13(%rip), %rsi
 	movq	%rax, %rdi
 	movq	%rax, %r14
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movl	40(%r13), %esi
 	movq	%r14, %rdi
-	call	_ZNSolsEi@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >::operator<<(int)@PLT
 	movl	$2, %edx
 	leaq	.LC13(%rip), %rsi
 	movq	%rax, %rdi
 	movq	%rax, %r14
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movl	44(%r13), %esi
 	movq	%r14, %rdi
-	call	_ZNSolsEi@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >::operator<<(int)@PLT
 	movq	%rax, %rdi
 	movl	$1, %edx
 	leaq	.LC14(%rip), %rsi
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movl	$1, %edx
 	leaq	.LC11(%rip), %rsi
 	movq	%r12, %rdi
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 .L905:
 	movl	56(%r13), %eax
 	cmpl	%eax, 56(%rbx)
@@ -7644,11 +7644,11 @@ _ZN7layer_t23analyze_inequality_withB5cxx11EPS_:
 	movl	$25, %edx
 	leaq	.LC57(%rip), %rsi
 	movq	%r12, %rdi
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movl	$23, %edx
 	leaq	.LC58(%rip), %rsi
 	movq	%r12, %rdi
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movq	-432(%rbp), %rax
 	leaq	.LC12(%rip), %rsi
 	movq	%r12, %rdi
@@ -7657,46 +7657,46 @@ _ZN7layer_t23analyze_inequality_withB5cxx11EPS_:
 	movq	-24(%rax), %rax
 	movl	$1, %edx
 	movq	$2, -424(%rbp,%rax)
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movl	56(%rbx), %esi
 	movq	%r12, %rdi
-	call	_ZNSolsEi@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >::operator<<(int)@PLT
 	movl	$2, %edx
 	leaq	.LC13(%rip), %rsi
 	movq	%rax, %rdi
 	movq	%rax, %r14
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movl	60(%rbx), %esi
 	movq	%r14, %rdi
-	call	_ZNSolsEi@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >::operator<<(int)@PLT
 	movl	$2, %edx
 	leaq	.LC13(%rip), %rsi
 	movq	%rax, %rdi
 	movq	%rax, %r14
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movl	64(%rbx), %esi
 	movq	%r14, %rdi
-	call	_ZNSolsEi@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >::operator<<(int)@PLT
 	movl	$2, %edx
 	leaq	.LC13(%rip), %rsi
 	movq	%rax, %rdi
 	movq	%rax, %r14
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movl	68(%rbx), %esi
 	movq	%r14, %rdi
-	call	_ZNSolsEi@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >::operator<<(int)@PLT
 	movq	%rax, %rdi
 	movl	$1, %edx
 	leaq	.LC14(%rip), %rsi
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movl	$4, %edx
 	leaq	.LC52(%rip), %rsi
 	movq	%r12, %rdi
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movl	$24, %edx
 	leaq	.LC59(%rip), %rsi
 	movq	%r12, %rdi
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movq	-432(%rbp), %rax
 	leaq	.LC12(%rip), %rsi
 	movq	%r12, %rdi
@@ -7705,119 +7705,119 @@ _ZN7layer_t23analyze_inequality_withB5cxx11EPS_:
 	movq	-24(%rax), %rax
 	movl	$1, %edx
 	movq	$2, -424(%rbp,%rax)
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movl	56(%r13), %esi
 	movq	%r12, %rdi
-	call	_ZNSolsEi@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >::operator<<(int)@PLT
 	movl	$2, %edx
 	leaq	.LC13(%rip), %rsi
 	movq	%rax, %rdi
 	movq	%rax, %r14
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movl	60(%r13), %esi
 	movq	%r14, %rdi
-	call	_ZNSolsEi@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >::operator<<(int)@PLT
 	movl	$2, %edx
 	leaq	.LC13(%rip), %rsi
 	movq	%rax, %rdi
 	movq	%rax, %r14
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movl	64(%r13), %esi
 	movq	%r14, %rdi
-	call	_ZNSolsEi@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >::operator<<(int)@PLT
 	movl	$2, %edx
 	leaq	.LC13(%rip), %rsi
 	movq	%rax, %rdi
 	movq	%rax, %r14
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movl	68(%r13), %esi
 	movq	%r14, %rdi
-	call	_ZNSolsEi@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >::operator<<(int)@PLT
 	movq	%rax, %rdi
 	movl	$1, %edx
 	leaq	.LC14(%rip), %rsi
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movl	$1, %edx
 	leaq	.LC11(%rip), %rsi
 	movq	%r12, %rdi
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 .L907:
 	movl	$14, %edx
 	leaq	.LC60(%rip), %rsi
 	movq	%r12, %rdi
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	leaq	-480(%rbp), %r14
 	leaq	8(%r13), %rdx
 	leaq	8(%rbx), %rsi
 	movq	%r14, %rdi
-	call	_Z4diffIdENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERK8tensor_tIT_ESA_
+	call	std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > diff<double>(tensor_t<double> const&, tensor_t<double> const&)
 .LEHE149:
 	movq	-472(%rbp), %rdx
 	movq	-480(%rbp), %rsi
 	movq	%r12, %rdi
 .LEHB150:
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movq	%rax, %rdi
 	movl	$1, %edx
 	leaq	.LC11(%rip), %rsi
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 .LEHE150:
 	movq	-480(%rbp), %rdi
 	leaq	-464(%rbp), %rax
 	movq	%rax, -488(%rbp)
 	cmpq	%rax, %rdi
 	je	.L908
-	call	_ZdlPv@PLT
+	call	operator delete(void*)@PLT
 .L908:
 	movl	$15, %edx
 	leaq	.LC61(%rip), %rsi
 	movq	%r12, %rdi
 .LEHB151:
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	leaq	32(%r13), %rdx
 	leaq	32(%rbx), %rsi
 	movq	%r14, %rdi
-	call	_Z4diffIdENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERK8tensor_tIT_ESA_
+	call	std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > diff<double>(tensor_t<double> const&, tensor_t<double> const&)
 .LEHE151:
 	movq	-472(%rbp), %rdx
 	movq	-480(%rbp), %rsi
 	movq	%r12, %rdi
 .LEHB152:
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movq	%rax, %rdi
 	movl	$1, %edx
 	leaq	.LC11(%rip), %rsi
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 .LEHE152:
 	movq	-480(%rbp), %rdi
 	cmpq	-488(%rbp), %rdi
 	je	.L909
-	call	_ZdlPv@PLT
+	call	operator delete(void*)@PLT
 .L909:
 	movl	$21, %edx
 	leaq	.LC62(%rip), %rsi
 	movq	%r12, %rdi
 .LEHB153:
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	leaq	56(%r13), %rdx
 	leaq	56(%rbx), %rsi
 	movq	%r14, %rdi
-	call	_Z4diffIdENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERK8tensor_tIT_ESA_
+	call	std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > diff<double>(tensor_t<double> const&, tensor_t<double> const&)
 .LEHE153:
 	movq	-472(%rbp), %rdx
 	movq	-480(%rbp), %rsi
 	movq	%r12, %rdi
 .LEHB154:
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movq	%rax, %rdi
 	movl	$1, %edx
 	leaq	.LC11(%rip), %rsi
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 .LEHE154:
 	movq	-480(%rbp), %rdi
 	cmpq	-488(%rbp), %rdi
 	je	.L910
-	call	_ZdlPv@PLT
+	call	operator delete(void*)@PLT
 .L910:
 	movq	-384(%rbp), %rax
 	leaq	16(%r15), %rbx
@@ -7835,10 +7835,10 @@ _ZN7layer_t23analyze_inequality_withB5cxx11EPS_:
 	xorl	%esi, %esi
 	movq	%r15, %rdi
 .LEHB155:
-	call	_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE10_M_replaceEmmPKcm@PLT
+	call	std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_replace(unsigned long, unsigned long, char const*, unsigned long)@PLT
 .L913:
 	movq	.LC44(%rip), %xmm0
-	leaq	24+_ZTVNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rax
+	leaq	24+vtable for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rax
 	movq	-352(%rbp), %rdi
 	movq	%rax, -448(%rbp)
 	addq	$80, %rax
@@ -7847,31 +7847,31 @@ _ZN7layer_t23analyze_inequality_withB5cxx11EPS_:
 	movaps	%xmm0, -432(%rbp)
 	cmpq	-512(%rbp), %rdi
 	je	.L915
-	call	_ZdlPv@PLT
+	call	operator delete(void*)@PLT
 .L915:
 	movq	-504(%rbp), %rdi
-	leaq	16+_ZTVSt15basic_streambufIcSt11char_traitsIcEE(%rip), %rax
+	leaq	16+vtable for std::basic_streambuf<char, std::char_traits<char> >(%rip), %rax
 	movq	%rax, -424(%rbp)
-	call	_ZNSt6localeD1Ev@PLT
-	movq	8+_ZTTNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rax
-	movq	48+_ZTTNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rbx
+	call	std::locale::~locale()@PLT
+	movq	8+VTT for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rax
+	movq	48+VTT for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rbx
 	movq	-496(%rbp), %rdi
 	movq	-24(%rax), %rax
 	movq	%rbx, -448(%rbp,%rax)
-	movq	32+_ZTTNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rax
-	movq	40+_ZTTNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rbx
+	movq	32+VTT for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rax
+	movq	40+VTT for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rbx
 	movq	%rax, -432(%rbp)
 	movq	-24(%rax), %rax
 	movq	%rbx, -432(%rbp,%rax)
-	movq	16+_ZTTNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rax
-	movq	24+_ZTTNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rbx
+	movq	16+VTT for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rax
+	movq	24+VTT for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rbx
 	movq	%rax, -448(%rbp)
 	movq	-24(%rax), %rax
 	movq	%rbx, -448(%rbp,%rax)
-	leaq	16+_ZTVSt9basic_iosIcSt11char_traitsIcEE(%rip), %rax
+	leaq	16+vtable for std::basic_ios<char, std::char_traits<char> >(%rip), %rax
 	movq	%rax, -320(%rbp)
 	movq	$0, -440(%rbp)
-	call	_ZNSt8ios_baseD2Ev@PLT
+	call	std::ios_base::~ios_base()@PLT
 	movq	-56(%rbp), %rax
 	xorq	%fs:40, %rax
 	jne	.L944
@@ -7895,7 +7895,7 @@ _ZN7layer_t23analyze_inequality_withB5cxx11EPS_:
 	xorl	%esi, %esi
 	movq	%r15, %rdi
 	movq	%rax, %r8
-	call	_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE10_M_replaceEmmPKcm@PLT
+	call	std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_replace(unsigned long, unsigned long, char const*, unsigned long)@PLT
 	jmp	.L913
 	.p2align 4,,10
 	.p2align 3
@@ -7941,7 +7941,7 @@ _ZN7layer_t23analyze_inequality_withB5cxx11EPS_:
 .L911:
 	leaq	-352(%rbp), %rsi
 	movq	%r15, %rdi
-	call	_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_assignERKS4_@PLT
+	call	std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_assign(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)@PLT
 .LEHE155:
 	jmp	.L913
 .L944:
@@ -7957,10 +7957,10 @@ _ZN7layer_t23analyze_inequality_withB5cxx11EPS_:
 	cmpq	-488(%rbp), %rdi
 	je	.L918
 .L937:
-	call	_ZdlPv@PLT
+	call	operator delete(void*)@PLT
 .L918:
 	movq	-520(%rbp), %rdi
-	call	_ZNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEED1Ev@PLT
+	call	std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >::~basic_stringstream()@PLT
 	movq	%r12, %rdi
 .LEHB156:
 	call	_Unwind_Resume@PLT
@@ -7989,28 +7989,28 @@ _ZN7layer_t23analyze_inequality_withB5cxx11EPS_:
 	jmp	.L899
 .L901:
 	movq	%r14, %rdi
-	call	_ZNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEED1Ev
-	movq	8+_ZTTNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rax
-	movq	48+_ZTTNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rcx
+	call	std::__cxx11::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >::~basic_stringbuf()
+	movq	8+VTT for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rax
+	movq	48+VTT for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rcx
 	movq	-24(%rax), %rax
 	movq	%rcx, -448(%rbp,%rax)
-	movq	32+_ZTTNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rax
-	movq	40+_ZTTNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rcx
+	movq	32+VTT for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rax
+	movq	40+VTT for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rcx
 	movq	%rax, -432(%rbp)
 	movq	-24(%rax), %rax
 	movq	%rcx, -432(%rbp,%rax)
 .L936:
-	movq	16+_ZTTNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rax
-	movq	24+_ZTTNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rcx
+	movq	16+VTT for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rax
+	movq	24+VTT for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rcx
 	movq	%rax, -448(%rbp)
 	movq	-24(%rax), %rax
 	movq	%rcx, -448(%rbp,%rax)
 	movq	$0, -440(%rbp)
 .L900:
 	movq	-496(%rbp), %rdi
-	leaq	16+_ZTVSt9basic_iosIcSt11char_traitsIcEE(%rip), %rax
+	leaq	16+vtable for std::basic_ios<char, std::char_traits<char> >(%rip), %rax
 	movq	%rax, -320(%rbp)
-	call	_ZNSt8ios_baseD2Ev@PLT
+	call	std::ios_base::~ios_base()@PLT
 	movq	%rbx, %rdi
 	call	_Unwind_Resume@PLT
 .LEHE156:
@@ -8075,8 +8075,8 @@ _ZN7layer_t23analyze_inequality_withB5cxx11EPS_:
 	.uleb128 0
 	.uleb128 0
 .LLSDACSE5243:
-	.section	.text._ZN7layer_t23analyze_inequality_withB5cxx11EPS_,"axG",@progbits,_ZN7layer_t23analyze_inequality_withB5cxx11EPS_,comdat
-	.size	_ZN7layer_t23analyze_inequality_withB5cxx11EPS_, .-_ZN7layer_t23analyze_inequality_withB5cxx11EPS_
+	.section	.text._ZN7layer_t23analyze_inequality_withB5cxx11EPS_,"axG",@progbits,layer_t::analyze_inequality_with[abi:cxx11](layer_t*),comdat
+	.size	layer_t::analyze_inequality_with[abi:cxx11](layer_t*), .-layer_t::analyze_inequality_with[abi:cxx11](layer_t*)
 	.section	.rodata._ZN10fc_layer_t23analyze_inequality_withB5cxx11EP7layer_t.str1.8,"aMS",@progbits,1
 	.align 8
 .LC63:
@@ -8128,12 +8128,12 @@ _ZN7layer_t23analyze_inequality_withB5cxx11EPS_:
 	.string	"Diff of ->act_grad: "
 .LC81:
 	.string	"Diff of ->old_act_grad: "
-	.section	.text._ZN10fc_layer_t23analyze_inequality_withB5cxx11EP7layer_t,"axG",@progbits,_ZN10fc_layer_t23analyze_inequality_withB5cxx11EP7layer_t,comdat
+	.section	.text._ZN10fc_layer_t23analyze_inequality_withB5cxx11EP7layer_t,"axG",@progbits,fc_layer_t::analyze_inequality_with[abi:cxx11](layer_t*),comdat
 	.align 2
 	.p2align 4
-	.weak	_ZN10fc_layer_t23analyze_inequality_withB5cxx11EP7layer_t
-	.type	_ZN10fc_layer_t23analyze_inequality_withB5cxx11EP7layer_t, @function
-_ZN10fc_layer_t23analyze_inequality_withB5cxx11EP7layer_t:
+	.weak	fc_layer_t::analyze_inequality_with[abi:cxx11](layer_t*)
+	.type	fc_layer_t::analyze_inequality_with[abi:cxx11](layer_t*), @function
+fc_layer_t::analyze_inequality_with[abi:cxx11](layer_t*):
 .LFB5268:
 	.cfi_startproc
 	.cfi_personality 0x9b,DW.ref.__gxx_personality_v0
@@ -8164,8 +8164,8 @@ _ZN10fc_layer_t23analyze_inequality_withB5cxx11EP7layer_t:
 	testq	%rdx, %rdx
 	je	.L946
 	xorl	%ecx, %ecx
-	leaq	_ZTI10fc_layer_t(%rip), %rdx
-	leaq	_ZTI7layer_t(%rip), %rsi
+	leaq	typeinfo for fc_layer_t(%rip), %rdx
+	leaq	typeinfo for layer_t(%rip), %rsi
 	call	__dynamic_cast@PLT
 	movq	%rax, %rbx
 	testq	%rax, %rax
@@ -8175,48 +8175,48 @@ _ZN10fc_layer_t23analyze_inequality_withB5cxx11EP7layer_t:
 	movq	%rax, %rdi
 	movq	%r15, -520(%rbp)
 	movq	%rax, -496(%rbp)
-	call	_ZNSt8ios_baseC2Ev@PLT
-	leaq	16+_ZTVSt9basic_iosIcSt11char_traitsIcEE(%rip), %rcx
+	call	std::ios_base::ios_base()@PLT
+	leaq	16+vtable for std::basic_ios<char, std::char_traits<char> >(%rip), %rcx
 	xorl	%eax, %eax
 	xorl	%esi, %esi
 	movq	%rcx, -320(%rbp)
-	movq	16+_ZTTNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rcx
+	movq	16+VTT for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rcx
 	pxor	%xmm0, %xmm0
 	movw	%ax, -96(%rbp)
 	movups	%xmm0, -88(%rbp)
 	movups	%xmm0, -72(%rbp)
 	movq	-24(%rcx), %rax
 	movq	%rcx, -448(%rbp)
-	movq	24+_ZTTNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rcx
+	movq	24+VTT for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rcx
 	movq	$0, -104(%rbp)
 	movq	%rcx, -448(%rbp,%rax)
-	movq	16+_ZTTNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rcx
+	movq	16+VTT for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rcx
 	movq	$0, -440(%rbp)
 	addq	-24(%rcx), %r15
 	movq	%r15, %rdi
 .LEHB157:
-	call	_ZNSt9basic_iosIcSt11char_traitsIcEE4initEPSt15basic_streambufIcS1_E@PLT
+	call	std::basic_ios<char, std::char_traits<char> >::init(std::basic_streambuf<char, std::char_traits<char> >*)@PLT
 .LEHE157:
-	movq	32+_ZTTNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rcx
+	movq	32+VTT for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rcx
 	leaq	-432(%rbp), %r12
 	xorl	%esi, %esi
 	movq	%rcx, -432(%rbp)
 	movq	-24(%rcx), %rcx
 	addq	%r12, %rcx
 	movq	%rcx, %rdi
-	movq	40+_ZTTNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rcx
+	movq	40+VTT for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rcx
 	movq	%rcx, (%rdi)
 .LEHB158:
-	call	_ZNSt9basic_iosIcSt11char_traitsIcEE4initEPSt15basic_streambufIcS1_E@PLT
+	call	std::basic_ios<char, std::char_traits<char> >::init(std::basic_streambuf<char, std::char_traits<char> >*)@PLT
 .LEHE158:
-	movq	8+_ZTTNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rcx
+	movq	8+VTT for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rcx
 	leaq	-424(%rbp), %r14
 	movq	.LC44(%rip), %xmm0
 	movq	-24(%rcx), %rax
-	movq	48+_ZTTNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rcx
+	movq	48+VTT for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rcx
 	movhps	.LC28(%rip), %xmm0
 	movq	%rcx, -448(%rbp,%rax)
-	leaq	24+_ZTVNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rcx
+	leaq	24+vtable for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rcx
 	movq	%rcx, -448(%rbp)
 	addq	$80, %rcx
 	movq	%rcx, -320(%rbp)
@@ -8228,8 +8228,8 @@ _ZN10fc_layer_t23analyze_inequality_withB5cxx11EP7layer_t:
 	movaps	%xmm0, -416(%rbp)
 	movaps	%xmm0, -400(%rbp)
 	movaps	%xmm0, -384(%rbp)
-	call	_ZNSt6localeC1Ev@PLT
-	leaq	16+_ZTVNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEEE(%rip), %rcx
+	call	std::locale::locale()@PLT
+	leaq	16+vtable for std::__cxx11::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >(%rip), %rcx
 	movq	%r14, %rsi
 	movq	-496(%rbp), %rdi
 	movq	%rcx, -424(%rbp)
@@ -8240,7 +8240,7 @@ _ZN10fc_layer_t23analyze_inequality_withB5cxx11EP7layer_t:
 	movq	$0, -344(%rbp)
 	movb	$0, -336(%rbp)
 .LEHB159:
-	call	_ZNSt9basic_iosIcSt11char_traitsIcEE4initEPSt15basic_streambufIcS1_E@PLT
+	call	std::basic_ios<char, std::char_traits<char> >::init(std::basic_streambuf<char, std::char_traits<char> >*)@PLT
 .LEHE159:
 	movl	80(%rbx), %eax
 	cmpl	%eax, 80(%r13)
@@ -8250,11 +8250,11 @@ _ZN10fc_layer_t23analyze_inequality_withB5cxx11EP7layer_t:
 	leaq	.LC66(%rip), %rsi
 	movq	%r12, %rdi
 .LEHB160:
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movl	$29, %edx
 	leaq	.LC67(%rip), %rsi
 	movq	%r12, %rdi
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movq	-432(%rbp), %rax
 	leaq	.LC12(%rip), %rsi
 	movq	%r12, %rdi
@@ -8263,46 +8263,46 @@ _ZN10fc_layer_t23analyze_inequality_withB5cxx11EP7layer_t:
 	movq	-24(%rax), %rax
 	movl	$1, %edx
 	movq	$2, -424(%rbp,%rax)
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movl	80(%r13), %esi
 	movq	%r12, %rdi
-	call	_ZNSolsEi@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >::operator<<(int)@PLT
 	movl	$2, %edx
 	leaq	.LC13(%rip), %rsi
 	movq	%rax, %rdi
 	movq	%rax, %r14
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movl	84(%r13), %esi
 	movq	%r14, %rdi
-	call	_ZNSolsEi@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >::operator<<(int)@PLT
 	movl	$2, %edx
 	leaq	.LC13(%rip), %rsi
 	movq	%rax, %rdi
 	movq	%rax, %r14
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movl	88(%r13), %esi
 	movq	%r14, %rdi
-	call	_ZNSolsEi@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >::operator<<(int)@PLT
 	movl	$2, %edx
 	leaq	.LC13(%rip), %rsi
 	movq	%rax, %rdi
 	movq	%rax, %r14
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movl	92(%r13), %esi
 	movq	%r14, %rdi
-	call	_ZNSolsEi@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >::operator<<(int)@PLT
 	movq	%rax, %rdi
 	movl	$1, %edx
 	leaq	.LC14(%rip), %rsi
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movl	$4, %edx
 	leaq	.LC52(%rip), %rsi
 	movq	%r12, %rdi
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movl	$31, %edx
 	leaq	.LC68(%rip), %rsi
 	movq	%r12, %rdi
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movq	-432(%rbp), %rax
 	leaq	.LC12(%rip), %rsi
 	movq	%r12, %rdi
@@ -8311,42 +8311,42 @@ _ZN10fc_layer_t23analyze_inequality_withB5cxx11EP7layer_t:
 	movq	-24(%rax), %rax
 	movl	$1, %edx
 	movq	$2, -424(%rbp,%rax)
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movl	80(%rbx), %esi
 	movq	%r12, %rdi
-	call	_ZNSolsEi@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >::operator<<(int)@PLT
 	movl	$2, %edx
 	leaq	.LC13(%rip), %rsi
 	movq	%rax, %rdi
 	movq	%rax, %r14
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movl	84(%rbx), %esi
 	movq	%r14, %rdi
-	call	_ZNSolsEi@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >::operator<<(int)@PLT
 	movl	$2, %edx
 	leaq	.LC13(%rip), %rsi
 	movq	%rax, %rdi
 	movq	%rax, %r14
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movl	88(%rbx), %esi
 	movq	%r14, %rdi
-	call	_ZNSolsEi@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >::operator<<(int)@PLT
 	movl	$2, %edx
 	leaq	.LC13(%rip), %rsi
 	movq	%rax, %rdi
 	movq	%rax, %r14
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movl	92(%rbx), %esi
 	movq	%r14, %rdi
-	call	_ZNSolsEi@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >::operator<<(int)@PLT
 	movq	%rax, %rdi
 	movl	$1, %edx
 	leaq	.LC14(%rip), %rsi
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movl	$1, %edx
 	leaq	.LC11(%rip), %rsi
 	movq	%r12, %rdi
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 .L954:
 	movl	104(%rbx), %eax
 	cmpl	%eax, 104(%r13)
@@ -8355,11 +8355,11 @@ _ZN10fc_layer_t23analyze_inequality_withB5cxx11EP7layer_t:
 	movl	$27, %edx
 	leaq	.LC69(%rip), %rsi
 	movq	%r12, %rdi
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movl	$21, %edx
 	leaq	.LC70(%rip), %rsi
 	movq	%r12, %rdi
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movq	-432(%rbp), %rax
 	leaq	.LC12(%rip), %rsi
 	movq	%r12, %rdi
@@ -8368,46 +8368,46 @@ _ZN10fc_layer_t23analyze_inequality_withB5cxx11EP7layer_t:
 	movq	-24(%rax), %rax
 	movl	$1, %edx
 	movq	$2, -424(%rbp,%rax)
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movl	104(%r13), %esi
 	movq	%r12, %rdi
-	call	_ZNSolsEi@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >::operator<<(int)@PLT
 	movl	$2, %edx
 	leaq	.LC13(%rip), %rsi
 	movq	%rax, %rdi
 	movq	%rax, %r14
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movl	108(%r13), %esi
 	movq	%r14, %rdi
-	call	_ZNSolsEi@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >::operator<<(int)@PLT
 	movl	$2, %edx
 	leaq	.LC13(%rip), %rsi
 	movq	%rax, %rdi
 	movq	%rax, %r14
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movl	112(%r13), %esi
 	movq	%r14, %rdi
-	call	_ZNSolsEi@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >::operator<<(int)@PLT
 	movl	$2, %edx
 	leaq	.LC13(%rip), %rsi
 	movq	%rax, %rdi
 	movq	%rax, %r14
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movl	116(%r13), %esi
 	movq	%r14, %rdi
-	call	_ZNSolsEi@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >::operator<<(int)@PLT
 	movq	%rax, %rdi
 	movl	$1, %edx
 	leaq	.LC14(%rip), %rsi
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movl	$4, %edx
 	leaq	.LC52(%rip), %rsi
 	movq	%r12, %rdi
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movl	$23, %edx
 	leaq	.LC71(%rip), %rsi
 	movq	%r12, %rdi
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movq	-432(%rbp), %rax
 	leaq	.LC12(%rip), %rsi
 	movq	%r12, %rdi
@@ -8416,42 +8416,42 @@ _ZN10fc_layer_t23analyze_inequality_withB5cxx11EP7layer_t:
 	movq	-24(%rax), %rax
 	movl	$1, %edx
 	movq	$2, -424(%rbp,%rax)
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movl	104(%rbx), %esi
 	movq	%r12, %rdi
-	call	_ZNSolsEi@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >::operator<<(int)@PLT
 	movl	$2, %edx
 	leaq	.LC13(%rip), %rsi
 	movq	%rax, %rdi
 	movq	%rax, %r14
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movl	108(%rbx), %esi
 	movq	%r14, %rdi
-	call	_ZNSolsEi@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >::operator<<(int)@PLT
 	movl	$2, %edx
 	leaq	.LC13(%rip), %rsi
 	movq	%rax, %rdi
 	movq	%rax, %r14
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movl	112(%rbx), %esi
 	movq	%r14, %rdi
-	call	_ZNSolsEi@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >::operator<<(int)@PLT
 	movl	$2, %edx
 	leaq	.LC13(%rip), %rsi
 	movq	%rax, %rdi
 	movq	%rax, %r14
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movl	116(%rbx), %esi
 	movq	%r14, %rdi
-	call	_ZNSolsEi@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >::operator<<(int)@PLT
 	movq	%rax, %rdi
 	movl	$1, %edx
 	leaq	.LC14(%rip), %rsi
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movl	$1, %edx
 	leaq	.LC11(%rip), %rsi
 	movq	%r12, %rdi
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 .L956:
 	movl	128(%rbx), %eax
 	cmpl	%eax, 128(%r13)
@@ -8460,11 +8460,11 @@ _ZN10fc_layer_t23analyze_inequality_withB5cxx11EP7layer_t:
 	movl	$28, %edx
 	leaq	.LC72(%rip), %rsi
 	movq	%r12, %rdi
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movl	$22, %edx
 	leaq	.LC73(%rip), %rsi
 	movq	%r12, %rdi
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movq	-432(%rbp), %rax
 	leaq	.LC12(%rip), %rsi
 	movq	%r12, %rdi
@@ -8473,46 +8473,46 @@ _ZN10fc_layer_t23analyze_inequality_withB5cxx11EP7layer_t:
 	movq	-24(%rax), %rax
 	movl	$1, %edx
 	movq	$2, -424(%rbp,%rax)
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movl	128(%r13), %esi
 	movq	%r12, %rdi
-	call	_ZNSolsEi@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >::operator<<(int)@PLT
 	movl	$2, %edx
 	leaq	.LC13(%rip), %rsi
 	movq	%rax, %rdi
 	movq	%rax, %r14
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movl	132(%r13), %esi
 	movq	%r14, %rdi
-	call	_ZNSolsEi@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >::operator<<(int)@PLT
 	movl	$2, %edx
 	leaq	.LC13(%rip), %rsi
 	movq	%rax, %rdi
 	movq	%rax, %r14
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movl	136(%r13), %esi
 	movq	%r14, %rdi
-	call	_ZNSolsEi@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >::operator<<(int)@PLT
 	movl	$2, %edx
 	leaq	.LC13(%rip), %rsi
 	movq	%rax, %rdi
 	movq	%rax, %r14
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movl	140(%r13), %esi
 	movq	%r14, %rdi
-	call	_ZNSolsEi@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >::operator<<(int)@PLT
 	movq	%rax, %rdi
 	movl	$1, %edx
 	leaq	.LC14(%rip), %rsi
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movl	$4, %edx
 	leaq	.LC52(%rip), %rsi
 	movq	%r12, %rdi
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movl	$24, %edx
 	leaq	.LC74(%rip), %rsi
 	movq	%r12, %rdi
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movq	-432(%rbp), %rax
 	leaq	.LC12(%rip), %rsi
 	movq	%r12, %rdi
@@ -8521,42 +8521,42 @@ _ZN10fc_layer_t23analyze_inequality_withB5cxx11EP7layer_t:
 	movq	-24(%rax), %rax
 	movl	$1, %edx
 	movq	$2, -424(%rbp,%rax)
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movl	128(%rbx), %esi
 	movq	%r12, %rdi
-	call	_ZNSolsEi@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >::operator<<(int)@PLT
 	movl	$2, %edx
 	leaq	.LC13(%rip), %rsi
 	movq	%rax, %rdi
 	movq	%rax, %r14
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movl	132(%rbx), %esi
 	movq	%r14, %rdi
-	call	_ZNSolsEi@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >::operator<<(int)@PLT
 	movl	$2, %edx
 	leaq	.LC13(%rip), %rsi
 	movq	%rax, %rdi
 	movq	%rax, %r14
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movl	136(%rbx), %esi
 	movq	%r14, %rdi
-	call	_ZNSolsEi@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >::operator<<(int)@PLT
 	movl	$2, %edx
 	leaq	.LC13(%rip), %rsi
 	movq	%rax, %rdi
 	movq	%rax, %r14
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movl	140(%rbx), %esi
 	movq	%r14, %rdi
-	call	_ZNSolsEi@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >::operator<<(int)@PLT
 	movq	%rax, %rdi
 	movl	$1, %edx
 	leaq	.LC14(%rip), %rsi
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movl	$1, %edx
 	leaq	.LC11(%rip), %rsi
 	movq	%r12, %rdi
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 .L958:
 	movl	152(%rbx), %eax
 	cmpl	%eax, 152(%r13)
@@ -8565,11 +8565,11 @@ _ZN10fc_layer_t23analyze_inequality_withB5cxx11EP7layer_t:
 	movl	$32, %edx
 	leaq	.LC75(%rip), %rsi
 	movq	%r12, %rdi
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movl	$26, %edx
 	leaq	.LC76(%rip), %rsi
 	movq	%r12, %rdi
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movq	-432(%rbp), %rax
 	leaq	.LC12(%rip), %rsi
 	movq	%r12, %rdi
@@ -8578,46 +8578,46 @@ _ZN10fc_layer_t23analyze_inequality_withB5cxx11EP7layer_t:
 	movq	-24(%rax), %rax
 	movl	$1, %edx
 	movq	$2, -424(%rbp,%rax)
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movl	152(%r13), %esi
 	movq	%r12, %rdi
-	call	_ZNSolsEi@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >::operator<<(int)@PLT
 	movl	$2, %edx
 	leaq	.LC13(%rip), %rsi
 	movq	%rax, %rdi
 	movq	%rax, %r14
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movl	156(%r13), %esi
 	movq	%r14, %rdi
-	call	_ZNSolsEi@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >::operator<<(int)@PLT
 	movl	$2, %edx
 	leaq	.LC13(%rip), %rsi
 	movq	%rax, %rdi
 	movq	%rax, %r14
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movl	160(%r13), %esi
 	movq	%r14, %rdi
-	call	_ZNSolsEi@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >::operator<<(int)@PLT
 	movl	$2, %edx
 	leaq	.LC13(%rip), %rsi
 	movq	%rax, %rdi
 	movq	%rax, %r14
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movl	164(%r13), %esi
 	movq	%r14, %rdi
-	call	_ZNSolsEi@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >::operator<<(int)@PLT
 	movq	%rax, %rdi
 	movl	$1, %edx
 	leaq	.LC14(%rip), %rsi
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movl	$4, %edx
 	leaq	.LC52(%rip), %rsi
 	movq	%r12, %rdi
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movl	$28, %edx
 	leaq	.LC77(%rip), %rsi
 	movq	%r12, %rdi
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movq	-432(%rbp), %rax
 	leaq	.LC12(%rip), %rsi
 	movq	%r12, %rdi
@@ -8626,160 +8626,160 @@ _ZN10fc_layer_t23analyze_inequality_withB5cxx11EP7layer_t:
 	movq	-24(%rax), %rax
 	movl	$1, %edx
 	movq	$2, -424(%rbp,%rax)
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movl	152(%rbx), %esi
 	movq	%r12, %rdi
-	call	_ZNSolsEi@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >::operator<<(int)@PLT
 	movl	$2, %edx
 	leaq	.LC13(%rip), %rsi
 	movq	%rax, %rdi
 	movq	%rax, %r14
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movl	156(%rbx), %esi
 	movq	%r14, %rdi
-	call	_ZNSolsEi@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >::operator<<(int)@PLT
 	movl	$2, %edx
 	leaq	.LC13(%rip), %rsi
 	movq	%rax, %rdi
 	movq	%rax, %r14
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movl	160(%rbx), %esi
 	movq	%r14, %rdi
-	call	_ZNSolsEi@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >::operator<<(int)@PLT
 	movl	$2, %edx
 	leaq	.LC13(%rip), %rsi
 	movq	%rax, %rdi
 	movq	%rax, %r14
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movl	164(%rbx), %esi
 	movq	%r14, %rdi
-	call	_ZNSolsEi@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >::operator<<(int)@PLT
 	movq	%rax, %rdi
 	movl	$1, %edx
 	leaq	.LC14(%rip), %rsi
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movl	$1, %edx
 	leaq	.LC11(%rip), %rsi
 	movq	%r12, %rdi
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 .L960:
 	leaq	-480(%rbp), %r15
 	movq	%rbx, %rdx
 	movq	%r13, %rsi
 	movq	%r15, %rdi
-	call	_ZN7layer_t23analyze_inequality_withB5cxx11EPS_
+	call	layer_t::analyze_inequality_with[abi:cxx11](layer_t*)
 .LEHE160:
 	movq	-472(%rbp), %rdx
 	movq	-480(%rbp), %rsi
 	movq	%r12, %rdi
 .LEHB161:
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 .LEHE161:
 	movq	-480(%rbp), %rdi
 	leaq	-464(%rbp), %r14
 	cmpq	%r14, %rdi
 	je	.L961
-	call	_ZdlPv@PLT
+	call	operator delete(void*)@PLT
 .L961:
 	movl	$27, %edx
 	leaq	.LC78(%rip), %rsi
 	movq	%r12, %rdi
 .LEHB162:
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	leaq	80(%rbx), %rdx
 	leaq	80(%r13), %rsi
 	movq	%r15, %rdi
-	call	_Z4diffIdENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERK8tensor_tIT_ESA_
+	call	std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > diff<double>(tensor_t<double> const&, tensor_t<double> const&)
 .LEHE162:
 	movq	-472(%rbp), %rdx
 	movq	-480(%rbp), %rsi
 	movq	%r12, %rdi
 .LEHB163:
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movq	%rax, %rdi
 	movl	$1, %edx
 	leaq	.LC11(%rip), %rsi
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 .LEHE163:
 	movq	-480(%rbp), %rdi
 	cmpq	%r14, %rdi
 	je	.L962
-	call	_ZdlPv@PLT
+	call	operator delete(void*)@PLT
 .L962:
 	movl	$19, %edx
 	leaq	.LC79(%rip), %rsi
 	movq	%r12, %rdi
 .LEHB164:
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	leaq	104(%rbx), %rdx
 	leaq	104(%r13), %rsi
 	movq	%r15, %rdi
-	call	_Z4diffIdENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERK8tensor_tIT_ESA_
+	call	std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > diff<double>(tensor_t<double> const&, tensor_t<double> const&)
 .LEHE164:
 	movq	-472(%rbp), %rdx
 	movq	-480(%rbp), %rsi
 	movq	%r12, %rdi
 .LEHB165:
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movq	%rax, %rdi
 	movl	$1, %edx
 	leaq	.LC11(%rip), %rsi
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 .LEHE165:
 	movq	-480(%rbp), %rdi
 	cmpq	%r14, %rdi
 	je	.L963
-	call	_ZdlPv@PLT
+	call	operator delete(void*)@PLT
 .L963:
 	movl	$20, %edx
 	leaq	.LC80(%rip), %rsi
 	movq	%r12, %rdi
 .LEHB166:
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	leaq	128(%rbx), %rdx
 	leaq	128(%r13), %rsi
 	movq	%r15, %rdi
-	call	_Z4diffIdENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERK8tensor_tIT_ESA_
+	call	std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > diff<double>(tensor_t<double> const&, tensor_t<double> const&)
 .LEHE166:
 	movq	-472(%rbp), %rdx
 	movq	-480(%rbp), %rsi
 	movq	%r12, %rdi
 .LEHB167:
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movq	%rax, %rdi
 	movl	$1, %edx
 	leaq	.LC11(%rip), %rsi
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 .LEHE167:
 	movq	-480(%rbp), %rdi
 	cmpq	%r14, %rdi
 	je	.L964
-	call	_ZdlPv@PLT
+	call	operator delete(void*)@PLT
 .L964:
 	movl	$24, %edx
 	leaq	.LC81(%rip), %rsi
 	movq	%r12, %rdi
 .LEHB168:
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	leaq	152(%rbx), %rdx
 	leaq	152(%r13), %rsi
 	movq	%r15, %rdi
-	call	_Z4diffIdENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERK8tensor_tIT_ESA_
+	call	std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > diff<double>(tensor_t<double> const&, tensor_t<double> const&)
 .LEHE168:
 	movq	-472(%rbp), %rdx
 	movq	-480(%rbp), %rsi
 	movq	%r12, %rdi
 .LEHB169:
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 	movq	%rax, %rdi
 	movl	$1, %edx
 	leaq	.LC11(%rip), %rsi
-	call	_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@PLT
 .LEHE169:
 	movq	-480(%rbp), %rdi
 	cmpq	%r14, %rdi
 	je	.L965
-	call	_ZdlPv@PLT
+	call	operator delete(void*)@PLT
 .L965:
 	movq	-488(%rbp), %rdi
 	movq	-384(%rbp), %rax
@@ -8797,10 +8797,10 @@ _ZN10fc_layer_t23analyze_inequality_withB5cxx11EP7layer_t:
 	xorl	%edx, %edx
 	xorl	%esi, %esi
 .LEHB170:
-	call	_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE10_M_replaceEmmPKcm@PLT
+	call	std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_replace(unsigned long, unsigned long, char const*, unsigned long)@PLT
 .L968:
 	movq	.LC44(%rip), %xmm0
-	leaq	24+_ZTVNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rax
+	leaq	24+vtable for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rax
 	movq	-352(%rbp), %rdi
 	movq	%rax, -448(%rbp)
 	addq	$80, %rax
@@ -8809,31 +8809,31 @@ _ZN10fc_layer_t23analyze_inequality_withB5cxx11EP7layer_t:
 	movaps	%xmm0, -432(%rbp)
 	cmpq	-512(%rbp), %rdi
 	je	.L970
-	call	_ZdlPv@PLT
+	call	operator delete(void*)@PLT
 .L970:
 	movq	-504(%rbp), %rdi
-	leaq	16+_ZTVSt15basic_streambufIcSt11char_traitsIcEE(%rip), %rax
+	leaq	16+vtable for std::basic_streambuf<char, std::char_traits<char> >(%rip), %rax
 	movq	%rax, -424(%rbp)
-	call	_ZNSt6localeD1Ev@PLT
-	movq	8+_ZTTNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rax
-	movq	48+_ZTTNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rbx
+	call	std::locale::~locale()@PLT
+	movq	8+VTT for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rax
+	movq	48+VTT for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rbx
 	movq	-496(%rbp), %rdi
 	movq	-24(%rax), %rax
 	movq	%rbx, -448(%rbp,%rax)
-	movq	32+_ZTTNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rax
-	movq	40+_ZTTNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rbx
+	movq	32+VTT for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rax
+	movq	40+VTT for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rbx
 	movq	%rax, -432(%rbp)
 	movq	-24(%rax), %rax
 	movq	%rbx, -432(%rbp,%rax)
-	movq	16+_ZTTNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rax
-	movq	24+_ZTTNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rbx
+	movq	16+VTT for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rax
+	movq	24+VTT for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rbx
 	movq	%rax, -448(%rbp)
 	movq	-24(%rax), %rax
 	movq	%rbx, -448(%rbp,%rax)
-	leaq	16+_ZTVSt9basic_iosIcSt11char_traitsIcEE(%rip), %rax
+	leaq	16+vtable for std::basic_ios<char, std::char_traits<char> >(%rip), %rax
 	movq	%rax, -320(%rbp)
 	movq	$0, -440(%rbp)
-	call	_ZNSt8ios_baseD2Ev@PLT
+	call	std::ios_base::~ios_base()@PLT
 	movq	-56(%rbp), %rax
 	xorq	%fs:40, %rax
 	jne	.L1021
@@ -8856,7 +8856,7 @@ _ZN10fc_layer_t23analyze_inequality_withB5cxx11EP7layer_t:
 	xorl	%edx, %edx
 	xorl	%esi, %esi
 	movq	%rax, %r8
-	call	_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE10_M_replaceEmmPKcm@PLT
+	call	std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_replace(unsigned long, unsigned long, char const*, unsigned long)@PLT
 	jmp	.L968
 	.p2align 4,,10
 	.p2align 3
@@ -8914,7 +8914,7 @@ _ZN10fc_layer_t23analyze_inequality_withB5cxx11EP7layer_t:
 	.p2align 3
 .L966:
 	leaq	-352(%rbp), %rsi
-	call	_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_assignERKS4_@PLT
+	call	std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_assign(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)@PLT
 .LEHE170:
 	jmp	.L968
 .L1021:
@@ -8933,10 +8933,10 @@ _ZN10fc_layer_t23analyze_inequality_withB5cxx11EP7layer_t:
 	cmpq	%r14, %rdi
 	je	.L973
 .L1011:
-	call	_ZdlPv@PLT
+	call	operator delete(void*)@PLT
 .L973:
 	movq	-520(%rbp), %rdi
-	call	_ZNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEED1Ev@PLT
+	call	std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >::~basic_stringstream()@PLT
 	movq	%r12, %rdi
 .LEHB171:
 	call	_Unwind_Resume@PLT
@@ -8961,16 +8961,16 @@ _ZN10fc_layer_t23analyze_inequality_withB5cxx11EP7layer_t:
 	movq	%rax, %rdi
 	movq	%rax, -520(%rbp)
 .LEHB172:
-	call	_ZNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEEC1Ev@PLT
+	call	std::__cxx11::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >::basic_ostringstream()@PLT
 .LEHE172:
 	movq	-520(%rbp), %rdi
 	leaq	.LC63(%rip), %rsi
 .LEHB173:
-	call	_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)@PLT
 	leaq	-480(%rbp), %r15
 	leaq	-440(%rbp), %rsi
 	movq	%r15, %rdi
-	call	_ZNKSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEE3strEv@PLT
+	call	std::__cxx11::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >::str() const@PLT
 .LEHE173:
 	movq	%r15, %r8
 	movl	$321, %ecx
@@ -8978,18 +8978,18 @@ _ZN10fc_layer_t23analyze_inequality_withB5cxx11EP7layer_t:
 	leaq	.LC64(%rip), %rdx
 	leaq	.LC65(%rip), %rsi
 .LEHB174:
-	call	_ZN25AssertionFailureExceptionC1EPKcS1_iRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+	call	AssertionFailureException::AssertionFailureException(char const*, char const*, int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
 .LEHE174:
 	movq	-480(%rbp), %rdi
 	leaq	-464(%rbp), %rax
 	cmpq	%rax, %rdi
 	je	.L948
-	call	_ZdlPv@PLT
+	call	operator delete(void*)@PLT
 .L948:
 	movq	-520(%rbp), %rdi
-	call	_ZNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEED1Ev@PLT
-	leaq	_ZN25AssertionFailureExceptionD1Ev(%rip), %rdx
-	leaq	_ZTI25AssertionFailureException(%rip), %rsi
+	call	std::__cxx11::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >::~basic_ostringstream()@PLT
+	leaq	AssertionFailureException::~AssertionFailureException()(%rip), %rdx
+	leaq	typeinfo for AssertionFailureException(%rip), %rsi
 	movq	%r13, %rdi
 .LEHB175:
 	call	__cxa_throw@PLT
@@ -9020,28 +9020,28 @@ _ZN10fc_layer_t23analyze_inequality_withB5cxx11EP7layer_t:
 	jmp	.L973
 .L952:
 	movq	%r14, %rdi
-	call	_ZNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEED1Ev
-	movq	8+_ZTTNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rax
-	movq	48+_ZTTNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rcx
+	call	std::__cxx11::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >::~basic_stringbuf()
+	movq	8+VTT for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rax
+	movq	48+VTT for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rcx
 	movq	-24(%rax), %rax
 	movq	%rcx, -448(%rbp,%rax)
-	movq	32+_ZTTNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rax
-	movq	40+_ZTTNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rcx
+	movq	32+VTT for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rax
+	movq	40+VTT for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rcx
 	movq	%rax, -432(%rbp)
 	movq	-24(%rax), %rax
 	movq	%rcx, -432(%rbp,%rax)
 .L1007:
-	movq	16+_ZTTNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rax
-	movq	24+_ZTTNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE(%rip), %rcx
+	movq	16+VTT for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rax
+	movq	24+VTT for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >(%rip), %rcx
 	movq	%rax, -448(%rbp)
 	movq	-24(%rax), %rax
 	movq	%rcx, -448(%rbp,%rax)
 	movq	$0, -440(%rbp)
 .L951:
 	movq	-496(%rbp), %rdi
-	leaq	16+_ZTVSt9basic_iosIcSt11char_traitsIcEE(%rip), %rax
+	leaq	16+vtable for std::basic_ios<char, std::char_traits<char> >(%rip), %rax
 	movq	%rax, -320(%rbp)
-	call	_ZNSt8ios_baseD2Ev@PLT
+	call	std::ios_base::~ios_base()@PLT
 	movq	%rbx, %rdi
 	call	_Unwind_Resume@PLT
 .L989:
@@ -9052,10 +9052,10 @@ _ZN10fc_layer_t23analyze_inequality_withB5cxx11EP7layer_t:
 	leaq	-464(%rbp), %rax
 	cmpq	%rax, %rdi
 	je	.L976
-	call	_ZdlPv@PLT
+	call	operator delete(void*)@PLT
 .L976:
 	movq	-520(%rbp), %rdi
-	call	_ZNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEED1Ev@PLT
+	call	std::__cxx11::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >::~basic_ostringstream()@PLT
 .L977:
 	movq	%r13, %rdi
 	call	__cxa_free_exception@PLT
@@ -9153,8 +9153,8 @@ _ZN10fc_layer_t23analyze_inequality_withB5cxx11EP7layer_t:
 	.uleb128 0
 	.uleb128 0
 .LLSDACSE5268:
-	.section	.text._ZN10fc_layer_t23analyze_inequality_withB5cxx11EP7layer_t,"axG",@progbits,_ZN10fc_layer_t23analyze_inequality_withB5cxx11EP7layer_t,comdat
-	.size	_ZN10fc_layer_t23analyze_inequality_withB5cxx11EP7layer_t, .-_ZN10fc_layer_t23analyze_inequality_withB5cxx11EP7layer_t
+	.section	.text._ZN10fc_layer_t23analyze_inequality_withB5cxx11EP7layer_t,"axG",@progbits,fc_layer_t::analyze_inequality_with[abi:cxx11](layer_t*),comdat
+	.size	fc_layer_t::analyze_inequality_with[abi:cxx11](layer_t*), .-fc_layer_t::analyze_inequality_with[abi:cxx11](layer_t*)
 	.section	.rodata.str1.1
 .LC82:
 	.string	"Mismatchef sizes is operator-"
@@ -9165,9 +9165,9 @@ _ZN10fc_layer_t23analyze_inequality_withB5cxx11EP7layer_t:
 	.text
 .LHOTB84:
 	.p2align 4
-	.globl	_Z11train_modelP7model_tR9dataset_ti
-	.type	_Z11train_modelP7model_tR9dataset_ti, @function
-_Z11train_modelP7model_tR9dataset_ti:
+	.globl	train_model(model_t*, dataset_t&, int)
+	.type	train_model(model_t*, dataset_t&, int), @function
+train_model(model_t*, dataset_t&, int):
 .LFB5456:
 	.cfi_startproc
 	.cfi_personality 0x9b,DW.ref.__gxx_personality_v0
@@ -9268,7 +9268,7 @@ _Z11train_modelP7model_tR9dataset_ti:
 	cmpq	%rax, %rdi
 	ja	.L1030
 	salq	$3, %rdi
-	call	_Znam@PLT
+	call	operator new[](unsigned long)@PLT
 .LEHE176:
 	movl	-496(%rbp), %edx
 	movq	48(%r12), %rsi
@@ -9381,7 +9381,7 @@ _Z11train_modelP7model_tR9dataset_ti:
 	testq	%rdi, %rdi
 	je	.L1086
 .L1048:
-	call	_ZdaPv@PLT
+	call	operator delete[](void*)@PLT
 	addq	$48, %rbx
 	cmpq	%rbx, -504(%rbp)
 	jne	.L1085
@@ -9461,8 +9461,8 @@ _Z11train_modelP7model_tR9dataset_ti:
 	.cfi_startproc
 	.cfi_personality 0x9b,DW.ref.__gxx_personality_v0
 	.cfi_lsda 0x1b,.LLSDAC5456
-	.type	_Z11train_modelP7model_tR9dataset_ti.cold, @function
-_Z11train_modelP7model_tR9dataset_ti.cold:
+	.type	train_model(model_t*, dataset_t&, int) [clone .cold], @function
+train_model(model_t*, dataset_t&, int) [clone .cold]:
 .LFSB5456:
 .L1030:
 	.cfi_def_cfa 6, 16
@@ -9486,16 +9486,16 @@ _Z11train_modelP7model_tR9dataset_ti.cold:
 	rep stosq
 	movq	%r14, %rdi
 .LEHB179:
-	call	_ZNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEEC1Ev@PLT
+	call	std::__cxx11::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >::basic_ostringstream()@PLT
 .LEHE179:
 	leaq	.LC82(%rip), %rsi
 	movq	%r14, %rdi
 .LEHB180:
-	call	_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)@PLT
 	leaq	-464(%rbp), %rbx
 	leaq	-424(%rbp), %rsi
 	movq	%rbx, %rdi
-	call	_ZNKSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEE3strEv@PLT
+	call	std::__cxx11::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >::str() const@PLT
 .LEHE180:
 	movq	%rbx, %r8
 	movl	$238, %ecx
@@ -9503,18 +9503,18 @@ _Z11train_modelP7model_tR9dataset_ti.cold:
 	leaq	.LC35(%rip), %rdx
 	leaq	.LC83(%rip), %rsi
 .LEHB181:
-	call	_ZN25AssertionFailureExceptionC1EPKcS1_iRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+	call	AssertionFailureException::AssertionFailureException(char const*, char const*, int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
 .LEHE181:
 	movq	-464(%rbp), %rdi
 	leaq	-448(%rbp), %rax
 	cmpq	%rax, %rdi
 	je	.L1033
-	call	_ZdlPv@PLT
+	call	operator delete(void*)@PLT
 .L1033:
 	movq	%r14, %rdi
-	call	_ZNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEED1Ev@PLT
-	leaq	_ZN25AssertionFailureExceptionD1Ev(%rip), %rdx
-	leaq	_ZTI25AssertionFailureException(%rip), %rsi
+	call	std::__cxx11::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >::~basic_ostringstream()@PLT
+	leaq	AssertionFailureException::~AssertionFailureException()(%rip), %rdx
+	leaq	typeinfo for AssertionFailureException(%rip), %rsi
 	movq	%r13, %rdi
 .LEHB182:
 	call	__cxa_throw@PLT
@@ -9522,7 +9522,7 @@ _Z11train_modelP7model_tR9dataset_ti.cold:
 	movq	-480(%rbp), %rdi
 	testq	%rdi, %rdi
 	je	.L1055
-	call	_ZdaPv@PLT
+	call	operator delete[](void*)@PLT
 .L1055:
 	movq	%r12, %rdi
 	call	_Unwind_Resume@PLT
@@ -9534,7 +9534,7 @@ _Z11train_modelP7model_tR9dataset_ti.cold:
 	jne	.L1088
 .L1041:
 	movq	%r14, %rdi
-	call	_ZNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEED1Ev@PLT
+	call	std::__cxx11::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >::~basic_ostringstream()@PLT
 .L1042:
 	movq	%r13, %rdi
 	call	__cxa_free_exception@PLT
@@ -9548,7 +9548,7 @@ _Z11train_modelP7model_tR9dataset_ti.cold:
 	movq	%rax, %r12
 	jmp	.L1042
 .L1088:
-	call	_ZdlPv@PLT
+	call	operator delete(void*)@PLT
 	jmp	.L1041
 	.cfi_endproc
 .LFE5456:
@@ -9582,18 +9582,18 @@ _Z11train_modelP7model_tR9dataset_ti.cold:
 .LLSDACSEC5456:
 	.section	.text.unlikely
 	.text
-	.size	_Z11train_modelP7model_tR9dataset_ti, .-_Z11train_modelP7model_tR9dataset_ti
+	.size	train_model(model_t*, dataset_t&, int), .-train_model(model_t*, dataset_t&, int)
 	.section	.text.unlikely
-	.size	_Z11train_modelP7model_tR9dataset_ti.cold, .-_Z11train_modelP7model_tR9dataset_ti.cold
+	.size	train_model(model_t*, dataset_t&, int) [clone .cold], .-train_model(model_t*, dataset_t&, int) [clone .cold]
 .LCOLDE84:
 	.text
 .LHOTE84:
-	.section	.text._ZN8tensor_tIdEC2ERK7point_t,"axG",@progbits,_ZN8tensor_tIdEC5ERK7point_t,comdat
+	.section	.text._ZN8tensor_tIdEC2ERK7point_t,"axG",@progbits,tensor_t<double>::tensor_t(point_t const&),comdat
 	.align 2
 	.p2align 4
-	.weak	_ZN8tensor_tIdEC2ERK7point_t
-	.type	_ZN8tensor_tIdEC2ERK7point_t, @function
-_ZN8tensor_tIdEC2ERK7point_t:
+	.weak	tensor_t<double>::tensor_t(point_t const&)
+	.type	tensor_t<double>::tensor_t(point_t const&), @function
+tensor_t<double>::tensor_t(point_t const&):
 .LFB5977:
 	.cfi_startproc
 	.cfi_personality 0x9b,DW.ref.__gxx_personality_v0
@@ -9639,7 +9639,7 @@ _ZN8tensor_tIdEC2ERK7point_t:
 	salq	$3, %r12
 	movq	%r12, %rdi
 .LEHB183:
-	call	_Znam@PLT
+	call	operator new[](unsigned long)@PLT
 	xorl	%esi, %esi
 	movq	%r12, %rdx
 	movq	%rax, %rdi
@@ -9683,16 +9683,16 @@ _ZN8tensor_tIdEC2ERK7point_t:
 	rep stosq
 	movq	%r13, %rdi
 .LEHB184:
-	call	_ZNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEEC1Ev@PLT
+	call	std::__cxx11::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >::basic_ostringstream()@PLT
 .LEHE184:
 	leaq	.LC34(%rip), %rsi
 	movq	%r13, %rdi
 .LEHB185:
-	call	_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc@PLT
+	call	std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)@PLT
 	leaq	-448(%rbp), %r12
 	leaq	-408(%rbp), %rsi
 	movq	%r12, %rdi
-	call	_ZNKSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEE3strEv@PLT
+	call	std::__cxx11::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >::str() const@PLT
 .LEHE185:
 	movq	%r12, %r8
 	movl	$167, %ecx
@@ -9700,18 +9700,18 @@ _ZN8tensor_tIdEC2ERK7point_t:
 	leaq	.LC35(%rip), %rdx
 	leaq	.LC36(%rip), %rsi
 .LEHB186:
-	call	_ZN25AssertionFailureExceptionC1EPKcS1_iRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+	call	AssertionFailureException::AssertionFailureException(char const*, char const*, int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
 .LEHE186:
 	movq	-448(%rbp), %rdi
 	leaq	-432(%rbp), %rax
 	cmpq	%rax, %rdi
 	je	.L1092
-	call	_ZdlPv@PLT
+	call	operator delete(void*)@PLT
 .L1092:
 	movq	%r13, %rdi
-	call	_ZNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEED1Ev@PLT
-	leaq	_ZN25AssertionFailureExceptionD1Ev(%rip), %rdx
-	leaq	_ZTI25AssertionFailureException(%rip), %rsi
+	call	std::__cxx11::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >::~basic_ostringstream()@PLT
+	leaq	AssertionFailureException::~AssertionFailureException()(%rip), %rdx
+	leaq	typeinfo for AssertionFailureException(%rip), %rsi
 	movq	%r14, %rdi
 .LEHB187:
 	call	__cxa_throw@PLT
@@ -9731,7 +9731,7 @@ _ZN8tensor_tIdEC2ERK7point_t:
 	jne	.L1104
 .L1097:
 	movq	%r13, %rdi
-	call	_ZNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEED1Ev@PLT
+	call	std::__cxx11::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >::~basic_ostringstream()@PLT
 .L1098:
 	movq	%r14, %rdi
 	call	__cxa_free_exception@PLT
@@ -9739,7 +9739,7 @@ _ZN8tensor_tIdEC2ERK7point_t:
 	call	_Unwind_Resume@PLT
 .LEHE187:
 .L1104:
-	call	_ZdlPv@PLT
+	call	operator delete(void*)@PLT
 	jmp	.L1097
 	.cfi_endproc
 .LFE5977:
@@ -9771,16 +9771,16 @@ _ZN8tensor_tIdEC2ERK7point_t:
 	.uleb128 0
 	.uleb128 0
 .LLSDACSE5977:
-	.section	.text._ZN8tensor_tIdEC2ERK7point_t,"axG",@progbits,_ZN8tensor_tIdEC5ERK7point_t,comdat
-	.size	_ZN8tensor_tIdEC2ERK7point_t, .-_ZN8tensor_tIdEC2ERK7point_t
-	.weak	_ZN8tensor_tIdEC1ERK7point_t
-	.set	_ZN8tensor_tIdEC1ERK7point_t,_ZN8tensor_tIdEC2ERK7point_t
-	.section	.text._ZN7layer_t15test_calc_gradsEv,"axG",@progbits,_ZN7layer_t15test_calc_gradsEv,comdat
+	.section	.text._ZN8tensor_tIdEC2ERK7point_t,"axG",@progbits,tensor_t<double>::tensor_t(point_t const&),comdat
+	.size	tensor_t<double>::tensor_t(point_t const&), .-tensor_t<double>::tensor_t(point_t const&)
+	.weak	tensor_t<double>::tensor_t(point_t const&)
+	.set	tensor_t<double>::tensor_t(point_t const&),tensor_t<double>::tensor_t(point_t const&)
+	.section	.text._ZN7layer_t15test_calc_gradsEv,"axG",@progbits,layer_t::test_calc_grads(),comdat
 	.align 2
 	.p2align 4
-	.weak	_ZN7layer_t15test_calc_gradsEv
-	.type	_ZN7layer_t15test_calc_gradsEv, @function
-_ZN7layer_t15test_calc_gradsEv:
+	.weak	layer_t::test_calc_grads()
+	.type	layer_t::test_calc_grads(), @function
+layer_t::test_calc_grads():
 .LFB5246:
 	.cfi_startproc
 	.cfi_personality 0x9b,DW.ref.__gxx_personality_v0
@@ -9811,7 +9811,7 @@ _ZN7layer_t15test_calc_gradsEv:
 	movq	%rdi, %r12
 	movq	%r13, %rdi
 .LEHB188:
-	call	_ZN8tensor_tIdEC1ERK7point_t
+	call	tensor_t<double>::tensor_t(point_t const&)
 .LEHE188:
 	movl	-80(%rbp), %ecx
 	movl	-76(%rbp), %eax
@@ -9891,7 +9891,7 @@ _ZN7layer_t15test_calc_gradsEv:
 	movq	-64(%rbp), %rdi
 	testq	%rdi, %rdi
 	je	.L1105
-	call	_ZdaPv@PLT
+	call	operator delete[](void*)@PLT
 .L1105:
 	movq	-56(%rbp), %rax
 	xorq	%fs:40, %rax
@@ -9915,7 +9915,7 @@ _ZN7layer_t15test_calc_gradsEv:
 	movq	-64(%rbp), %rdi
 	testq	%rdi, %rdi
 	je	.L1118
-	call	_ZdaPv@PLT
+	call	operator delete[](void*)@PLT
 .L1118:
 	movq	%r12, %rdi
 .LEHB190:
@@ -9943,14 +9943,14 @@ _ZN7layer_t15test_calc_gradsEv:
 	.uleb128 0
 	.uleb128 0
 .LLSDACSE5246:
-	.section	.text._ZN7layer_t15test_calc_gradsEv,"axG",@progbits,_ZN7layer_t15test_calc_gradsEv,comdat
-	.size	_ZN7layer_t15test_calc_gradsEv, .-_ZN7layer_t15test_calc_gradsEv
-	.section	.text._ZN7layer_t13test_activateEv,"axG",@progbits,_ZN7layer_t13test_activateEv,comdat
+	.section	.text._ZN7layer_t15test_calc_gradsEv,"axG",@progbits,layer_t::test_calc_grads(),comdat
+	.size	layer_t::test_calc_grads(), .-layer_t::test_calc_grads()
+	.section	.text._ZN7layer_t13test_activateEv,"axG",@progbits,layer_t::test_activate(),comdat
 	.align 2
 	.p2align 4
-	.weak	_ZN7layer_t13test_activateEv
-	.type	_ZN7layer_t13test_activateEv, @function
-_ZN7layer_t13test_activateEv:
+	.weak	layer_t::test_activate()
+	.type	layer_t::test_activate(), @function
+layer_t::test_activate():
 .LFB5245:
 	.cfi_startproc
 	.cfi_personality 0x9b,DW.ref.__gxx_personality_v0
@@ -9981,7 +9981,7 @@ _ZN7layer_t13test_activateEv:
 	movq	%rdi, %r12
 	movq	%r13, %rdi
 .LEHB191:
-	call	_ZN8tensor_tIdEC1ERK7point_t
+	call	tensor_t<double>::tensor_t(point_t const&)
 .LEHE191:
 	movl	-80(%rbp), %ecx
 	movl	-76(%rbp), %eax
@@ -10061,7 +10061,7 @@ _ZN7layer_t13test_activateEv:
 	movq	-64(%rbp), %rdi
 	testq	%rdi, %rdi
 	je	.L1133
-	call	_ZdaPv@PLT
+	call	operator delete[](void*)@PLT
 .L1133:
 	movq	-56(%rbp), %rax
 	xorq	%fs:40, %rax
@@ -10085,7 +10085,7 @@ _ZN7layer_t13test_activateEv:
 	movq	-64(%rbp), %rdi
 	testq	%rdi, %rdi
 	je	.L1146
-	call	_ZdaPv@PLT
+	call	operator delete[](void*)@PLT
 .L1146:
 	movq	%r12, %rdi
 .LEHB193:
@@ -10113,17 +10113,17 @@ _ZN7layer_t13test_activateEv:
 	.uleb128 0
 	.uleb128 0
 .LLSDACSE5245:
-	.section	.text._ZN7layer_t13test_activateEv,"axG",@progbits,_ZN7layer_t13test_activateEv,comdat
-	.size	_ZN7layer_t13test_activateEv, .-_ZN7layer_t13test_activateEv
+	.section	.text._ZN7layer_t13test_activateEv,"axG",@progbits,layer_t::test_activate(),comdat
+	.size	layer_t::test_activate(), .-layer_t::test_activate()
 	.section	.rodata._ZNSt6vectorIP7layer_tSaIS1_EE17_M_realloc_insertIJS1_EEEvN9__gnu_cxx17__normal_iteratorIPS1_S3_EEDpOT_.str1.1,"aMS",@progbits,1
 .LC85:
 	.string	"vector::_M_realloc_insert"
-	.section	.text._ZNSt6vectorIP7layer_tSaIS1_EE17_M_realloc_insertIJS1_EEEvN9__gnu_cxx17__normal_iteratorIPS1_S3_EEDpOT_,"axG",@progbits,_ZNSt6vectorIP7layer_tSaIS1_EE17_M_realloc_insertIJS1_EEEvN9__gnu_cxx17__normal_iteratorIPS1_S3_EEDpOT_,comdat
+	.section	.text._ZNSt6vectorIP7layer_tSaIS1_EE17_M_realloc_insertIJS1_EEEvN9__gnu_cxx17__normal_iteratorIPS1_S3_EEDpOT_,"axG",@progbits,void std::vector<layer_t*, std::allocator<layer_t*> >::_M_realloc_insert<layer_t*>(__gnu_cxx::__normal_iterator<layer_t**, std::vector<layer_t*, std::allocator<layer_t*> > >, layer_t*&&),comdat
 	.align 2
 	.p2align 4
-	.weak	_ZNSt6vectorIP7layer_tSaIS1_EE17_M_realloc_insertIJS1_EEEvN9__gnu_cxx17__normal_iteratorIPS1_S3_EEDpOT_
-	.type	_ZNSt6vectorIP7layer_tSaIS1_EE17_M_realloc_insertIJS1_EEEvN9__gnu_cxx17__normal_iteratorIPS1_S3_EEDpOT_, @function
-_ZNSt6vectorIP7layer_tSaIS1_EE17_M_realloc_insertIJS1_EEEvN9__gnu_cxx17__normal_iteratorIPS1_S3_EEDpOT_:
+	.weak	void std::vector<layer_t*, std::allocator<layer_t*> >::_M_realloc_insert<layer_t*>(__gnu_cxx::__normal_iterator<layer_t**, std::vector<layer_t*, std::allocator<layer_t*> > >, layer_t*&&)
+	.type	void std::vector<layer_t*, std::allocator<layer_t*> >::_M_realloc_insert<layer_t*>(__gnu_cxx::__normal_iterator<layer_t**, std::vector<layer_t*, std::allocator<layer_t*> > >, layer_t*&&), @function
+void std::vector<layer_t*, std::allocator<layer_t*> >::_M_realloc_insert<layer_t*>(__gnu_cxx::__normal_iterator<layer_t**, std::vector<layer_t*, std::allocator<layer_t*> > >, layer_t*&&):
 .LFB6820:
 	.cfi_startproc
 	pushq	%rbp
@@ -10167,7 +10167,7 @@ _ZNSt6vectorIP7layer_tSaIS1_EE17_M_realloc_insertIJS1_EEEvN9__gnu_cxx17__normal_
 	movq	%r8, -72(%rbp)
 	movq	%rdx, -64(%rbp)
 	movq	%r9, -56(%rbp)
-	call	_Znwm@PLT
+	call	operator new(unsigned long)@PLT
 	movq	-56(%rbp), %r9
 	movq	-64(%rbp), %rdx
 	movq	-72(%rbp), %r8
@@ -10216,7 +10216,7 @@ _ZNSt6vectorIP7layer_tSaIS1_EE17_M_realloc_insertIJS1_EEEvN9__gnu_cxx17__normal_
 	jg	.L1166
 .L1169:
 	movq	%r9, %rdi
-	call	_ZdlPv@PLT
+	call	operator delete(void*)@PLT
 	jmp	.L1167
 	.p2align 4,,10
 	.p2align 3
@@ -10245,7 +10245,7 @@ _ZNSt6vectorIP7layer_tSaIS1_EE17_M_realloc_insertIJS1_EEEvN9__gnu_cxx17__normal_
 	jmp	.L1163
 .L1174:
 	leaq	.LC85(%rip), %rdi
-	call	_ZSt20__throw_length_errorPKc@PLT
+	call	std::__throw_length_error(char const*)@PLT
 .L1164:
 	cmpq	%rcx, %rsi
 	cmovbe	%rsi, %rcx
@@ -10254,15 +10254,15 @@ _ZNSt6vectorIP7layer_tSaIS1_EE17_M_realloc_insertIJS1_EEEvN9__gnu_cxx17__normal_
 	jmp	.L1163
 	.cfi_endproc
 .LFE6820:
-	.size	_ZNSt6vectorIP7layer_tSaIS1_EE17_M_realloc_insertIJS1_EEEvN9__gnu_cxx17__normal_iteratorIPS1_S3_EEDpOT_, .-_ZNSt6vectorIP7layer_tSaIS1_EE17_M_realloc_insertIJS1_EEEvN9__gnu_cxx17__normal_iteratorIPS1_S3_EEDpOT_
+	.size	void std::vector<layer_t*, std::allocator<layer_t*> >::_M_realloc_insert<layer_t*>(__gnu_cxx::__normal_iterator<layer_t**, std::vector<layer_t*, std::allocator<layer_t*> > >, layer_t*&&), .-void std::vector<layer_t*, std::allocator<layer_t*> >::_M_realloc_insert<layer_t*>(__gnu_cxx::__normal_iterator<layer_t**, std::vector<layer_t*, std::allocator<layer_t*> > >, layer_t*&&)
 	.section	.text.unlikely
 .LCOLDB86:
 	.text
 .LHOTB86:
 	.p2align 4
-	.globl	_Z11build_modelRK9dataset_t
-	.type	_Z11build_modelRK9dataset_t, @function
-_Z11build_modelRK9dataset_t:
+	.globl	build_model(dataset_t const&)
+	.type	build_model(dataset_t const&), @function
+build_model(dataset_t const&):
 .LFB5443:
 	.cfi_startproc
 	.cfi_personality 0x9b,DW.ref.__gxx_personality_v0
@@ -10290,7 +10290,7 @@ _Z11build_modelRK9dataset_t:
 	movq	%rdi, %rbx
 	movl	$24, %edi
 .LEHB194:
-	call	_Znwm@PLT
+	call	operator new(unsigned long)@PLT
 	pxor	%xmm0, %xmm0
 	movq	(%rbx), %r15
 	movq	8(%rbx), %r14
@@ -10298,7 +10298,7 @@ _Z11build_modelRK9dataset_t:
 	movl	$176, %edi
 	movq	%rax, %r12
 	movups	%xmm0, (%rax)
-	call	_Znwm@PLT
+	call	operator new(unsigned long)@PLT
 .LEHE194:
 	movl	16(%rbx), %ecx
 	movq	%r14, %rdx
@@ -10306,7 +10306,7 @@ _Z11build_modelRK9dataset_t:
 	movq	%rax, %rdi
 	movq	%rax, %r13
 .LEHB195:
-	call	_ZN10fc_layer_tC1E7point_ti
+	call	fc_layer_t::fc_layer_t(point_t, int)
 .LEHE195:
 	movq	%r13, -64(%rbp)
 	movq	8(%r12), %rsi
@@ -10337,7 +10337,7 @@ _Z11build_modelRK9dataset_t:
 	leaq	-64(%rbp), %rdx
 	movq	%r12, %rdi
 .LEHB196:
-	call	_ZNSt6vectorIP7layer_tSaIS1_EE17_M_realloc_insertIJS1_EEEvN9__gnu_cxx17__normal_iteratorIPS1_S3_EEDpOT_
+	call	void std::vector<layer_t*, std::allocator<layer_t*> >::_M_realloc_insert<layer_t*>(__gnu_cxx::__normal_iterator<layer_t**, std::vector<layer_t*, std::allocator<layer_t*> > >, layer_t*&&)
 .LEHE196:
 	jmp	.L1177
 .L1183:
@@ -10371,8 +10371,8 @@ _Z11build_modelRK9dataset_t:
 	.cfi_startproc
 	.cfi_personality 0x9b,DW.ref.__gxx_personality_v0
 	.cfi_lsda 0x1b,.LLSDAC5443
-	.type	_Z11build_modelRK9dataset_t.cold, @function
-_Z11build_modelRK9dataset_t.cold:
+	.type	build_model(dataset_t const&) [clone .cold], @function
+build_model(dataset_t const&) [clone .cold]:
 .LFSB5443:
 .L1180:
 	.cfi_def_cfa 6, 16
@@ -10383,7 +10383,7 @@ _Z11build_modelRK9dataset_t.cold:
 	.cfi_offset 14, -32
 	.cfi_offset 15, -24
 	movq	%r13, %rdi
-	call	_ZdlPv@PLT
+	call	operator delete(void*)@PLT
 	movq	%r12, %rdi
 .LEHB197:
 	call	_Unwind_Resume@PLT
@@ -10404,9 +10404,9 @@ _Z11build_modelRK9dataset_t.cold:
 .LLSDACSEC5443:
 	.section	.text.unlikely
 	.text
-	.size	_Z11build_modelRK9dataset_t, .-_Z11build_modelRK9dataset_t
+	.size	build_model(dataset_t const&), .-build_model(dataset_t const&)
 	.section	.text.unlikely
-	.size	_Z11build_modelRK9dataset_t.cold, .-_Z11build_modelRK9dataset_t.cold
+	.size	build_model(dataset_t const&) [clone .cold], .-build_model(dataset_t const&) [clone .cold]
 .LCOLDE86:
 	.text
 .LHOTE86:
@@ -10422,13 +10422,13 @@ _GLOBAL__sub_I__Z11build_modelRK9dataset_t:
 	movq	%rsp, %rbp
 	.cfi_def_cfa_register 6
 1:	call	*mcount@GOTPCREL(%rip)
-	leaq	_ZStL8__ioinit(%rip), %rdi
-	call	_ZNSt8ios_base4InitC1Ev@PLT
-	movq	_ZNSt8ios_base4InitD1Ev@GOTPCREL(%rip), %rdi
+	leaq	std::__ioinit(%rip), %rdi
+	call	std::ios_base::Init::Init()@PLT
+	movq	std::ios_base::Init::~Init()@GOTPCREL(%rip), %rdi
 	leaq	__dso_handle(%rip), %rdx
 	popq	%rbp
 	.cfi_def_cfa 7, 8
-	leaq	_ZStL8__ioinit(%rip), %rsi
+	leaq	std::__ioinit(%rip), %rsi
 	jmp	__cxa_atexit@PLT
 	.cfi_endproc
 .LFE7675:
@@ -10436,122 +10436,122 @@ _GLOBAL__sub_I__Z11build_modelRK9dataset_t:
 	.section	.init_array,"aw"
 	.align 8
 	.quad	_GLOBAL__sub_I__Z11build_modelRK9dataset_t
-	.weak	_ZN8tensor_tIdE18diff_prints_deltasE
-	.section	.bss._ZN8tensor_tIdE18diff_prints_deltasE,"awG",@nobits,_ZN8tensor_tIdE18diff_prints_deltasE,comdat
-	.type	_ZN8tensor_tIdE18diff_prints_deltasE, @gnu_unique_object
-	.size	_ZN8tensor_tIdE18diff_prints_deltasE, 1
-_ZN8tensor_tIdE18diff_prints_deltasE:
+	.weak	tensor_t<double>::diff_prints_deltas
+	.section	.bss._ZN8tensor_tIdE18diff_prints_deltasE,"awG",@nobits,tensor_t<double>::diff_prints_deltas,comdat
+	.type	tensor_t<double>::diff_prints_deltas, @gnu_unique_object
+	.size	tensor_t<double>::diff_prints_deltas, 1
+tensor_t<double>::diff_prints_deltas:
 	.zero	1
-	.weak	_ZTS25AssertionFailureException
-	.section	.rodata._ZTS25AssertionFailureException,"aG",@progbits,_ZTS25AssertionFailureException,comdat
+	.weak	typeinfo name for AssertionFailureException
+	.section	.rodata._ZTS25AssertionFailureException,"aG",@progbits,typeinfo name for AssertionFailureException,comdat
 	.align 16
-	.type	_ZTS25AssertionFailureException, @object
-	.size	_ZTS25AssertionFailureException, 28
-_ZTS25AssertionFailureException:
+	.type	typeinfo name for AssertionFailureException, @object
+	.size	typeinfo name for AssertionFailureException, 28
+typeinfo name for AssertionFailureException:
 	.string	"25AssertionFailureException"
-	.weak	_ZTI25AssertionFailureException
-	.section	.data.rel.ro._ZTI25AssertionFailureException,"awG",@progbits,_ZTI25AssertionFailureException,comdat
+	.weak	typeinfo for AssertionFailureException
+	.section	.data.rel.ro._ZTI25AssertionFailureException,"awG",@progbits,typeinfo for AssertionFailureException,comdat
 	.align 8
-	.type	_ZTI25AssertionFailureException, @object
-	.size	_ZTI25AssertionFailureException, 24
-_ZTI25AssertionFailureException:
-	.quad	_ZTVN10__cxxabiv120__si_class_type_infoE+16
-	.quad	_ZTS25AssertionFailureException
-	.quad	_ZTISt9exception
-	.weak	_ZTS7layer_t
-	.section	.rodata._ZTS7layer_t,"aG",@progbits,_ZTS7layer_t,comdat
+	.type	typeinfo for AssertionFailureException, @object
+	.size	typeinfo for AssertionFailureException, 24
+typeinfo for AssertionFailureException:
+	.quad	vtable for __cxxabiv1::__si_class_type_info+16
+	.quad	typeinfo name for AssertionFailureException
+	.quad	typeinfo for std::exception
+	.weak	typeinfo name for layer_t
+	.section	.rodata._ZTS7layer_t,"aG",@progbits,typeinfo name for layer_t,comdat
 	.align 8
-	.type	_ZTS7layer_t, @object
-	.size	_ZTS7layer_t, 9
-_ZTS7layer_t:
+	.type	typeinfo name for layer_t, @object
+	.size	typeinfo name for layer_t, 9
+typeinfo name for layer_t:
 	.string	"7layer_t"
-	.weak	_ZTI7layer_t
-	.section	.data.rel.ro._ZTI7layer_t,"awG",@progbits,_ZTI7layer_t,comdat
+	.weak	typeinfo for layer_t
+	.section	.data.rel.ro._ZTI7layer_t,"awG",@progbits,typeinfo for layer_t,comdat
 	.align 8
-	.type	_ZTI7layer_t, @object
-	.size	_ZTI7layer_t, 16
-_ZTI7layer_t:
-	.quad	_ZTVN10__cxxabiv117__class_type_infoE+16
-	.quad	_ZTS7layer_t
-	.weak	_ZTS10fc_layer_t
-	.section	.rodata._ZTS10fc_layer_t,"aG",@progbits,_ZTS10fc_layer_t,comdat
+	.type	typeinfo for layer_t, @object
+	.size	typeinfo for layer_t, 16
+typeinfo for layer_t:
+	.quad	vtable for __cxxabiv1::__class_type_info+16
+	.quad	typeinfo name for layer_t
+	.weak	typeinfo name for fc_layer_t
+	.section	.rodata._ZTS10fc_layer_t,"aG",@progbits,typeinfo name for fc_layer_t,comdat
 	.align 8
-	.type	_ZTS10fc_layer_t, @object
-	.size	_ZTS10fc_layer_t, 13
-_ZTS10fc_layer_t:
+	.type	typeinfo name for fc_layer_t, @object
+	.size	typeinfo name for fc_layer_t, 13
+typeinfo name for fc_layer_t:
 	.string	"10fc_layer_t"
-	.weak	_ZTI10fc_layer_t
-	.section	.data.rel.ro._ZTI10fc_layer_t,"awG",@progbits,_ZTI10fc_layer_t,comdat
+	.weak	typeinfo for fc_layer_t
+	.section	.data.rel.ro._ZTI10fc_layer_t,"awG",@progbits,typeinfo for fc_layer_t,comdat
 	.align 8
-	.type	_ZTI10fc_layer_t, @object
-	.size	_ZTI10fc_layer_t, 24
-_ZTI10fc_layer_t:
-	.quad	_ZTVN10__cxxabiv120__si_class_type_infoE+16
-	.quad	_ZTS10fc_layer_t
-	.quad	_ZTI7layer_t
-	.weak	_ZTV25AssertionFailureException
-	.section	.data.rel.ro.local._ZTV25AssertionFailureException,"awG",@progbits,_ZTV25AssertionFailureException,comdat
+	.type	typeinfo for fc_layer_t, @object
+	.size	typeinfo for fc_layer_t, 24
+typeinfo for fc_layer_t:
+	.quad	vtable for __cxxabiv1::__si_class_type_info+16
+	.quad	typeinfo name for fc_layer_t
+	.quad	typeinfo for layer_t
+	.weak	vtable for AssertionFailureException
+	.section	.data.rel.ro.local._ZTV25AssertionFailureException,"awG",@progbits,vtable for AssertionFailureException,comdat
 	.align 8
-	.type	_ZTV25AssertionFailureException, @object
-	.size	_ZTV25AssertionFailureException, 40
-_ZTV25AssertionFailureException:
+	.type	vtable for AssertionFailureException, @object
+	.size	vtable for AssertionFailureException, 40
+vtable for AssertionFailureException:
 	.quad	0
-	.quad	_ZTI25AssertionFailureException
-	.quad	_ZN25AssertionFailureExceptionD1Ev
-	.quad	_ZN25AssertionFailureExceptionD0Ev
-	.quad	_ZNK25AssertionFailureException4whatEv
-	.weak	_ZTV7layer_t
-	.section	.data.rel.ro._ZTV7layer_t,"awG",@progbits,_ZTV7layer_t,comdat
+	.quad	typeinfo for AssertionFailureException
+	.quad	AssertionFailureException::~AssertionFailureException()
+	.quad	AssertionFailureException::~AssertionFailureException()
+	.quad	AssertionFailureException::what() const
+	.weak	vtable for layer_t
+	.section	.data.rel.ro._ZTV7layer_t,"awG",@progbits,vtable for layer_t,comdat
 	.align 8
-	.type	_ZTV7layer_t, @object
-	.size	_ZTV7layer_t, 152
-_ZTV7layer_t:
+	.type	vtable for layer_t, @object
+	.size	vtable for layer_t, 152
+vtable for layer_t:
 	.quad	0
-	.quad	_ZTI7layer_t
+	.quad	typeinfo for layer_t
 	.quad	__cxa_pure_virtual
 	.quad	__cxa_pure_virtual
 	.quad	__cxa_pure_virtual
-	.quad	_ZN7layer_t17change_batch_sizeEi
-	.quad	_ZNK7layer_t21get_total_memory_sizeEv
-	.quad	_ZNK7layer_t9param_strB5cxx11Ev
-	.quad	_ZNK7layer_t8kind_strB5cxx11Ev
-	.quad	_ZNK7layer_t15regression_codeB5cxx11Ev
-	.quad	_ZNK7layer_t14internal_stateB5cxx11Ev
-	.quad	_ZN7layer_t9configureERK7point_t
+	.quad	layer_t::change_batch_size(int)
+	.quad	layer_t::get_total_memory_size() const
+	.quad	layer_t::param_str[abi:cxx11]() const
+	.quad	layer_t::kind_str[abi:cxx11]() const
+	.quad	layer_t::regression_code[abi:cxx11]() const
+	.quad	layer_t::internal_state[abi:cxx11]() const
+	.quad	layer_t::configure(point_t const&)
 	.quad	0
 	.quad	0
-	.quad	_ZN7layer_t23analyze_inequality_withB5cxx11EPS_
-	.quad	_ZN7layer_t7test_meEv
-	.quad	_ZN7layer_t13test_activateEv
-	.quad	_ZN7layer_t15test_calc_gradsEv
-	.quad	_ZN7layer_t16test_fix_weightsEv
-	.weak	_ZTV10fc_layer_t
-	.section	.data.rel.ro.local._ZTV10fc_layer_t,"awG",@progbits,_ZTV10fc_layer_t,comdat
+	.quad	layer_t::analyze_inequality_with[abi:cxx11](layer_t*)
+	.quad	layer_t::test_me()
+	.quad	layer_t::test_activate()
+	.quad	layer_t::test_calc_grads()
+	.quad	layer_t::test_fix_weights()
+	.weak	vtable for fc_layer_t
+	.section	.data.rel.ro.local._ZTV10fc_layer_t,"awG",@progbits,vtable for fc_layer_t,comdat
 	.align 8
-	.type	_ZTV10fc_layer_t, @object
-	.size	_ZTV10fc_layer_t, 152
-_ZTV10fc_layer_t:
+	.type	vtable for fc_layer_t, @object
+	.size	vtable for fc_layer_t, 152
+vtable for fc_layer_t:
 	.quad	0
-	.quad	_ZTI10fc_layer_t
-	.quad	_ZN10fc_layer_t8activateER8tensor_tIdE
-	.quad	_ZN10fc_layer_t11fix_weightsEv
-	.quad	_ZN10fc_layer_t10calc_gradsERK8tensor_tIdE
-	.quad	_ZN10fc_layer_t17change_batch_sizeEi
-	.quad	_ZNK10fc_layer_t21get_total_memory_sizeEv
-	.quad	_ZNK10fc_layer_t9param_strB5cxx11Ev
-	.quad	_ZNK10fc_layer_t8kind_strB5cxx11Ev
-	.quad	_ZNK10fc_layer_t15regression_codeB5cxx11Ev
-	.quad	_ZNK7layer_t14internal_stateB5cxx11Ev
-	.quad	_ZN7layer_t9configureERK7point_t
-	.quad	_ZN10fc_layer_tD1Ev
-	.quad	_ZN10fc_layer_tD0Ev
-	.quad	_ZN10fc_layer_t23analyze_inequality_withB5cxx11EP7layer_t
-	.quad	_ZN7layer_t7test_meEv
-	.quad	_ZN7layer_t13test_activateEv
-	.quad	_ZN7layer_t15test_calc_gradsEv
-	.quad	_ZN7layer_t16test_fix_weightsEv
-	.local	_ZStL8__ioinit
-	.comm	_ZStL8__ioinit,1,1
+	.quad	typeinfo for fc_layer_t
+	.quad	fc_layer_t::activate(tensor_t<double>&)
+	.quad	fc_layer_t::fix_weights()
+	.quad	fc_layer_t::calc_grads(tensor_t<double> const&)
+	.quad	fc_layer_t::change_batch_size(int)
+	.quad	fc_layer_t::get_total_memory_size() const
+	.quad	fc_layer_t::param_str[abi:cxx11]() const
+	.quad	fc_layer_t::kind_str[abi:cxx11]() const
+	.quad	fc_layer_t::regression_code[abi:cxx11]() const
+	.quad	layer_t::internal_state[abi:cxx11]() const
+	.quad	layer_t::configure(point_t const&)
+	.quad	fc_layer_t::~fc_layer_t()
+	.quad	fc_layer_t::~fc_layer_t()
+	.quad	fc_layer_t::analyze_inequality_with[abi:cxx11](layer_t*)
+	.quad	layer_t::test_me()
+	.quad	layer_t::test_activate()
+	.quad	layer_t::test_calc_grads()
+	.quad	layer_t::test_fix_weights()
+	.local	std::__ioinit
+	.comm	std::__ioinit,1,1
 	.section	.rodata.cst8,"aM",@progbits,8
 	.align 8
 .LC0:
@@ -10597,13 +10597,13 @@ _ZTV10fc_layer_t:
 	.section	.data.rel.ro,"aw"
 	.align 8
 .LC27:
-	.quad	_ZTVNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEEE+24
+	.quad	vtable for std::__cxx11::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >+24
 	.align 8
 .LC28:
-	.quad	_ZTVSt15basic_streambufIcSt11char_traitsIcEE+16
+	.quad	vtable for std::basic_streambuf<char, std::char_traits<char> >+16
 	.align 8
 .LC29:
-	.quad	_ZTVNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEEE+16
+	.quad	vtable for std::__cxx11::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >+16
 	.section	.rodata.cst4
 	.align 4
 .LC39:
@@ -10616,7 +10616,7 @@ _ZTV10fc_layer_t:
 	.section	.data.rel.ro
 	.align 8
 .LC44:
-	.quad	_ZTVNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE+64
+	.quad	vtable for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >+64
 	.section	.rodata.cst16
 	.align 16
 .LC47:
